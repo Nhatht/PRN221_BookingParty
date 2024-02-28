@@ -1,0 +1,14 @@
+E:\University\FPTU\Semester_7-SP24\Data_PRN221\PRN221_GroupProjectBookParty\BO\bin\Debug\net6.0\BO.deps.json
+E:\University\FPTU\Semester_7-SP24\Data_PRN221\PRN221_GroupProjectBookParty\BO\bin\Debug\net6.0\BO.runtimeconfig.json
+E:\University\FPTU\Semester_7-SP24\Data_PRN221\PRN221_GroupProjectBookParty\BO\bin\Debug\net6.0\BO.dll
+E:\University\FPTU\Semester_7-SP24\Data_PRN221\PRN221_GroupProjectBookParty\BO\bin\Debug\net6.0\BO.pdb
+E:\University\FPTU\Semester_7-SP24\Data_PRN221\PRN221_GroupProjectBookParty\BO\obj\Debug\net6.0\BO.csproj.AssemblyReference.cache
+E:\University\FPTU\Semester_7-SP24\Data_PRN221\PRN221_GroupProjectBookParty\BO\obj\Debug\net6.0\BO.GeneratedMSBuildEditorConfig.editorconfig
+E:\University\FPTU\Semester_7-SP24\Data_PRN221\PRN221_GroupProjectBookParty\BO\obj\Debug\net6.0\BO.AssemblyInfoInputs.cache
+E:\University\FPTU\Semester_7-SP24\Data_PRN221\PRN221_GroupProjectBookParty\BO\obj\Debug\net6.0\BO.AssemblyInfo.cs
+E:\University\FPTU\Semester_7-SP24\Data_PRN221\PRN221_GroupProjectBookParty\BO\obj\Debug\net6.0\BO.csproj.CoreCompileInputs.cache
+E:\University\FPTU\Semester_7-SP24\Data_PRN221\PRN221_GroupProjectBookParty\BO\obj\Debug\net6.0\BO.dll
+E:\University\FPTU\Semester_7-SP24\Data_PRN221\PRN221_GroupProjectBookParty\BO\obj\Debug\net6.0\refint\BO.dll
+E:\University\FPTU\Semester_7-SP24\Data_PRN221\PRN221_GroupProjectBookParty\BO\obj\Debug\net6.0\BO.pdb
+E:\University\FPTU\Semester_7-SP24\Data_PRN221\PRN221_GroupProjectBookParty\BO\obj\Debug\net6.0\BO.genruntimeconfig.cache
+E:\University\FPTU\Semester_7-SP24\Data_PRN221\PRN221_GroupProjectBookParty\BO\obj\Debug\net6.0\ref\BO.dll
