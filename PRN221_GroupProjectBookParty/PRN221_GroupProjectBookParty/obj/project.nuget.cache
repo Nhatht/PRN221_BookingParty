@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IYRS8iGIzlrUBiOqgfKedG3zI7/WQ4FbZxgHsuy48V2CTivT9aAI5O+0jemjSauicLuxJvDum4cH4UGBFtlXFw==",
+  "dgSpecHash": "ApNgJQWjqPMA0Otp6WfJvnt5o9FmbTtD0d0DpVsD78RuaZ9wsNkrF/QWnsUX5nUEAuQj5ZIucoksMpJe4qyLDA==",
   "success": true,
-  "projectFilePath": "E:\\University\\FPTU\\Semester_7-SP24\\Data_PRN221\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj",
+  "projectFilePath": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nhath\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\nhath\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.7\\microsoft.data.sqlclient.2.1.7.nupkg.sha512",

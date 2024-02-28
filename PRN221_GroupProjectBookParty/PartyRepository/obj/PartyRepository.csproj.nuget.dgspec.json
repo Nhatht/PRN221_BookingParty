@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\University\\FPTU\\Semester_7-SP24\\Data_PRN221\\PRN221_GroupProjectBookParty\\PartyRepository\\PartyRepository.csproj": {}
+    "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyRepository\\PartyRepository.csproj": {}
   },
   "projects": {
-    "E:\\University\\FPTU\\Semester_7-SP24\\Data_PRN221\\PRN221_GroupProjectBookParty\\BO\\BO.csproj": {
+    "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\BO\\BO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\University\\FPTU\\Semester_7-SP24\\Data_PRN221\\PRN221_GroupProjectBookParty\\BO\\BO.csproj",
+        "projectUniqueName": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\BO\\BO.csproj",
         "projectName": "BO",
-        "projectPath": "E:\\University\\FPTU\\Semester_7-SP24\\Data_PRN221\\PRN221_GroupProjectBookParty\\BO\\BO.csproj",
+        "projectPath": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\BO\\BO.csproj",
         "packagesPath": "C:\\Users\\nhath\\.nuget\\packages\\",
-        "outputPath": "E:\\University\\FPTU\\Semester_7-SP24\\Data_PRN221\\PRN221_GroupProjectBookParty\\BO\\obj\\",
+        "outputPath": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\BO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
@@ -93,14 +93,14 @@
         }
       }
     },
-    "E:\\University\\FPTU\\Semester_7-SP24\\Data_PRN221\\PRN221_GroupProjectBookParty\\DAO\\DAO.csproj": {
+    "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\DAO\\DAO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\University\\FPTU\\Semester_7-SP24\\Data_PRN221\\PRN221_GroupProjectBookParty\\DAO\\DAO.csproj",
+        "projectUniqueName": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\DAO\\DAO.csproj",
         "projectName": "DAO",
-        "projectPath": "E:\\University\\FPTU\\Semester_7-SP24\\Data_PRN221\\PRN221_GroupProjectBookParty\\DAO\\DAO.csproj",
+        "projectPath": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\DAO\\DAO.csproj",
         "packagesPath": "C:\\Users\\nhath\\.nuget\\packages\\",
-        "outputPath": "E:\\University\\FPTU\\Semester_7-SP24\\Data_PRN221\\PRN221_GroupProjectBookParty\\DAO\\obj\\",
+        "outputPath": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\DAO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
@@ -125,8 +125,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\University\\FPTU\\Semester_7-SP24\\Data_PRN221\\PRN221_GroupProjectBookParty\\BO\\BO.csproj": {
-                "projectPath": "E:\\University\\FPTU\\Semester_7-SP24\\Data_PRN221\\PRN221_GroupProjectBookParty\\BO\\BO.csproj"
+              "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\BO\\BO.csproj": {
+                "projectPath": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\BO\\BO.csproj"
               }
             }
           }
@@ -160,14 +160,14 @@
         }
       }
     },
-    "E:\\University\\FPTU\\Semester_7-SP24\\Data_PRN221\\PRN221_GroupProjectBookParty\\PartyRepository\\PartyRepository.csproj": {
+    "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyRepository\\PartyRepository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\University\\FPTU\\Semester_7-SP24\\Data_PRN221\\PRN221_GroupProjectBookParty\\PartyRepository\\PartyRepository.csproj",
+        "projectUniqueName": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyRepository\\PartyRepository.csproj",
         "projectName": "PartyRepository",
-        "projectPath": "E:\\University\\FPTU\\Semester_7-SP24\\Data_PRN221\\PRN221_GroupProjectBookParty\\PartyRepository\\PartyRepository.csproj",
+        "projectPath": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyRepository\\PartyRepository.csproj",
         "packagesPath": "C:\\Users\\nhath\\.nuget\\packages\\",
-        "outputPath": "E:\\University\\FPTU\\Semester_7-SP24\\Data_PRN221\\PRN221_GroupProjectBookParty\\PartyRepository\\obj\\",
+        "outputPath": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyRepository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
@@ -192,8 +192,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\University\\FPTU\\Semester_7-SP24\\Data_PRN221\\PRN221_GroupProjectBookParty\\DAO\\DAO.csproj": {
-                "projectPath": "E:\\University\\FPTU\\Semester_7-SP24\\Data_PRN221\\PRN221_GroupProjectBookParty\\DAO\\DAO.csproj"
+              "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\DAO\\DAO.csproj": {
+                "projectPath": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\DAO\\DAO.csproj"
               }
             }
           }

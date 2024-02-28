@@ -2358,11 +2358,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\University\\FPTU\\Semester_7-SP24\\Data_PRN221\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj",
+      "projectUniqueName": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj",
       "projectName": "PRN221_GroupProjectBookParty",
-      "projectPath": "E:\\University\\FPTU\\Semester_7-SP24\\Data_PRN221\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj",
+      "projectPath": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj",
       "packagesPath": "C:\\Users\\nhath\\.nuget\\packages\\",
-      "outputPath": "E:\\University\\FPTU\\Semester_7-SP24\\Data_PRN221\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\obj\\",
+      "outputPath": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
@@ -2387,8 +2387,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\University\\FPTU\\Semester_7-SP24\\Data_PRN221\\PRN221_GroupProjectBookParty\\PartyService\\PartyService.csproj": {
-              "projectPath": "E:\\University\\FPTU\\Semester_7-SP24\\Data_PRN221\\PRN221_GroupProjectBookParty\\PartyService\\PartyService.csproj"
+            "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\PartyService.csproj": {
+              "projectPath": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\PartyService.csproj"
             }
           }
         }

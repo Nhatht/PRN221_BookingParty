@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4uv14g2HSHvJRO8ghkzcXwM5BMgbiZchuGwi60IXiQ297sqqbM0PsT3AvNlnpFHz6NWB6MlNRrrx6xa32QHUhw==",
+  "dgSpecHash": "M6B8o62cMd4veBJNm9EADvSKfixjKtVFHc1pPZYayN9BV5j9jMbWwXIx+uuPjA6J3Weh2+3XwT3jC6LGVTZFWQ==",
   "success": true,
-  "projectFilePath": "E:\\University\\FPTU\\Semester_7-SP24\\Data_PRN221\\PRN221_GroupProjectBookParty\\DAO\\DAO.csproj",
+  "projectFilePath": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\DAO\\DAO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nhath\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\nhath\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.7\\microsoft.data.sqlclient.2.1.7.nupkg.sha512",

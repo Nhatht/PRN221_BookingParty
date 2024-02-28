@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Je4bsI9W4lxtKVmcbR2iSPaWz5HEFPYAp3siDCuXgIYTX9vLxBFk+IeHJPRMCXCZFYA/JzTy/5eAli0ieFk8ww==",
+  "dgSpecHash": "Uy6v25zoGuMGZl14jHGaDc3HEx8ij/NZPI6hFvgJLkD442oA1g8ekVimLw2zS8XnaE+gA3G53ORyk2uW6HAW8w==",
   "success": true,
-  "projectFilePath": "E:\\University\\FPTU\\Semester_7-SP24\\Data_PRN221\\PRN221_GroupProjectBookParty\\BO\\BO.csproj",
+  "projectFilePath": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\BO\\BO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nhath\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\nhath\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
