@@ -1,0 +1,72 @@
+﻿@page
+@model PRN221_GroupProjectBookParty.Pages.Admin.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Account</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Accounts.Email" class="control-label"></label>
+                <input asp-for="Accounts.Email" class="form-control" />
+                <span asp-validation-for="Accounts.Email" class="text-danger"></span>
+                @if (TempData["EmailMessage"] != null)
+                {
+                    <span id="emailAlert" style=" color:red ; margin-left: 10px;">Email existed!</span>
+                }
+            </div>
+            <div class="form-group">
+                <label asp-for="Accounts.Password" class="control-label"></label>
+                <input asp-for="Accounts.Password" class="form-control" />
+                <span asp-validation-for="Accounts.Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Accounts.UserName" class="control-label"></label>
+                <input asp-for="Accounts.UserName" class="form-control" />
+                <span asp-validation-for="Accounts.UserName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Accounts.Phone" class="control-label"></label>
+                <input asp-for="Accounts.Phone" class="form-control" />
+                <span asp-validation-for="Accounts.Phone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Accounts.Gender" class="control-label"></label>
+                <input asp-for="Accounts.Gender" class="form-control" />
+                <span asp-validation-for="Accounts.Gender" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Accounts.Role" class="control-label"></label>
+                <input asp-for="Accounts.Role" class="form-control" />
+                <span asp-validation-for="Accounts.Role" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Accounts.Status" /> @Html.DisplayNameFor(model => model.Accounts.Status)
+                </label>
+            </div>
+            @if (TempData["NullMessage"] != null)
+            {
+                <span id="emailAlert" style=" color:red ; margin-left: 10px;">Please enter all field!</span>
+            }
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
