@@ -29,3 +29,19 @@ E:\University\GitHub\PRN221_BookingParty\PRN221_GroupProjectBookParty\DAO\obj\De
 E:\University\GitHub\PRN221_BookingParty\PRN221_GroupProjectBookParty\DAO\obj\Debug\net6.0\refint\DAO.dll
 E:\University\GitHub\PRN221_BookingParty\PRN221_GroupProjectBookParty\DAO\obj\Debug\net6.0\DAO.pdb
 E:\University\GitHub\PRN221_BookingParty\PRN221_GroupProjectBookParty\DAO\obj\Debug\net6.0\ref\DAO.dll
+D:\FPT University\CN7\PRN221\PRN221_BookingParty\PRN221_GroupProjectBookParty\DAO\bin\Debug\net6.0\DAO.deps.json
+D:\FPT University\CN7\PRN221\PRN221_BookingParty\PRN221_GroupProjectBookParty\DAO\bin\Debug\net6.0\DAO.dll
+D:\FPT University\CN7\PRN221\PRN221_BookingParty\PRN221_GroupProjectBookParty\DAO\bin\Debug\net6.0\DAO.pdb
+D:\FPT University\CN7\PRN221\PRN221_BookingParty\PRN221_GroupProjectBookParty\DAO\bin\Debug\net6.0\BO.dll
+D:\FPT University\CN7\PRN221\PRN221_BookingParty\PRN221_GroupProjectBookParty\DAO\bin\Debug\net6.0\BO.pdb
+D:\FPT University\CN7\PRN221\PRN221_BookingParty\PRN221_GroupProjectBookParty\DAO\obj\Debug\net6.0\DAO.csproj.AssemblyReference.cache
+D:\FPT University\CN7\PRN221\PRN221_BookingParty\PRN221_GroupProjectBookParty\DAO\obj\Debug\net6.0\DAO.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT University\CN7\PRN221\PRN221_BookingParty\PRN221_GroupProjectBookParty\DAO\obj\Debug\net6.0\DAO.AssemblyInfoInputs.cache
+D:\FPT University\CN7\PRN221\PRN221_BookingParty\PRN221_GroupProjectBookParty\DAO\obj\Debug\net6.0\DAO.AssemblyInfo.cs
+D:\FPT University\CN7\PRN221\PRN221_BookingParty\PRN221_GroupProjectBookParty\DAO\obj\Debug\net6.0\DAO.csproj.CoreCompileInputs.cache
+D:\FPT University\CN7\PRN221\PRN221_BookingParty\PRN221_GroupProjectBookParty\DAO\obj\Debug\net6.0\DAO.sourcelink.json
+D:\FPT University\CN7\PRN221\PRN221_BookingParty\PRN221_GroupProjectBookParty\DAO\obj\Debug\net6.0\DAO.csproj.CopyComplete
+D:\FPT University\CN7\PRN221\PRN221_BookingParty\PRN221_GroupProjectBookParty\DAO\obj\Debug\net6.0\DAO.dll
+D:\FPT University\CN7\PRN221\PRN221_BookingParty\PRN221_GroupProjectBookParty\DAO\obj\Debug\net6.0\refint\DAO.dll
+D:\FPT University\CN7\PRN221\PRN221_BookingParty\PRN221_GroupProjectBookParty\DAO\obj\Debug\net6.0\DAO.pdb
+D:\FPT University\CN7\PRN221\PRN221_BookingParty\PRN221_GroupProjectBookParty\DAO\obj\Debug\net6.0\ref\DAO.dll

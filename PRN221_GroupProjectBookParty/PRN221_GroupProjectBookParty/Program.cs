@@ -9,7 +9,7 @@ builder.Services.AddScoped<IBlogPostRepo, BlogPostRepo>();
 builder.Services.AddScoped<IBlogPostService, BlogPostService>();
 
 builder.Services.AddScoped<IBookingRepo, BookingRepo>();
-builder.Services.AddScoped<IBookingService, IBookingService>();
+builder.Services.AddScoped<IBookingService, BookingService>();
 
 builder.Services.AddScoped<IFeedBackRepo, FeedBackRepo>();
 builder.Services.AddScoped<IFeedBackService, FeedBackService>();

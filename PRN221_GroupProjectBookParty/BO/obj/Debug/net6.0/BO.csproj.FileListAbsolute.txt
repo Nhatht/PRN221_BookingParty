@@ -27,3 +27,18 @@ E:\University\GitHub\PRN221_BookingParty\PRN221_GroupProjectBookParty\BO\obj\Deb
 E:\University\GitHub\PRN221_BookingParty\PRN221_GroupProjectBookParty\BO\obj\Debug\net6.0\BO.pdb
 E:\University\GitHub\PRN221_BookingParty\PRN221_GroupProjectBookParty\BO\obj\Debug\net6.0\BO.genruntimeconfig.cache
 E:\University\GitHub\PRN221_BookingParty\PRN221_GroupProjectBookParty\BO\obj\Debug\net6.0\ref\BO.dll
+D:\FPT University\CN7\PRN221\PRN221_BookingParty\PRN221_GroupProjectBookParty\BO\bin\Debug\net6.0\BO.deps.json
+D:\FPT University\CN7\PRN221\PRN221_BookingParty\PRN221_GroupProjectBookParty\BO\bin\Debug\net6.0\BO.runtimeconfig.json
+D:\FPT University\CN7\PRN221\PRN221_BookingParty\PRN221_GroupProjectBookParty\BO\bin\Debug\net6.0\BO.dll
+D:\FPT University\CN7\PRN221\PRN221_BookingParty\PRN221_GroupProjectBookParty\BO\bin\Debug\net6.0\BO.pdb
+D:\FPT University\CN7\PRN221\PRN221_BookingParty\PRN221_GroupProjectBookParty\BO\obj\Debug\net6.0\BO.csproj.AssemblyReference.cache
+D:\FPT University\CN7\PRN221\PRN221_BookingParty\PRN221_GroupProjectBookParty\BO\obj\Debug\net6.0\BO.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT University\CN7\PRN221\PRN221_BookingParty\PRN221_GroupProjectBookParty\BO\obj\Debug\net6.0\BO.AssemblyInfoInputs.cache
+D:\FPT University\CN7\PRN221\PRN221_BookingParty\PRN221_GroupProjectBookParty\BO\obj\Debug\net6.0\BO.AssemblyInfo.cs
+D:\FPT University\CN7\PRN221\PRN221_BookingParty\PRN221_GroupProjectBookParty\BO\obj\Debug\net6.0\BO.csproj.CoreCompileInputs.cache
+D:\FPT University\CN7\PRN221\PRN221_BookingParty\PRN221_GroupProjectBookParty\BO\obj\Debug\net6.0\BO.sourcelink.json
+D:\FPT University\CN7\PRN221\PRN221_BookingParty\PRN221_GroupProjectBookParty\BO\obj\Debug\net6.0\BO.dll
+D:\FPT University\CN7\PRN221\PRN221_BookingParty\PRN221_GroupProjectBookParty\BO\obj\Debug\net6.0\refint\BO.dll
+D:\FPT University\CN7\PRN221\PRN221_BookingParty\PRN221_GroupProjectBookParty\BO\obj\Debug\net6.0\BO.pdb
+D:\FPT University\CN7\PRN221\PRN221_BookingParty\PRN221_GroupProjectBookParty\BO\obj\Debug\net6.0\BO.genruntimeconfig.cache
+D:\FPT University\CN7\PRN221\PRN221_BookingParty\PRN221_GroupProjectBookParty\BO\obj\Debug\net6.0\ref\BO.dll
