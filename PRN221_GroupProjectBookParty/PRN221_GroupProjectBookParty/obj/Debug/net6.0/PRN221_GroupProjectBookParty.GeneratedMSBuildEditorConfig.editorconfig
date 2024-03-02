@@ -9,39 +9,47 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PRN221_GroupProjectBookParty
 build_property.RootNamespace = PRN221_GroupProjectBookParty
-build_property.ProjectDir = E:\University\GitHub\PRN221_BookingParty\PRN221_GroupProjectBookParty\PRN221_GroupProjectBookParty\
+build_property.ProjectDir = D:\PRN221\ProjectGr\PRN221_BookingParty\PRN221_GroupProjectBookParty\PRN221_GroupProjectBookParty\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\University\GitHub\PRN221_BookingParty\PRN221_GroupProjectBookParty\PRN221_GroupProjectBookParty
+build_property.MSBuildProjectDirectory = D:\PRN221\ProjectGr\PRN221_BookingParty\PRN221_GroupProjectBookParty\PRN221_GroupProjectBookParty
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/University/GitHub/PRN221_BookingParty/PRN221_GroupProjectBookParty/PRN221_GroupProjectBookParty/Pages/Error.cshtml]
+[D:/PRN221/ProjectGr/PRN221_BookingParty/PRN221_GroupProjectBookParty/PRN221_GroupProjectBookParty/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/PRN221_BookingParty/PRN221_GroupProjectBookParty/PRN221_GroupProjectBookParty/Pages/Index.cshtml]
+[D:/PRN221/ProjectGr/PRN221_BookingParty/PRN221_GroupProjectBookParty/PRN221_GroupProjectBookParty/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/PRN221_BookingParty/PRN221_GroupProjectBookParty/PRN221_GroupProjectBookParty/Pages/Privacy.cshtml]
+[D:/PRN221/ProjectGr/PRN221_BookingParty/PRN221_GroupProjectBookParty/PRN221_GroupProjectBookParty/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/PRN221_BookingParty/PRN221_GroupProjectBookParty/PRN221_GroupProjectBookParty/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[D:/PRN221/ProjectGr/PRN221_BookingParty/PRN221_GroupProjectBookParty/PRN221_GroupProjectBookParty/Pages/Shared/ViewProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXFZpZXdQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PRN221/ProjectGr/PRN221_BookingParty/PRN221_GroupProjectBookParty/PRN221_GroupProjectBookParty/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/PRN221_BookingParty/PRN221_GroupProjectBookParty/PRN221_GroupProjectBookParty/Pages/_ViewImports.cshtml]
+[D:/PRN221/ProjectGr/PRN221_BookingParty/PRN221_GroupProjectBookParty/PRN221_GroupProjectBookParty/Pages/ViewProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1Byb2ZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PRN221/ProjectGr/PRN221_BookingParty/PRN221_GroupProjectBookParty/PRN221_GroupProjectBookParty/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/PRN221_BookingParty/PRN221_GroupProjectBookParty/PRN221_GroupProjectBookParty/Pages/_ViewStart.cshtml]
+[D:/PRN221/ProjectGr/PRN221_BookingParty/PRN221_GroupProjectBookParty/PRN221_GroupProjectBookParty/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/PRN221_BookingParty/PRN221_GroupProjectBookParty/PRN221_GroupProjectBookParty/Pages/Shared/_Layout.cshtml]
+[D:/PRN221/ProjectGr/PRN221_BookingParty/PRN221_GroupProjectBookParty/PRN221_GroupProjectBookParty/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-2jnox7xpu2

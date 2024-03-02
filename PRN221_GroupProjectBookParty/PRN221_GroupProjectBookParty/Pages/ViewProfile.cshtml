@@ -1,0 +1,162 @@
+﻿@page "{id}"
+@model ViewProfile
+<link rel="stylesheet" href="~/css/ViewProfile.css"/>
+
+<div class="container">
+
+    <div style="display: flex;justify-content: space-between;align-items: center;padding: 20px 0;border-bottom: 1px solid #c8c7cc;">
+        <h1 style="font-size: 2.6rem;font-weight: 500">Your Profile</h1>
+        <div style="display: flex;gap: 15px">
+            <button class="cta-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Change password
+            </button>
+
+            <button class="cta-btn">
+                Edit profile
+            </button>
+        </div>
+    </div>
+
+    <div style="padding: 40px 20px;display: flex;gap: 20px">
+        <div>
+            <div>
+                <img src="~/assets/avatar.png" alt="" style="width: 250px;height: 250px;object-fit: cover;border-radius: 10px">
+            </div>
+
+            <div style="margin-top: 26px;">
+                <p style="color: #BBB9C0;font-size: .8rem">STATUS</p>
+                <div style="margin-top: 12px;color: white;display: inline-block;border-radius: 10px;font-size: .8rem">
+                    @if (Model.Account != null)
+                    {
+                        @if (Model.Account.Status)
+                        {
+                            <p style="background-color: #792EE3;padding: 6px 12px;border-radius: 14px">ACTIVE</p>
+                        }
+                        else
+                        {
+                            <p style="background-color: #5F06DD;padding: 6px 12px;border-radius: 14px">DE-ACTIVE</p>
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+        <div style="flex: 1 1 auto">
+            <div style="border: 1px solid #dcd9d9; border-radius: 8px;padding: 25px">
+                <div>
+                    <p style="color: #9d9aa1; font-size: .8rem">USER NAME</p>
+                    @if (Model.Account != null)
+                    {
+                        <p style="margin-top: .8rem; color: black;font-size: 1.2rem;font-weight: 500">@Model.Account.UserName</p>
+                    }
+
+                </div>
+
+                <div style="margin-top: 30px; display: flex; gap: 50px;">
+                    <div>
+                        <p style="color: #9d9aa1; font-size: .8rem">GENDER</p>
+                        @if (Model.Account != null)
+                        {
+                            <p style="margin-top: .8rem; color: black;font-size: .9rem">@Model.Account.Gender</p>
+                        }
+                    </div>
+
+                    <div>
+                        <p style="color: #9d9aa1; font-size: .8rem">CONTACT INFORMATION</p>
+                        @if (Model.Account != null)
+                        {
+                            <p style="margin-top: .8rem; color: black;font-size: .9rem">@Model.Account.Email</p>
+                            <p style="margin-top: .8rem; color: black;font-size: .9rem">@Model.Account.Phone</p>
+                        }
+                    </div>
+
+                </div>
+            </div>
+            <div style="margin-top: 30px;padding: 25px;background-color: #F6F5F9;border-radius: 8px">
+                <h2 style="color: #9d9aa1; font-size: .8rem">YOUR BOOKINGS</h2>
+                <div class="table-responsive" style="margin-top: 15px;">
+                    <table class="table table-bordered table-striped">
+                        <thead>
+                        <tr>
+                            <th style="font-size: .8rem">Booking ID</th>
+                            <th style="font-size: .8rem">Party ID</th>
+                            <th style="font-size: .8rem">Total Price</th>
+                            <th style="font-size: .8rem">Number of People</th>
+                            <th style="font-size: .8rem">Inquiry</th>
+                            <th style="font-size: .8rem">Start Date</th>
+                            <th style="font-size: .8rem">Status</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        @foreach (var booking in Model.Bookings)
+                        {
+                            <tr>
+                                <td style="font-size: .8rem">@booking.Id</td>
+                                <td style="font-size: .8rem">@booking.PartyId</td>
+                                <td style="font-size: .8rem">@booking.TotalPrice</td>
+                                <td style="font-size: .8rem">@booking.NumberOfPeople</td>
+                                <td style="font-size: .8rem">@booking.Inquiry</td>
+                                <td style="font-size: .8rem">@booking.StartDate.ToShortDateString()</td>
+                                <td style="font-size: .8rem">@(booking.Status ? "Active" : "Inactive")</td>
+                            </tr>
+                        }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <p style="color: #060606; font-size: 1rem">Change password</p>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <form action="" id="changePasswordForm" method="post">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label" style="margin-top: .8rem; color: black;font-size: .9rem">Old password</label>
+                            <input type="password" class="form-control" id="exampleFormControlInput1" asp-for="ChangePasswordRequest.OldPassword">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput2" class="form-label" style="margin-top: .8rem; color: black;font-size: .9rem">New password</label>
+                            <input type="password" class="form-control" id="exampleFormControlInput2" asp-for="ChangePasswordRequest.NewPassword"></input>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput3" class="form-label" style="margin-top: .8rem; color: black;font-size: .9rem">Re-type new password</label>
+                            <input type="password" class="form-control" id="exampleFormControlInput3" asp-for="ChangePasswordRequest.ConfirmPassword">
+                        </div>
+                        @if (ModelState.IsValid == false)
+                        {
+                            <div class="alert alert-danger" role="alert">
+                                @foreach (var error in ModelState.Values.SelectMany(v => v.Errors))
+                                {
+                                    <p>@error.ErrorMessage</p>
+                                }
+                            </div>
+                        }
+
+                        @if (TempData["SuccessMessage"] != null)
+                        {
+                            <div class="alert alert-success" role="alert">
+                                @TempData["SuccessMessage"]
+                            </div>
+                        }
+
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary">Save changes</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.getElementById('changePasswordForm').addEventListener('submit', function (event) {
+       
+    });
+</script>

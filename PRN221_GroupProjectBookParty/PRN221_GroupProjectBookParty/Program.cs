@@ -1,3 +1,4 @@
+using BO;
 using PartyRepository;
 using PartyService;
 
@@ -9,7 +10,7 @@ builder.Services.AddScoped<IBlogPostRepo, BlogPostRepo>();
 builder.Services.AddScoped<IBlogPostService, BlogPostService>();
 
 builder.Services.AddScoped<IBookingRepo, BookingRepo>();
-builder.Services.AddScoped<IBookingService, IBookingService>();
+builder.Services.AddScoped<IBookingService, BookingService>();
 
 builder.Services.AddScoped<IFeedBackRepo, FeedBackRepo>();
 builder.Services.AddScoped<IFeedBackService, FeedBackService>();
@@ -18,7 +19,7 @@ builder.Services.AddScoped<IPartyRepo, PartyRepo>();
 builder.Services.AddScoped<IPartysService, PartysService>();
 // Add services to the container.
 builder.Services.AddRazorPages();
-
+builder.Services.AddDbContext<BookingPartyContext>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

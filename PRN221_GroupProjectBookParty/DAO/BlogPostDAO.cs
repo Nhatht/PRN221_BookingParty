@@ -1,33 +1,23 @@
 ﻿using BO;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace DAO
+namespace DAO;
+
+public class BlogPostDAO
 {
-    public class BlogPostDAO
+    private static BlogPostDAO instance;
+    private readonly BookingPartyContext dbContext;
+
+    public BlogPostDAO()
     {
-        private static BlogPostDAO instance = null;
-        private readonly BookingPartyContext dbContext = null;
-        public BlogPostDAO()
+        if (dbContext == null) dbContext = new BookingPartyContext();
+    }
+
+    public static BlogPostDAO Instance
+    {
+        get
         {
-            if(dbContext == null)
-            {
-                dbContext = new BookingPartyContext();
-            }
-        }
-        public static BlogPostDAO Instance
-        {
-            get
-            {
-                if (instance == null)
-                {
-                    instance = new BlogPostDAO();
-                }
-                return instance;
-            }
+            if (instance == null) instance = new BlogPostDAO();
+            return instance;
         }
     }
 }

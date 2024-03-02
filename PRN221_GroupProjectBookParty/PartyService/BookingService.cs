@@ -1,18 +1,13 @@
 ﻿using PartyRepository;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace PartyService
+namespace PartyService;
+
+public class BookingService : IBookingService
 {
-    public class BookingService : IBookingService
+    private IBookingRepo _bookingRepo;
+
+    public BookingService()
     {
-        private IBookingRepo _bookingRepo = null;
-        public BookingService()
-        {
-            _bookingRepo = new BookingRepo();
-        }
+        _bookingRepo = new BookingRepo();
     }
 }
