@@ -5,8 +5,20 @@
       "PackagePath": "staticwebassets\\PRN221_GroupProjectBookParty.bundle.scp.css"
     },
     {
+      "Id": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\PartyImage\\arrow_icon.png",
+      "PackagePath": "staticwebassets\\PartyImage\\arrow_icon.png"
+    },
+    {
       "Id": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\PartyImage\\background.jpg",
       "PackagePath": "staticwebassets\\PartyImage\\background.jpg"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\PartyImage\\right_img.png",
+      "PackagePath": "staticwebassets\\PartyImage\\right_img.png"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\css\\Contact.css",
+      "PackagePath": "staticwebassets\\css\\Contact.css"
     },
     {
       "Id": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\css\\Login.css",

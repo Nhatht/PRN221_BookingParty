@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xAdFDHB07vXgTDu/ITaJ3GPtS2czIp9u6xVIcFi0Gd4=",
+  "Hash": "rI3QQ5gJq9V1a/s0ZN6CoBhn2bmKP3tzADNQfJViX6U=",
   "Source": "PRN221_GroupProjectBookParty",
   "BasePath": "_content/PRN221_GroupProjectBookParty",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PRN221_GroupProjectBookParty.bundle.scp.css"
+    },
+    {
+      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\css\\Contact.css",
+      "SourceId": "PRN221_GroupProjectBookParty",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "BasePath": "_content/PRN221_GroupProjectBookParty",
+      "RelativePath": "css/Contact.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Contact.css"
     },
     {
       "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\css\\demo.css",
@@ -1746,6 +1765,25 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
+      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\PartyImage\\arrow_icon.png",
+      "SourceId": "PRN221_GroupProjectBookParty",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "BasePath": "_content/PRN221_GroupProjectBookParty",
+      "RelativePath": "PartyImage/arrow_icon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\PartyImage\\arrow_icon.png"
+    },
+    {
       "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\PartyImage\\background.jpg",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
@@ -1763,6 +1801,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\PartyImage\\background.jpg"
+    },
+    {
+      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\PartyImage\\right_img.png",
+      "SourceId": "PRN221_GroupProjectBookParty",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "BasePath": "_content/PRN221_GroupProjectBookParty",
+      "RelativePath": "PartyImage/right_img.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\PartyImage\\right_img.png"
     }
   ]
 }
