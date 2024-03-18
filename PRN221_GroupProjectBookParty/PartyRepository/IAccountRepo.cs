@@ -1,3 +1,4 @@
+﻿namespace PartyRepository;
 ﻿using BO;
 using System;
 using System.Collections.Generic;
@@ -5,8 +6,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PartyRepository
+public interface IAccountRepo
 {
+}
     public interface IAccountRepo
     {
         public bool Login(string email, string password);

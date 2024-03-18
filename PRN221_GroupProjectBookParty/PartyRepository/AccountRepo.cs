@@ -1,3 +1,4 @@
+﻿namespace PartyRepository;
 ﻿using BO;
 using DAO;
 using System;
@@ -6,8 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PartyRepository
+public class AccountRepo : IAccountRepo
 {
+}
     public class AccountRepo : IAccountRepo
     {
         public bool Login(string email, string password) => AccountDAO.Instance.Login(email, password);

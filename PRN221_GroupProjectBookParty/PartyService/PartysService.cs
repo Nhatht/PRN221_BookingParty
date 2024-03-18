@@ -1,3 +1,4 @@
+﻿using PartyRepository;
 ﻿using BO;
 using PartyRepository;
 using PartyService.PhotoUpload;
@@ -8,10 +9,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PartyService
+namespace PartyService;
+
+public class PartysService : IPartysService
 {
-    public class PartysService : IPartysService
+    private IPartyRepo _partyRepo;
+
+    public PartysService()
     {
+        _partyRepo = new PartyRepo();
         private IPartyRepo _partyRepo = null;
         private readonly IPhotoService _photoService;
         public PartysService(IPhotoService photoService)

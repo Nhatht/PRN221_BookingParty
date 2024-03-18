@@ -1,3 +1,4 @@
+﻿namespace PartyService;
 ﻿using BO;
 using PartyService.ViewModel;
 using System;
@@ -6,8 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PartyService
+public interface IPartysService
 {
+}
     public interface IPartysService
     {
         public List<Party> GetAllParties();
