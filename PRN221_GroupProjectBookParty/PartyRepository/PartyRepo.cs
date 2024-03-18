@@ -1,3 +1,4 @@
+﻿namespace PartyRepository;
 ﻿using BO;
 using DAO;
 using System;
@@ -6,8 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PartyRepository
+public class PartyRepo : IPartyRepo
 {
+}
     public class PartyRepo : IPartyRepo
     {
         public async Task<bool> AddParty(Party party) => await PartyDAO.Instance.AddParty(party);

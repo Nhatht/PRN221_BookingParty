@@ -1,18 +1,13 @@
 ﻿using PartyRepository;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace PartyService
+namespace PartyService;
+
+public class BlogPostService : IBlogPostService
 {
-    public class BlogPostService : IBlogPostService
+    private IBlogPostRepo _blogPostRepo;
+
+    public BlogPostService()
     {
-        private IBlogPostRepo _blogPostRepo = null;
-        public BlogPostService()
-        {
-            _blogPostRepo = new BlogPostRepo();
-        }
+        _blogPostRepo = new BlogPostRepo();
     }
 }

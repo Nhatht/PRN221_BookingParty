@@ -1,5 +1,6 @@
 {
   "Version": 1,
+  "Hash": "JJn/c8qFyHB4K92g01sEXovDsrI78dpHLQZH81NA9cA=",
   "Hash": "xAdFDHB07vXgTDu/ITaJ3GPtS2czIp9u6xVIcFi0Gd4=",
   "Source": "PRN221_GroupProjectBookParty",
   "BasePath": "_content/PRN221_GroupProjectBookParty",
@@ -10,17 +11,17 @@
     {
       "Name": "PRN221_GroupProjectBookParty\\wwwroot",
       "Source": "PRN221_GroupProjectBookParty",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PRN221_GroupProjectBookParty.styles.css",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PRN221_GroupProjectBookParty.styles.css",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Computed",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "PRN221_GroupProjectBookParty.styles.css",
       "AssetKind": "All",
@@ -33,13 +34,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PRN221_GroupProjectBookParty.styles.css"
+      "OriginalItemSpec": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PRN221_GroupProjectBookParty.styles.css"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PRN221_GroupProjectBookParty.bundle.scp.css",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PRN221_GroupProjectBookParty.bundle.scp.css",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Computed",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "PRN221_GroupProjectBookParty.bundle.scp.css",
       "AssetKind": "All",
@@ -52,9 +53,10 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PRN221_GroupProjectBookParty.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PRN221_GroupProjectBookParty.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\assets\\avatar.png",
       "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\css\\demo.css",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
@@ -96,7 +98,26 @@
       "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\css\\site.css",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "BasePath": "_content/PRN221_GroupProjectBookParty",
+      "RelativePath": "assets/avatar.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\avatar.png"
+    },
+    {
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\css\\site.css",
+      "SourceId": "PRN221_GroupProjectBookParty",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -112,10 +133,29 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\css\\ViewProfile.css",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "BasePath": "_content/PRN221_GroupProjectBookParty",
+      "RelativePath": "css/ViewProfile.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\ViewProfile.css"
+    },
+    {
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\favicon.ico",
+      "SourceId": "PRN221_GroupProjectBookParty",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -131,6 +171,7 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\js\\site.js",
       "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\js\\main.js",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
@@ -172,7 +213,7 @@
       "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\js\\site.js",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -188,6 +229,7 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\js\\vendor\\css\\core.css",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
@@ -666,7 +708,7 @@
       "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -682,10 +724,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -701,10 +743,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -720,10 +762,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -739,10 +781,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -758,10 +800,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -777,10 +819,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -796,10 +838,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -815,10 +857,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -834,10 +876,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -853,10 +895,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -872,10 +914,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -891,10 +933,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -910,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -929,10 +971,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -948,10 +990,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -967,10 +1009,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -986,10 +1028,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1005,10 +1047,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1024,10 +1066,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1043,10 +1085,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1062,10 +1104,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1081,10 +1123,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1100,10 +1142,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1119,10 +1161,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1138,10 +1180,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1157,10 +1199,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1176,10 +1218,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1195,10 +1237,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1214,10 +1256,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1233,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1252,10 +1294,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1271,10 +1313,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1290,10 +1332,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1309,10 +1351,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1328,10 +1370,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1347,10 +1389,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1366,10 +1408,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1385,10 +1427,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1404,10 +1446,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1423,10 +1465,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1442,10 +1484,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1461,10 +1503,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1480,10 +1522,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1499,10 +1541,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1518,10 +1560,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1537,10 +1579,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1556,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1575,10 +1617,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1594,10 +1636,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1613,10 +1655,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1632,10 +1674,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1651,10 +1693,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1670,10 +1712,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1689,10 +1731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1708,10 +1750,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1727,10 +1769,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
       "BasePath": "_content/PRN221_GroupProjectBookParty",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
