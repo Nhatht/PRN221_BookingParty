@@ -14,6 +14,19 @@
     },
     {
       "Id": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\css\\site.css",
+      "Id": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\PartyImage\\background.jpg",
+      "PackagePath": "staticwebassets\\PartyImage\\background.jpg"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\css\\Login.css",
+      "PackagePath": "staticwebassets\\css\\Login.css"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\css\\demo.css",
+      "PackagePath": "staticwebassets\\css\\demo.css"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
@@ -26,6 +39,119 @@
     },
     {
       "Id": "C:\\Users\\ASUS\\Downloads\\PRN221_BookingParty\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\js\\PartyManagement.js",
+      "PackagePath": "staticwebassets\\js\\PartyManagement.js"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\js\\vendor\\css\\core.css",
+      "PackagePath": "staticwebassets\\js\\vendor\\css\\core.css"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\js\\vendor\\css\\pages\\page-account-settings.css",
+      "PackagePath": "staticwebassets\\js\\vendor\\css\\pages\\page-account-settings.css"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\js\\vendor\\css\\pages\\page-auth.css",
+      "PackagePath": "staticwebassets\\js\\vendor\\css\\pages\\page-auth.css"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\js\\vendor\\css\\pages\\page-icons.css",
+      "PackagePath": "staticwebassets\\js\\vendor\\css\\pages\\page-icons.css"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\js\\vendor\\css\\pages\\page-misc.css",
+      "PackagePath": "staticwebassets\\js\\vendor\\css\\pages\\page-misc.css"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\js\\vendor\\css\\theme-default.css",
+      "PackagePath": "staticwebassets\\js\\vendor\\css\\theme-default.css"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\js\\vendor\\fonts\\boxicons.css",
+      "PackagePath": "staticwebassets\\js\\vendor\\fonts\\boxicons.css"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\js\\vendor\\fonts\\boxicons\\boxicons.eot",
+      "PackagePath": "staticwebassets\\js\\vendor\\fonts\\boxicons\\boxicons.eot"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\js\\vendor\\fonts\\boxicons\\boxicons.svg",
+      "PackagePath": "staticwebassets\\js\\vendor\\fonts\\boxicons\\boxicons.svg"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\js\\vendor\\fonts\\boxicons\\boxicons.ttf",
+      "PackagePath": "staticwebassets\\js\\vendor\\fonts\\boxicons\\boxicons.ttf"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\js\\vendor\\fonts\\boxicons\\boxicons.woff",
+      "PackagePath": "staticwebassets\\js\\vendor\\fonts\\boxicons\\boxicons.woff"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\js\\vendor\\fonts\\boxicons\\boxicons.woff2",
+      "PackagePath": "staticwebassets\\js\\vendor\\fonts\\boxicons\\boxicons.woff2"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\js\\vendor\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\js\\vendor\\js\\helpers.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\js\\helpers.js"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\js\\vendor\\js\\menu.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\js\\menu.js"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\js\\vendor\\libs\\apex-charts\\apex-charts.css",
+      "PackagePath": "staticwebassets\\js\\vendor\\libs\\apex-charts\\apex-charts.css"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\js\\vendor\\libs\\apex-charts\\apexcharts.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\libs\\apex-charts\\apexcharts.js"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\js\\vendor\\libs\\highlight\\highlight-github.css",
+      "PackagePath": "staticwebassets\\js\\vendor\\libs\\highlight\\highlight-github.css"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\js\\vendor\\libs\\highlight\\highlight.css",
+      "PackagePath": "staticwebassets\\js\\vendor\\libs\\highlight\\highlight.css"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\js\\vendor\\libs\\highlight\\highlight.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\libs\\highlight\\highlight.js"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\js\\vendor\\libs\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\libs\\jquery\\jquery.js"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\js\\vendor\\libs\\masonry\\masonry.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\libs\\masonry\\masonry.js"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\js\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\js\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\js\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\js\\vendor\\libs\\popper\\popper.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\libs\\popper\\popper.js"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {

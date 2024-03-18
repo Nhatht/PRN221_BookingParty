@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PRN221_GroupProjectBookParty", "PRN221_GroupProjectBookParty\PRN221_GroupProjectBookParty.csproj", "{7127B99C-E8BC-4ADA-A13A-D40701829908}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PRN221_GroupProjectBookParty", "PRN221_GroupProjectBookParty\PRN221_GroupProjectBookParty.csproj", "{7127B99C-E8BC-4ADA-A13A-D40701829908}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BO", "BO\BO.csproj", "{A53DF3AD-3A0C-4595-B5F0-A317E6DFF852}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BO", "BO\BO.csproj", "{A53DF3AD-3A0C-4595-B5F0-A317E6DFF852}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAO", "DAO\DAO.csproj", "{D555FB69-42E5-4BAC-8301-C2FCEFA20171}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAO", "DAO\DAO.csproj", "{D555FB69-42E5-4BAC-8301-C2FCEFA20171}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartyRepository", "PartyRepository\PartyRepository.csproj", "{2EB12299-F44B-4DDB-BCF6-709D47122F44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PartyRepository", "PartyRepository\PartyRepository.csproj", "{2EB12299-F44B-4DDB-BCF6-709D47122F44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartyService", "PartyService\PartyService.csproj", "{0C390766-6EEC-4EF9-BF9E-F8557ACF2D0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PartyService", "PartyService\PartyService.csproj", "{0C390766-6EEC-4EF9-BF9E-F8557ACF2D0C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

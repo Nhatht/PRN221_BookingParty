@@ -1,6 +1,8 @@
 using BO;
 using PartyRepository;
 using PartyService;
+using PartyService.Helpers;
+using PartyService.PhotoUpload;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddScoped<IAccountRepo, AccountRepo>();
@@ -17,9 +19,14 @@ builder.Services.AddScoped<IFeedBackService, FeedBackService>();
 
 builder.Services.AddScoped<IPartyRepo, PartyRepo>();
 builder.Services.AddScoped<IPartysService, PartysService>();
+builder.Services.AddScoped<IPhotoService, PhotoService>();
+builder.Services.Configure<CloudinarySettings>(builder.Configuration.GetSection("CloudinarySettings"));
+
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddDbContext<BookingPartyContext>();
+builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

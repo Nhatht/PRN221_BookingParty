@@ -1,0 +1,80 @@
+﻿@page
+@model PRN221_GroupProjectBookParty.Pages.Host.HostParty.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Party</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Party.Id" />
+            <div class="form-group">
+                <label asp-for="Party.HostId" class="control-label"></label>
+                <select asp-for="Party.HostId" class="form-control" asp-items="ViewBag.HostId"></select>
+                <span asp-validation-for="Party.HostId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Party.Description" class="control-label"></label>
+                <input asp-for="Party.Description" class="form-control" />
+                <span asp-validation-for="Party.Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Party.Name" class="control-label"></label>
+                <input asp-for="Party.Name" class="form-control" />
+                <span asp-validation-for="Party.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Party.City" class="control-label"></label>
+                <input asp-for="Party.City" class="form-control" />
+                <span asp-validation-for="Party.City" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Party.Price" class="control-label"></label>
+                <input asp-for="Party.Price" class="form-control" />
+                <span asp-validation-for="Party.Price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Party.Theme" class="control-label"></label>
+                <input asp-for="Party.Theme" class="form-control" />
+                <span asp-validation-for="Party.Theme" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Party.Package" class="control-label"></label>
+                <input asp-for="Party.Package" class="form-control" />
+                <span asp-validation-for="Party.Package" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Party.MaxPeople" class="control-label"></label>
+                <input asp-for="Party.MaxPeople" class="form-control" />
+                <span asp-validation-for="Party.MaxPeople" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Party.ImageUrl" class="control-label"></label>
+                <input asp-for="Party.ImageUrl" class="form-control" />
+                <span asp-validation-for="Party.ImageUrl" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Party.Status" /> @Html.DisplayNameFor(model => model.Party.Status)
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
