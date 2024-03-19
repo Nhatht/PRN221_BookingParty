@@ -1513,3 +1513,4 @@ E:\University\GitHub\PRN221_BookingParty\PRN221_GroupProjectBookParty\PRN221_Gro
 E:\University\GitHub\PRN221_BookingParty\PRN221_GroupProjectBookParty\PRN221_GroupProjectBookParty\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 E:\University\GitHub\PRN221_BookingParty\PRN221_GroupProjectBookParty\PRN221_GroupProjectBookParty\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 E:\University\GitHub\PRN221_BookingParty\PRN221_GroupProjectBookParty\PRN221_GroupProjectBookParty\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\FPT\Spring2024\PRN221\FinalProject\PRN221_BookingParty\PRN221_GroupProjectBookParty\PRN221_GroupProjectBookParty\obj\Debug\net6.0\PRN221_GroupProjectBookParty.MvcApplicationPartsAssemblyInfo.cs
