@@ -1010,3 +1010,4 @@ D:\FPT\Spring2024\PRN221\FinalProject\PRN221_BookingParty\PRN221_GroupProjectBoo
 D:\FPT\Spring2024\PRN221\FinalProject\PRN221_BookingParty\PRN221_GroupProjectBookParty\PRN221_GroupProjectBookParty\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
 D:\FPT\Spring2024\PRN221\FinalProject\PRN221_BookingParty\PRN221_GroupProjectBookParty\PRN221_GroupProjectBookParty\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
 D:\FPT\Spring2024\PRN221\FinalProject\PRN221_BookingParty\PRN221_GroupProjectBookParty\PRN221_GroupProjectBookParty\bin\Debug\net6.0\CloudinaryDotNet.dll
+D:\FPT\Spring2024\PRN221\FinalProject\PRN221_BookingParty\PRN221_GroupProjectBookParty\PRN221_GroupProjectBookParty\obj\Debug\net6.0\PRN221_GroupProjectBookParty.MvcApplicationPartsAssemblyInfo.cs

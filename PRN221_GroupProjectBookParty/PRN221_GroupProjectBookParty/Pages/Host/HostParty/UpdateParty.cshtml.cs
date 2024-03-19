@@ -62,7 +62,7 @@ namespace PRN221_GroupProjectBookParty.Pages.Host.HostParty
 
             try
             {
-                await _partysService.;
+                //await _partysService.;
             }
             catch (DbUpdateConcurrencyException)
             {
