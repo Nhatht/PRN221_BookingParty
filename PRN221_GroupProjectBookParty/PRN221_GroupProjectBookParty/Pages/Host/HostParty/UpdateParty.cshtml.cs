@@ -9,41 +9,46 @@ using Microsoft.EntityFrameworkCore;
 using BO;
 using PartyService;
 using PartyService.ViewModel;
+using PartyService.PhotoUpload;
 
 namespace PRN221_GroupProjectBookParty.Pages.Host.HostParty
 {
     public class EditModel : PageModel
     {
         private readonly IPartysService _partysService;
+        private readonly IPhotoService _photoService;
 
-        public EditModel(IPartysService partysService)
+        public EditModel(IPartysService partysService, IPhotoService photoService)
         {
             _partysService = partysService;
+            _photoService = photoService;
         }
 
         [BindProperty]
-        public Party Party { get; set; } = default!;
+        public EditPartyViewModel Party { get; set; } = default!;
+        [BindProperty]
+        public bool Status { get; set; }
 
         public async Task<IActionResult> OnGetAsync(int id)
         {
             try
             {
-                var party = await _partysService.GetPartyById(id);
+                var party = _partysService.GetPartyByIdNoAsync(id);
                 if(party == null) return NotFound();
-                //var partyVM = new EditPartyViewModel
-                //{
-                //    Description = party.Description,
-                //    Name = party.Name,
-                //    City = party.City,
-                //    Price = party.Price,
-                //    Theme = party.Theme,
-                //    Package = party.Package,
-                //    MaxPeople = party.MaxPeople,
-                //    Url = party.ImageUrl,
-                //    Status = party.Status,
-                //};
+                Party = new EditPartyViewModel
+                {
+                    Description = party.Description,
+                    Name = party.Name,
+                    City = party.City,
+                    Price = party.Price,
+                    Theme = party.Theme,
+                    Package = party.Package,
+                    MaxPeople = party.MaxPeople,
+                    Url = party.ImageUrl,
+                    Status = party.Status,
+                };
 
-                Party = party;
+                Party = Party;
                 var host = _partysService.GetAllHost();
                 ViewData["HostId"] = new SelectList(host, "Id", "UserName");
             }
@@ -57,26 +62,47 @@ namespace PRN221_GroupProjectBookParty.Pages.Host.HostParty
 
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see https://aka.ms/RazorPagesCRUD.
-        public async Task<IActionResult> OnPostAsync()
+        public async Task<IActionResult> OnPostAsync(int id)
         {
 
-            try
+            var party = await _partysService.GetPartyByIdNoTracking(id);
+
+            if(party != null)
             {
-                //await _partysService.;
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!PartyExists(Party.Id))
+                var partyVM = new Party();
+                if(Party.ImageUrl != null)
                 {
-                    return NotFound();
-                }
-                else
+                    await _photoService.DeletePhotoAsync(party.ImageUrl);
+                    var photoResult = await _photoService.AddPhotoAsync(Party.ImageUrl);
+                    partyVM.Id = id;
+                    partyVM.Description = party.Description;
+                    partyVM.Name = party.Name;
+                    partyVM.City = party.City;
+                    partyVM.Price = party.Price;
+                    partyVM.Theme = party.Theme;
+                    partyVM.Package = party.Package;
+                    partyVM.MaxPeople = party.MaxPeople;
+                    partyVM.ImageUrl = photoResult.Url.ToString();
+                    partyVM.Status = party.Status;
+                }else
                 {
-                    throw;
+                    partyVM.Id = id;
+                    partyVM.Description = party.Description;
+                    partyVM.Name = party.Name;
+                    partyVM.City = party.City;
+                    partyVM.Price = party.Price;
+                    partyVM.Theme = party.Theme;
+                    partyVM.Package = party.Package;
+                    partyVM.MaxPeople = party.MaxPeople;
+                    partyVM.ImageUrl = party.ImageUrl;
+                    partyVM.Status = party.Status;
                 }
+                await _partysService.UpdateParty(partyVM);
+                return RedirectToPage("./PartyManagement");
             }
 
-            return RedirectToPage("./Index");
+
+            return Page();
         }
 
         private bool PartyExists(int id)

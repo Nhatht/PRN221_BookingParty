@@ -38,10 +38,24 @@ namespace PartyService
         {
             return _partyRepo.GetPartyById(id);
         }
+        public Party GetPartyByIdNoAsync(int id)
+        {
+            return _partyRepo.GetPartyByIdNoAsync(id);
+        }
 
         public Task<bool> DeleteParty(int id)
         {
             return _partyRepo.DeleteParty(id);
+        }
+
+        public async Task<bool> UpdateParty(Party party)
+        {
+            return await _partyRepo.UpdateParty(party);
+        }
+
+        public async Task<Party> GetPartyByIdNoTracking(int id)
+        {
+            return await _partyRepo.GetPartyByIdNoTracking(id);
         }
     }
 }
