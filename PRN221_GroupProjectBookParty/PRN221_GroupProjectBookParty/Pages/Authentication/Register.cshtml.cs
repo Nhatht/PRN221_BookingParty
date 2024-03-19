@@ -14,8 +14,6 @@ namespace PRN221_GroupProjectBookParty.Pages.Authentication
         }
         [BindProperty]
         public Account Account { get; set; }
-        [BindProperty]
-        public string ConfirmPassword { get; set; }
 
 
         public IActionResult OnPost()
@@ -25,11 +23,6 @@ namespace PRN221_GroupProjectBookParty.Pages.Authentication
             {
                 TempData["EmailMessage"] = "Email exist!";
 
-                return Page();
-            }
-            else if (Account.Password != ConfirmPassword)
-            {
-                TempData["PasswordMessage"] = "Password not match!";
                 return Page();
             }
             Account newAccount = new Account();

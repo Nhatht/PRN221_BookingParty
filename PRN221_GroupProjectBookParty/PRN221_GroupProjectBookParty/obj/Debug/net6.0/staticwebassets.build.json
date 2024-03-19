@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WehiCaIj9TtkECZhhMb2Rx5sjSiSgPV7AIdDQxwP/eM=",
+  "Hash": "wiMFngvkaEsUs9Cgv4+BB8XEa4tgNB4t+6WDE+fpgcY=",
   "Source": "PRN221_GroupProjectBookParty",
   "BasePath": "_content/PRN221_GroupProjectBookParty",
   "Mode": "Default",
@@ -74,6 +74,25 @@
       "OriginalItemSpec": "wwwroot\\css\\Login.css"
     },
     {
+      "Identity": "D:\\FPT University\\CN7\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\css\\Login_Register.css",
+      "SourceId": "PRN221_GroupProjectBookParty",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\FPT University\\CN7\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "BasePath": "_content/PRN221_GroupProjectBookParty",
+      "RelativePath": "css/Login_Register.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Login_Register.css"
+    },
+    {
       "Identity": "D:\\FPT University\\CN7\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\css\\site.css",
       "SourceId": "PRN221_GroupProjectBookParty",
       "SourceType": "Discovered",
@@ -110,6 +129,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\FPT University\\CN7\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\js\\Login_Register.js",
+      "SourceId": "PRN221_GroupProjectBookParty",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\FPT University\\CN7\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\",
+      "BasePath": "_content/PRN221_GroupProjectBookParty",
+      "RelativePath": "js/Login_Register.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Login_Register.js"
     },
     {
       "Identity": "D:\\FPT University\\CN7\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\js\\site.js",

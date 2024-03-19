@@ -5,70 +5,68 @@
 @{
     Layout = null;
 }
-<link rel="stylesheet" href="~/css/Login.css" />
-<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-<body>
-    <div class="wrapper">
-        <form method="post" asp-page="./Register">
-            <h1>Register</h1>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="~/css/Login_Register.css">
+    <title>Booking Party</title>
+</head>
 
-            <div class="input-box">
-                <input id="emailInput" asp-for="Account.Email" type="text" placeholder="Email" required />
-                <i class='bx bxs-user'></i>
+<body>
+
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form method="post" asp-page="./Register">
+                <h1>Create Account</h1>
+                <div class="social-icons">
+                    <a href="https://www.google.com/" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="https://www.facebook.com/" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://github.com/" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>or use your email for registeration</span>
+                <input asp-for="Account.UserName" type="text" placeholder="Name">
+                <input asp-for="Account.Email" type="email" placeholder="Email">
                 @if (TempData["EmailMessage"] != null)
                 {
-                    <span id="emailAlert" style=" color:red ; margin-left: 10px;" >Email existed!</span>
+                    <span id="emailAlert" style=" color:red ; margin-left: 10px;">Email existed!</span>
                 }
+                <input asp-for="Account.Password" type="password" placeholder="Password">
+                <input asp-for="Account.Phone" type="text" placeholder="Phone">
+                <input asp-for="Account.Gender" type="text" placeholder="Gender">
+                <button>Sign Up</button>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form method="post" asp-page="./Login">
+                <h1>Sign In</h1>
+                <div class="social-icons">
+                    <a href="https://www.google.com/" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="https://www.facebook.com/" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://github.com/" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <input asp-for="Account.Email" type="email" placeholder="Email">
+                <input asp-for="Account.Password" type="password" placeholder="Password">
+                <button>Sign In</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Welcome Back!</h1>
+                    <p>Enter your personal details to use all of site features</p>
+                    <button class="hidden" id="login">Sign In</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Hello, Friend!</h1>
+                    <p>Register with your personal details to use all of site features</p>
+                    <button class="hidden" id="register">Sign Up</button>
+                </div>
             </div>
-
-            <div class="input-box">
-                <input asp-for="Account.Password" type="password" placeholder="Password" required />
-                <i class='bx bxs-lock-alt'></i>
-            </div>
-            <div class="input-box">
-                <input id="PasswordConfirm" asp-for="ConfirmPassword" type="password" placeholder="Confirm password" required />
-                <i class='bx bxs-lock-alt'></i>
-                @if (TempData["PasswordMessage"] != null)
-                {
-                    <span id="passwordAlert" style=" color:red ; margin-left: 10px;">Password not match!</span>
-                }
-            </div>
-            <div class="input-box">
-                <input asp-for="Account.UserName" type="text" placeholder="Username" required />
-                
-            </div>
-            <div class="input-box">
-                <input asp-for="Account.Phone" type="text" placeholder="Phone" required />
-                
-            </div>
-            <div class="input-box">
-                <input asp-for="Account.Gender" type="text" placeholder="Gender" required />
-                
-            </div>
-
-            <button type="submit" class="btn">Sign up</button>
-            <div class="register-link">
-                <p>
-                    Already have an account?<a href="/Authentication/Login"> Sign Up</a>
-                </p>
-            </div>
-            <script>
-                document.getElementById('emailInput').addEventListener('input', function () {
-                    var emailAlert = document.getElementById('emailAlert');
-                    if (emailAlert) {
-                        emailAlert.style.display = 'none';
-                    }
-                });
-                document.getElementById('PasswordConfirm').addEventListener('input', function () {
-                    var emailAlert = document.getElementById('passwordAlert');
-                    if (emailAlert) {
-                        emailAlert.style.display = 'none';
-                    }
-                });
-
-            </script>
-        </form>
-
+        </div>
     </div>
 
+    <script src="~/js/Login_Register.js"></script>
 </body>
