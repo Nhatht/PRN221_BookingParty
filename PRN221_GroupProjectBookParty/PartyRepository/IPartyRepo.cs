@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BO;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +9,10 @@ namespace PartyRepository
 {
     public interface IPartyRepo
     {
+        public List<Party> GetAllParties();
+        public Task<bool> AddParty(Party party);
+        public List<Account> GetAllHost();
+        public Task<Party> GetPartyById(int id);
+        public Task<bool> DeleteParty(int id);
     }
 }
