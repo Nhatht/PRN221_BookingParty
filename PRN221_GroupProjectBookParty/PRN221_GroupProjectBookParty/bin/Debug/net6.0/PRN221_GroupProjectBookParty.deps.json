@@ -39,6 +39,7 @@
           "Microsoft.EntityFrameworkCore.Tools": "6.0.28",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.16",
           "PartyService": "1.0.0",
+          "datatables.net-dt": "2.0.2",
           "Microsoft.AspNetCore.Antiforgery": "6.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "6.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "6.0.0.0",
@@ -349,6 +350,16 @@
         },
         "compile": {
           "lib/netstandard2.0/CloudinaryDotNet.dll": {}
+        }
+      },
+      "datatables.net/1.12.1": {
+        "dependencies": {
+          "jQuery": "1.7.0"
+        }
+      },
+      "datatables.net-dt/2.0.2": {
+        "dependencies": {
+          "datatables.net": "1.12.1"
         }
       },
       "Humanizer/2.14.1": {
@@ -894,6 +905,7 @@
           }
         }
       },
+      "jQuery/1.7.0": {},
       "MessagePack/2.1.152": {
         "dependencies": {
           "MessagePack.Annotations": "2.1.152",
@@ -5050,6 +5062,20 @@
       "path": "cloudinarydotnet/1.26.0",
       "hashPath": "cloudinarydotnet.1.26.0.nupkg.sha512"
     },
+    "datatables.net/1.12.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7ArWbq7HCVj6uciLXUoFlW1ZvfYNbCPxFnniAjD4NKb/iAsTYWGZYRjdH3Ir8+0N8rR6muPTF5nZ4Mqf1nUn9A==",
+      "path": "datatables.net/1.12.1",
+      "hashPath": "datatables.net.1.12.1.nupkg.sha512"
+    },
+    "datatables.net-dt/2.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-muyHDjKBFwT3eSCeQNXiNWV+9iKrHBLy82LndkDRmDdS9HTJmRha7QspT64InB9Mkr2Aqwb5veH0Yz2hkqBsvw==",
+      "path": "datatables.net-dt/2.0.2",
+      "hashPath": "datatables.net-dt.2.0.2.nupkg.sha512"
+    },
     "Humanizer/2.14.1": {
       "type": "package",
       "serviceable": true,
@@ -5399,6 +5425,13 @@
       "sha512": "sha512-VIXB7HCUC34OoaGnO3HJVtSv2/wljPhjV7eKH4+TFPgQdJj2lvHNKY41Dtg0Bphu7X5UaXFR4zrYYyo+GNOjbA==",
       "path": "humanizer.core.zh-hant/2.14.1",
       "hashPath": "humanizer.core.zh-hant.2.14.1.nupkg.sha512"
+    },
+    "jQuery/1.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UEZuBreHZNLao3z9zNPeSadyoPwKDP/5kFh+Mn1Pm9ZS0czk7bv0O6RreloGSIMAfTLZCiigNkuPb2bXKtUM+g==",
+      "path": "jquery/1.7.0",
+      "hashPath": "jquery.1.7.0.nupkg.sha512"
     },
     "MessagePack/2.1.152": {
       "type": "package",
