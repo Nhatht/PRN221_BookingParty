@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\How\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|d:\\how\\prn221\\prn221_bookingparty\\prn221_groupprojectbookparty\\prn221_groupprojectbookparty\\pages\\authentication\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\pages\\authentication\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|d:\\how\\prn221\\prn221_bookingparty\\prn221_groupprojectbookparty\\prn221_groupprojectbookparty\\pages\\authentication\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\pages\\authentication\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 565,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\How\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Authentication\\Login.cshtml",
+              "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Authentication\\Login.cshtml",
+              "ToolTip": "D:\\How\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Authentication\\Login.cshtml",
+              "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Authentication\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-19T09:24:54.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "D:\\How\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Authentication\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Authentication\\Login.cshtml.cs",
+              "ToolTip": "D:\\How\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Authentication\\Login.cshtml.cs",
+              "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Authentication\\Login.cshtml.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T08:37:28.151Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 239,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 131,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

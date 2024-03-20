@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BO;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +9,10 @@ namespace PartyRepository
 {
     public interface IFeedBackRepo
     {
+        public void CreateFeedBack(FeedBack feedback);
+        public void UpdateFeedBack(FeedBack feedback);
+        public void DeleteFeedBack(FeedBack feedback);
+        public List<FeedBack> GetListFeedBack();
+        public FeedBack GetFeedBackById(int id);
     }
 }
