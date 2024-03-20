@@ -18,5 +18,10 @@ namespace PartyRepository
         public async Task<Party> GetPartyById(int id) => await PartyDAO.Instance.GetPartyById(id);
 
         public async Task<bool> DeleteParty(int id) => await PartyDAO.Instance.DeleteParty(id);
+
+        public async Task<bool> UpdateParty(Party party) => await PartyDAO.Instance.UpdateParty(party);
+        public Party GetPartyByIdNoAsync(int id) => PartyDAO.Instance.GetPartyByIdNoAsync(id);
+
+        public async Task<Party> GetPartyByIdNoTracking(int id) => await PartyDAO.Instance.GetPartyByIdNoTracking(id);
     }
 }

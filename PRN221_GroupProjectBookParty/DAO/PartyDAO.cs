@@ -6,6 +6,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace DAO
 {
@@ -57,10 +58,14 @@ namespace DAO
         {
             return await dbContext.Parties.FirstOrDefaultAsync(p => p.Id.Equals(id));
         }
-        //public async Task<Party> GetPartyByIdNoTracking(int id)
-        //{
-        //    return 
-        //}
+        public Party GetPartyByIdNoAsync(int id)
+        {
+            return dbContext.Parties.FirstOrDefault(p => p.Id.Equals(id));
+        }
+        public async Task<Party> GetPartyByIdNoTracking(int id)
+        {
+            return await dbContext.Parties.AsNoTracking().FirstOrDefaultAsync(p => p.Id.Equals(id));
+        }
         public async Task<bool> DeleteParty(int id)
         {
             bool result = false;
@@ -79,7 +84,29 @@ namespace DAO
         }
         public async Task<bool> UpdateParty(Party party)
         {
-            return false;
+            bool result = false;
+            Party party1 = await GetPartyById(party.Id);
+            try
+            {
+                if (party1 != null)
+                {
+                    party1.Description = party.Description;
+                    party1.Name = party.Name;
+                    party1.City = party.City;
+                    party1.Price = party.Price;
+                    party1.Theme = party.Theme;
+                    party1.Package = party.Package;
+                    party1.MaxPeople = party.MaxPeople;
+                    party1.ImageUrl = party.ImageUrl;
+                    party1.Status = party.Status;
+                    await dbContext.SaveChangesAsync();
+                    return true;
+                }
+            }catch(Exception ex)
+            {
+                return false;
+            }
+            return result;
         }
         public List<Account> GetAllHost()
         {
