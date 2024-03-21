@@ -23,15 +23,10 @@ namespace PRN221_GroupProjectBookParty.Pages.Authentication
 
             if (_accountService.GetAccountByEmail(Account.Email) != null)
             {
-                TempData["EmailMessage"] = "Email exist!";
 
-                return Page();
+                return RedirectToPage("/Authentication/Login");
             }
-            else if (Account.Password != ConfirmPassword)
-            {
-                TempData["PasswordMessage"] = "Password not match!";
-                return Page();
-            }
+
             Account newAccount = new Account();
             newAccount.Status = true;
             newAccount.Email = Account.Email;

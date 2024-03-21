@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PRN221_GroupProjectBookParty")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+14511369b13e07dbfad5a7839cbd8f37f7c6a549")]
 [assembly: System.Reflection.AssemblyProductAttribute("PRN221_GroupProjectBookParty")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PRN221_GroupProjectBookParty")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
