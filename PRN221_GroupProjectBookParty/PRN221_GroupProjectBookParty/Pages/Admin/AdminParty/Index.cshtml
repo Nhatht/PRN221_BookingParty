@@ -1,14 +1,10 @@
 ﻿@page
-@model PRN221_GroupProjectBookParty.Pages.Host.HostParty.IndexModel
-
+@model PRN221_GroupProjectBookParty.Pages.Admin.AdminParty.IndexModel
 @{
-    ViewData["Title"] = "Quản trị viên - Quản lí Tiệc";
     Layout = "/Pages/Layout/_LayoutHost.cshtml";
 }
-
-
-
 <head>
+
     <meta charset="utf-8" />
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
@@ -54,7 +50,16 @@
 
     <!-- Thư viện Bootstrap JS -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <!-- Thư viện DataTable-->
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.0.2/css/dataTables.dataTables.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.0.2/css/dataTables.bootstrap5.css" />
+
+    <script src="https://cdn.datatables.net/2.0.2/js/dataTables.js"></script>
+
 </head>
+
 <body>
     <!-- Layout wrapper -->
     <!-- Layout container -->
@@ -92,98 +97,74 @@
             <div class="card">
                 <h5 class="card-header"
                     style="display: flex; justify-content: space-between">
-                    <div>Quản lý tiệc</div>
+                    <div>Danh sách Booking</div>
                     <!-- Button trigger modal -->
-                    <div>
-                        <a title="Tạo câu hỏi" asp-page="CreateParty">
-                            <button type="button" class="btn btn-primary" style="padding: 0.8rem"><i class="fas fa-plus"></i></button>
-                        </a>
-                        @* <a title="Khôi phục" href="MainController?action=restore">
-                        <button type="button" class="btn btn-primary" style="padding: 0.8rem"><i class="fa-solid fa-arrows-rotate fa-spin"></i></button>
-                        </a> *@
-                    </div>
+
                 </h5>
 
                 <div class="table-responsive text-nowrap">
-                    <table class="table">
+                    <table id="myTable" class="table">
                         <thead>
                             <tr>
-                                <th>STT</th>
-                                <th>Tên chủ tiệc</th>
-                                <th>Tên</th>
-                                <th>Hình ảnh</th>
-                                <th>Giá</th>
-                                <th>Chủ đề</th>
-                                <th>Số lượng</th>
-                                <th>Yêu cầu</th>
-                                <th>Status</th>
-                                <th>Tính năng</th>
+                                <th style ="text-align: center;">STT</th>
+                                <th style="text-align: center;">Tên chủ tiệc</th>
+                                <th style="text-align: center;">Tên</th>
+                                <th style="text-align: center;">Hình ảnh</th>
+                                <th style="text-align: center;">Giá</th>
+                                <th style="text-align: center;">Chủ đề</th>
+                                <th style="text-align: center;">Số lượng</th>
+                                <th style="text-align: center;">Yêu cầu</th>
+                                <th style="text-align: center;">Status</th>
+                                <th style="text-align: center;">Tính năng</th>
                             </tr>
                         </thead>
                         <tbody class="table-border-bottom-0">
                             @{
                                 int index = 1;
                             }
-                            @foreach (var item in Model.Party)
+                            @foreach (var item in Model.Parties)
                             {
                                 <tr>
-                                    <td>
+                                    <td style="text-align: center;">
                                         @index
                                     </td>
 
-                                    <td>
+                                    <td style="text-align: center;">
                                         @Html.DisplayFor(modelItem => item.Host.UserName)
                                     </td>
-                                    <td>
+                                    <td style="text-align: center;">
                                         @Html.DisplayFor(modelItem => item.Name)
                                     </td>
                                     <td>
                                         <img src="@item.ImageUrl" alt="Party Image" style="max-width: 100px; max-height: 100px;" />
                                     </td>
-                                    <td>
+                                    <td style="text-align: center;">
                                         @Html.DisplayFor(modelItem => item.Price)
                                     </td>
-                                    <td>
+
+                                    <td style="text-align: center;">
                                         @Html.DisplayFor(modelItem => item.Theme)
                                     </td>
-
-                                    <td>
+                                    <td style="text-align: center;">
                                         @Html.DisplayFor(modelItem => item.MaxPeople)
                                     </td>
-                                    <td>
+                                    <td style="text-align: center;">
                                         @Html.DisplayFor(modelItem => item.Request)
                                     </td>
                                     <td>
 
                                         @if (item.Status == false)
                                         {
-                                            <span style="color: red; font-weight: bold">Đang được book</span>
+                                            <span style="color: red; font-weight: bold">Thất bại</span>
                                         }
                                         else if (item.Status == true)
                                         {
-                                            <span style="color: green; font-weight: bold">Có thể book</span>
+                                            <span style="color: green; font-weight: bold">Thành công</span>
+                                        }
+                                        @{
+                                            index++;
                                         }
                                     </td>
-                                    @* <td>
-                                <div class="dropdown">
-                                <button title="Tính năng"
-                                type="button"
-                                class="btn p-0 dropdown-toggle hide-arrow"
-                                data-bs-toggle="dropdown">
-                                <i class="bx bx-dots-vertical-rounded"></i>
-                                </button>
-                                <div class="dropdown-menu">
-                                <a class="dropdown-item"
-                                href="UpdateQuestionController?id=${Q.id}"><i class="bx bx-edit-alt me-1"></i>Chỉnh sửa</a>
-                                <a class="dropdown-item"
-                                style="cursor: pointer"
-                                data-toggle="tooltip"
-                                data-bs-toggle="modal"
-                                data-bs-target="#modalConfirmDelete"
-                                onclick="showMess('${Q.id}')"><i class="bx bx-trash me-1"></i> Xóa</a>
-                                </div>
-                                </div>
-                                </td> *@
                                     <td>
                                         <a asp-page="./UpdateParty" asp-route-id="@item.Id">Edit</a> |
                                         <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
@@ -194,8 +175,6 @@
                         </tbody>
                     </table>
                 </div>
-
-
 
                 <div class="modal fade" id="modalConfirmDelete" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
                      aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -230,97 +209,76 @@
                     </div>
                 </div>
 
-            </div>
-            <nav aria-label="Page navigation"
-                 style="position: fixed;
-                                 bottom: 0.25rem;
-                                 right: 1.5rem;">
-                <ul class="pagination">
-                    <li class="page-item">
-                        <a class="page-link" href="#" aria-label="Previous">
-                            <span aria-hidden="true">&laquo;</span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                    </li>
-                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                    <c:set var="page" value="${totalSize / 50}" />
-                    <c:if test="${totalSize % 50 > 0}">
-                        <c:set var="totalPages" value="${page + 1}" />
-                    </c:if>
-                    <c:forEach var="i" begin="2" end="${totalPages}">
-                        <li class="page-item"><a class="page-link" href="#"><c:out value="${i}" /></a></li>
-                    </c:forEach>
-                    <li class="page-item">
-                        <a class="page-link" href="#" aria-label="Next">
-                            <span aria-hidden="true">&raquo;</span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </div>
-    @* </div> *@
+                <script>
+                    function showDeactive(id) {
+                        var btnToastDelete = document.querySelector('#btn-toast-deactive');
+                        btnToastDelete.addEventListener('click', function () {
+                            var deleteUrl = 'memberStaff?action=deactive&status=1&id=' + id;
+                            window.location.href = deleteUrl;
+                            // Nếu bạn muốn ẩn modal sau khi xác nhận, bạn có thể sử dụng đoạn mã sau:
+                            document.getElementById('modalConfirmDeactive').style.display = 'none';
+                        });
+                    }
+                    function showActive(id) {
+                        var btnToastDelete = document.querySelector('#btn-toast-active');
+                        btnToastDelete.addEventListener('click', function () {
+                            var deleteUrl = 'memberStaff?action=active&status=0&id=' + id;
+                            window.location.href = deleteUrl;
+                            // Nếu bạn muốn ẩn modal sau khi xác nhận, bạn có thể sử dụng đoạn mã sau:
+                            document.getElementById('modalConfirmActive').style.display = 'none';
+                        });
+                    }
 
-    <script>
-        function showDeactive(id) {
-            var btnToastDelete = document.querySelector('#btn-toast-deactive');
-            btnToastDelete.addEventListener('click', function () {
-                var deleteUrl = 'memberStaff?action=deactive&status=1&id=' + id;
-                window.location.href = deleteUrl;
-                // Nếu bạn muốn ẩn modal sau khi xác nhận, bạn có thể sử dụng đoạn mã sau:
-                document.getElementById('modalConfirmDeactive').style.display = 'none';
-            });
-        }
-        function showActive(id) {
-            var btnToastDelete = document.querySelector('#btn-toast-active');
-            btnToastDelete.addEventListener('click', function () {
-                var deleteUrl = 'memberStaff?action=active&status=0&id=' + id;
-                window.location.href = deleteUrl;
-                // Nếu bạn muốn ẩn modal sau khi xác nhận, bạn có thể sử dụng đoạn mã sau:
-                document.getElementById('modalConfirmActive').style.display = 'none';
-            });
-        }
+                    window.addEventListener('DOMContentLoaded', (event) => {
+                        const message = '${message}'; // Lấy giá trị thông báo từ servlet
+                        if (message) {
+                            showToast(message); // Gọi hàm hiển thị thông báo
+                        }
+                    });
 
-        window.addEventListener('DOMContentLoaded', (event) => {
-            const message = '${message}'; // Lấy giá trị thông báo từ servlet
-            if (message) {
-                showToast(message); // Gọi hàm hiển thị thông báo
-            }
-        });
+                    function showToast(message) {
+                        const toast = document.getElementById('toast-notification');
+                        const toastMessage = document.getElementById('toast-message');
+                        if (message === 'success') {
+                            var success = 'Cập nhật trạng thái thành công!';
+                            toastMessage.textContent = success;
+                        } else {
+                            var fail = 'Cập nhật trạng thái thất bại!';
+                            toastMessage.textContent = fail;
+                        }
+                        toast.classList.remove('hide');
+                        toast.classList.add('show');
+                        setTimeout(() => {
+                            toast.classList.remove('show');
+                        }, 3000);
+                    }
+                </script>
+                <!-- Core JS -->
+                <!-- build:js assets/vendor/js/core.js -->
 
-        function showToast(message) {
-            const toast = document.getElementById('toast-notification');
-            const toastMessage = document.getElementById('toast-message');
-            if (message === 'success') {
-                var success = 'Cập nhật trạng thái thành công!';
-                toastMessage.textContent = success;
-            } else {
-                var fail = 'Cập nhật trạng thái thất bại!';
-                toastMessage.textContent = fail;
-            }
-            toast.classList.remove('hide');
-            toast.classList.add('show');
-            setTimeout(() => {
-                toast.classList.remove('show');
-            }, 3000);
-        }
-    </script>
-    <!-- Core JS -->
-    <!-- build:js assets/vendor/js/core.js -->
+                <script src="~/js/vendor/libs/jquery/jquery.js"></script>
+                <script src="~/js/vendor/libs/popper/popper.js"></script>
+                <script src="~/js/vendor/js/bootstrap.js"></script>
+                <script src="~/js/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+                <script src="~/js/vendor/js/menu.js"></script>
 
-    <script src="~/js/vendor/libs/jquery/jquery.js"></script>
-    <script src="~/js/vendor/libs/popper/popper.js"></script>
-    <script src="~/js/vendor/js/bootstrap.js"></script>
-    <script src="~/js/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
-    <script src="~/js/vendor/js/menu.js"></script>
 
-    <!-- endbuild -->
-    <!-- Vendors JS -->
-    <!-- Main JS -->
-    <script src="~/js/main.js"></script>
+                <!-- DataTable-->
+                <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+                <script src="https://cdn.datatables.net/2.0.2/js/dataTables.js"></script>
+                <script src="https://cdn.datatables.net/2.0.2/js/dataTables.bootstrap5.js"></script>
+                <script>
+                    $(document).ready(function () {
+                        $('#myTable').DataTable();
+                    });
+                </script>
+                <!-- endbuild -->
+                <!-- Vendors JS -->
+                <!-- Main JS -->
+                <script src="~/js/main.js"></script>
 
-    <!-- Page JS -->
-    <!-- Place this tag in your head or just before your close body tag. -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
+                <!-- Page JS -->
+                <!-- Place this tag in your head or just before your close body tag. -->
+                <script async defer src="https://buttons.github.io/buttons.js"></script>
 </body>
