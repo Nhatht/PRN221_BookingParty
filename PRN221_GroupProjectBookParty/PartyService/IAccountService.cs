@@ -16,5 +16,6 @@ namespace PartyService
         public Account GetAccountByEmail(string email);
         public List<Account> GetListAccount();
         public Account GetAccountById(int id);
+        
     }
 }
