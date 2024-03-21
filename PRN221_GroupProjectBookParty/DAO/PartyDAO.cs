@@ -16,7 +16,7 @@ namespace DAO
         private readonly BookingPartyContext dbContext = null;
         public PartyDAO()
         {
-            if(dbContext == null)
+            if (dbContext == null)
             {
                 dbContext = new BookingPartyContext();
             }
@@ -31,11 +31,11 @@ namespace DAO
                 }
                 return instance;
             }
-        }
+        } 
 
-         public List<Party> GetAllParties()
+        public List<Party> GetAllParties()
         {
-            return  dbContext.Parties.Include(p => p.Bookings).Include(p => p.FeedBacks)
+            return dbContext.Parties.Include(p => p.Bookings).Include(p => p.FeedBacks)
                 .Include(p => p.Host).ToList();
         }
         public async Task<bool> AddParty(Party party)
@@ -102,7 +102,8 @@ namespace DAO
                     await dbContext.SaveChangesAsync();
                     return true;
                 }
-            }catch(Exception ex)
+            }
+            catch (Exception ex)
             {
                 return false;
             }

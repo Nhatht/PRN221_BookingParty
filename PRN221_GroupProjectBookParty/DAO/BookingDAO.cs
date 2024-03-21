@@ -1,4 +1,5 @@
 ﻿using BO;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -31,7 +32,7 @@ namespace DAO
         }
         public List<Booking> GetAllBooking()
         {
-            return dbContext.Bookings.ToList();
+            return dbContext.Bookings.Include(x => x.Guest).Include(x => x.Party).ToList();
         }
         public Booking GetBookingById(int id)
         {
