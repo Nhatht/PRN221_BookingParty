@@ -1,7 +1,23 @@
 {
   "Files": [
     {
-      "Id": "D:\\C#\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PRN221_GroupProjectBookParty.bundle.scp.css",
+      "Id": "C:\\Users\\nhath\\.nuget\\packages\\datatables.net-dt\\2.0.2\\contentFiles\\any\\any\\wwwroot\\css\\dataTables.dataTables.css",
+      "PackagePath": "staticwebassets\\css\\dataTables.dataTables.css"
+    },
+    {
+      "Id": "C:\\Users\\nhath\\.nuget\\packages\\datatables.net-dt\\2.0.2\\contentFiles\\any\\any\\wwwroot\\css\\dataTables.dataTables.min.css",
+      "PackagePath": "staticwebassets\\css\\dataTables.dataTables.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nhath\\.nuget\\packages\\datatables.net-dt\\2.0.2\\contentFiles\\any\\any\\wwwroot\\js\\dataTables.dataTables.js",
+      "PackagePath": "staticwebassets\\js\\dataTables.dataTables.js"
+    },
+    {
+      "Id": "C:\\Users\\nhath\\.nuget\\packages\\datatables.net-dt\\2.0.2\\contentFiles\\any\\any\\wwwroot\\js\\dataTables.dataTables.min.js",
+      "PackagePath": "staticwebassets\\js\\dataTables.dataTables.min.js"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PRN221_GroupProjectBookParty.bundle.scp.css",
       "PackagePath": "staticwebassets\\PRN221_GroupProjectBookParty.bundle.scp.css"
     },
     {
