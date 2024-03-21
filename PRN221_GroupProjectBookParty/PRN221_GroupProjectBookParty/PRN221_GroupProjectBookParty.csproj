@@ -14,12 +14,17 @@
     <Folder Include="Models\" />
     <Folder Include="Filters\" />
     <Folder Include="Constants\" />
+    <Folder Include="Pages\Admin\AdminAccount\" />
+    <Folder Include="Pages\Admin\Party\" />
+    <Folder Include="Pages\Host\HostBooking\" />
+    <Folder Include="Pages\User\" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.27" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.27" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.27">
+    <PackageReference Include="datatables.net-dt" Version="2.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.28" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.28" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.28">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>

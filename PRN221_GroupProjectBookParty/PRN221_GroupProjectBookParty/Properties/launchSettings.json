@@ -3,7 +3,7 @@
     "PRN221_GroupProjectBookParty": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "Authentication/Login",
+      "launchUrl": "Guest/PartyView",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
