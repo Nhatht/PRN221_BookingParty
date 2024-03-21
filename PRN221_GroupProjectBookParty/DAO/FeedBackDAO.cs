@@ -65,5 +65,13 @@ namespace DAO
         {
             return dbContext.FeedBacks.ToList();
         }
-    }
+		public List<Account> GetListAccount()
+		{
+			return dbContext.Accounts.ToList();
+		}
+		public Booking GetBookingById(int id)
+        {
+			return dbContext.Bookings.FirstOrDefault(x => x.Id == id);
+		}
+	}
 }

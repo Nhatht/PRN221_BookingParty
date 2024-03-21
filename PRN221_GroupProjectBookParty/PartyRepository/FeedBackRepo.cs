@@ -15,5 +15,7 @@ namespace PartyRepository
         public void DeleteFeedBack(FeedBack feedback) => FeedBackDAO.Instance.DeleteFeedBack(feedback);
         public List<FeedBack> GetListFeedBack() => FeedBackDAO.Instance.GetListFeedBack();
         public FeedBack GetFeedBackById(int id) => FeedBackDAO.Instance.GetFeedBackById(id);
-    }
+		public Booking GetBookingById(int id) => FeedBackDAO.Instance.GetBookingById(id);
+
+	}
 }

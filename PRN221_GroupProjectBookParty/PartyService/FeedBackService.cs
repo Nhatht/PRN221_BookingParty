@@ -35,5 +35,10 @@ namespace PartyService
         {
             return _feedBackRepo.GetFeedBackById(id);
         }
-    }
+        public Booking GetBookingById(int id)
+        {
+            return _feedBackRepo.GetBookingById(id);
+        }
+
+	}
 }

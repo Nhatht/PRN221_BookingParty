@@ -14,5 +14,7 @@ namespace PartyService
         public void DeleteFeedBack(FeedBack feedback);
         public List<FeedBack> GetListFeedBack();
         public FeedBack GetFeedBackById(int id);
-    }
+        public Booking GetBookingById(int id);
+
+	}
 }
