@@ -14,7 +14,7 @@
     <Folder Include="Models\" />
     <Folder Include="Filters\" />
     <Folder Include="Constants\" />
-    <Folder Include="Pages\Admin\Party\" />
+    <Folder Include="Pages\Admin\AdminAccount\" />
     <Folder Include="Pages\Host\HostBooking\" />
     <Folder Include="Pages\User\" />
   </ItemGroup>

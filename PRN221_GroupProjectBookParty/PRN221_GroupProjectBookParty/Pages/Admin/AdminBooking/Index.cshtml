@@ -100,14 +100,7 @@
                     style="display: flex; justify-content: space-between">
                     <div>Danh sách Booking</div>
                     <!-- Button trigger modal -->
-                    <div>
-                        <a title="Tạo câu hỏi" asp-page="CreateParty">
-                            <button type="button" class="btn btn-primary" style="padding: 0.8rem"><i class="fas fa-plus"></i></button>
-                        </a>
-                        @* <a title="Khôi phục" href="MainController?action=restore">
-                        <button type="button" class="btn btn-primary" style="padding: 0.8rem"><i class="fa-solid fa-arrows-rotate fa-spin"></i></button>
-                        </a> *@
-                    </div>
+
                 </h5>
 
                 <div class="table-responsive text-nowrap">
@@ -137,10 +130,10 @@
                                     </td>
 
                                     <td style="text-align: center;">
-                                        @Html.DisplayFor(modelItem => item.GuestId)
+                                        @Html.DisplayFor(modelItem => item.Guest.UserName)
                                     </td>
                                     <td style="text-align: center;">
-                                        @Html.DisplayFor(modelItem => item.PartyId)
+                                        @Html.DisplayFor(modelItem => item.Party.Name)
                                     </td>
                                     <td style="text-align: center;">
                                         @Html.DisplayFor(modelItem => item.TotalPrice)
