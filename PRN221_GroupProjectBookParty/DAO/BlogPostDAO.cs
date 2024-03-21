@@ -47,7 +47,7 @@ namespace DAO
         }
         public async Task<bool> DeleteBlogPost(int id)
         {
-            BlogPost BlogPost = GetBlogPostById(id);
+            BlogPost BlogPost =await  GetBlogPostById(id);
             try
             {
                 dbContext.BlogPosts.Remove(BlogPost);
@@ -59,28 +59,17 @@ namespace DAO
                 return false;
             }
         }
-        public BlogPost GetBlogPostById(int id)
+        public async Task <BlogPost> GetBlogPostById(int id)
         {
-            return dbContext.BlogPosts.AsNoTracking().FirstOrDefault(x => x.Id == id);
+            return await dbContext.BlogPosts.AsNoTracking().FirstOrDefaultAsync (x => x.Id == id);
         }
 
         public async Task<bool> EditBlogPost(BlogPost BlogPost)
         {
-            var blog = await dbContext.BlogPosts.AsNoTracking().FirstOrDefaultAsync(x => x.Id == BlogPost.Id);
-            if (blog != null)
-            {
-                blog.Heading = BlogPost.Heading;
-                blog.PageTitle = BlogPost.PageTitle;
-                blog.Content = BlogPost.Content;
-                blog.ShortDescription = BlogPost.ShortDescription;
-                blog.ImageUrl = BlogPost.ImageUrl;
-                blog.PublishedDate = BlogPost.PublishedDate;
-                blog.Visible = BlogPost.Visible;
-                blog.AccountId = BlogPost.AccountId;
-            }
+           
             try
             {
-                dbContext.BlogPosts.Update(blog);
+                dbContext.BlogPosts.Update(BlogPost);
                 await dbContext.SaveChangesAsync();
                 return true;
             }

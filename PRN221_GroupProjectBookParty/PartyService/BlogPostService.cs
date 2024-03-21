@@ -16,19 +16,18 @@ namespace PartyService
         {
             _blogPostRepo = new BlogPostRepo();
         }
-        private readonly IBlogPostRepo _repo = null;
 
-        public async Task<bool> AddBlogPost(BlogPost BlogPost) => await _repo.AddBlogPost(BlogPost);
+        public async Task<bool> AddBlogPost(BlogPost BlogPost) => await _blogPostRepo.AddBlogPost(BlogPost);
 
-        public async Task<bool> DeleteBlogPost(int id) => await _repo.DeleteBlogPost(id);
+        public async Task<bool> DeleteBlogPost(int id) => await _blogPostRepo.DeleteBlogPost(id);
 
-        public async Task<bool> EditBlogPost(BlogPost BlogPost) => await _repo.EditBlogPost(BlogPost);
+        public async Task<bool> EditBlogPost(BlogPost BlogPost) => await _blogPostRepo.EditBlogPost(BlogPost);
 
-        public async Task<List<BlogPost>> GetAll() => await _repo.GetAll();
+        public async Task<List<BlogPost>> GetAll() => await _blogPostRepo.GetAll();
 
         public async Task<List<BlogPost>> GetBlogPostsListByFilter(Expression<Func<BlogPost, bool>>? filter = null)
-            => await _repo.GetBlogPostsListByFilter(filter);
+            => await _blogPostRepo.GetBlogPostsListByFilter(filter);
         public async Task<BlogPost> GetBlogPostsByFilter(Expression<Func<BlogPost, bool>>? filter = null)
-            => await _repo.GetBlogPostsByFilter(filter);
+            => await _blogPostRepo.GetBlogPostsByFilter(filter);
     }
 }
