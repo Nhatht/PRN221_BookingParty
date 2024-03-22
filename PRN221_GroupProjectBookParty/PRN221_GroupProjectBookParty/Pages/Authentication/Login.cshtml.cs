@@ -17,6 +17,8 @@ namespace PRN221_GroupProjectBookParty.Pages.Authentication
             _accountService = accountService;
         }
         public string ErrorMessage { get; set; }  = "";
+        [BindProperty]
+        public Account Account { get; set; }
         public IActionResult OnGet()
         {
             if (HttpContext.Session.GetString("loginUser") != null)
@@ -25,14 +27,13 @@ namespace PRN221_GroupProjectBookParty.Pages.Authentication
             }
             return Page();
         }
-        [BindProperty]
-        public Account Account { get; set; }
+        
 
         public async Task<IActionResult> OnPostAsync()
         {
             if(!string.IsNullOrEmpty(Account.Email) && !string.IsNullOrEmpty(Account.Password))
             {
-                var account = _accountService.Login(Account.Email, Account.Password);
+                var account = _accountService.GetAccount(Account.Email, Account.Password);
                 if (account == null)
                 {
                     TempData["ErrorMessage"] = "Email or Password is incorrect";
@@ -42,13 +43,13 @@ namespace PRN221_GroupProjectBookParty.Pages.Authentication
                 {
                     var loginUser = new AccountViewmodel
                     {
-                        Id = Account.Id,
-                        UserName = Account.UserName,
-                        Role = Account.Role
+                        Id = account.Id,
+                        UserName = account.UserName,
+                        Role = account.Role
                     };
                     var loginUserJson = JsonConvert.SerializeObject(loginUser);
                     HttpContext.Session.SetString("loginUser", loginUserJson);
-                    var role = Account.Role;
+                    var role = account.Role;
                     if (role == "Admin")
                     {
                         return RedirectToPage("/Admin/AdminAccount");
@@ -57,7 +58,7 @@ namespace PRN221_GroupProjectBookParty.Pages.Authentication
                     {
                         return RedirectToPage("/Host/HostParty/PartyManagement");
                     }
-                    else if (role == "Guest")
+                    else if (role == "User")
                     {
                         return RedirectToPage("/Guest/PartyView");
                     }

@@ -20,6 +20,47 @@
           }
         }
       },
+      "datatables.net/1.12.1": {
+        "type": "package",
+        "dependencies": {
+          "jquery": "1.7.0"
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
+      "datatables.net-dt/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "datatables.net": "1.12.1"
+        },
+        "contentFiles": {
+          "contentFiles/any/any/wwwroot/css/dataTables.dataTables.css": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/dataTables.dataTables.min.css": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/js/dataTables.dataTables.js": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/js/dataTables.dataTables.min.js": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Humanizer/2.14.1": {
         "type": "package",
         "dependencies": {
@@ -613,6 +654,9 @@
             "locale": "zh-Hant"
           }
         }
+      },
+      "jQuery/1.7.0": {
+        "type": "package"
       },
       "MessagePack/2.1.152": {
         "type": "package",
@@ -4172,6 +4216,40 @@
         "lib/netstandard2.0/CloudinaryDotNet.xml"
       ]
     },
+    "datatables.net/1.12.1": {
+      "sha512": "7ArWbq7HCVj6uciLXUoFlW1ZvfYNbCPxFnniAjD4NKb/iAsTYWGZYRjdH3Ir8+0N8rR6muPTF5nZ4Mqf1nUn9A==",
+      "type": "package",
+      "path": "datatables.net/1.12.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/Scripts/jquery.dataTables.js",
+        "content/Scripts/jquery.dataTables.min.js",
+        "contentFiles/any/any/wwwroot/js/jquery.dataTables.js",
+        "contentFiles/any/any/wwwroot/js/jquery.dataTables.min.js",
+        "datatables.net.1.12.1.nupkg.sha512",
+        "datatables.net.nuspec"
+      ]
+    },
+    "datatables.net-dt/2.0.2": {
+      "sha512": "muyHDjKBFwT3eSCeQNXiNWV+9iKrHBLy82LndkDRmDdS9HTJmRha7QspT64InB9Mkr2Aqwb5veH0Yz2hkqBsvw==",
+      "type": "package",
+      "path": "datatables.net-dt/2.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/Content/dataTables.dataTables.css",
+        "content/Content/dataTables.dataTables.min.css",
+        "content/Scripts/dataTables.dataTables.js",
+        "content/Scripts/dataTables.dataTables.min.js",
+        "contentFiles/any/any/wwwroot/css/dataTables.dataTables.css",
+        "contentFiles/any/any/wwwroot/css/dataTables.dataTables.min.css",
+        "contentFiles/any/any/wwwroot/js/dataTables.dataTables.js",
+        "contentFiles/any/any/wwwroot/js/dataTables.dataTables.min.js",
+        "datatables.net-dt.2.0.2.nupkg.sha512",
+        "datatables.net-dt.nuspec"
+      ]
+    },
     "Humanizer/2.14.1": {
       "sha512": "/FUTD3cEceAAmJSCPN9+J+VhGwmL/C12jvwlyM1DFXShEMsBzvLzLqSrJ2rb+k/W2znKw7JyflZgZpyE+tI7lA==",
       "type": "package",
@@ -4916,6 +4994,24 @@
         "lib/netstandard1.0/zh-Hant/Humanizer.resources.dll",
         "lib/netstandard2.0/zh-Hant/Humanizer.resources.dll",
         "logo.png"
+      ]
+    },
+    "jQuery/1.7.0": {
+      "sha512": "UEZuBreHZNLao3z9zNPeSadyoPwKDP/5kFh+Mn1Pm9ZS0czk7bv0O6RreloGSIMAfTLZCiigNkuPb2bXKtUM+g==",
+      "type": "package",
+      "path": "jquery/1.7.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/Scripts/jquery-1.7-vsdoc.js",
+        "Content/Scripts/jquery-1.7.js",
+        "Content/Scripts/jquery-1.7.min.js",
+        "Tools/install.ps1",
+        "Tools/jquery-1.7-vsdoc-para.js",
+        "Tools/uninstall.ps1",
+        "jquery.1.7.0.nupkg.sha512",
+        "jquery.nuspec"
       ]
     },
     "MessagePack/2.1.152": {
@@ -11433,8 +11529,8 @@
       "Microsoft.EntityFrameworkCore.Sqlite >= 6.0.28",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.28",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.16",
-      "Newtonsoft.Json >= 13.0.3",
-      "PartyService >= 1.0.0"
+      "PartyService >= 1.0.0",
+      "datatables.net-dt >= 2.0.2"
     ]
   },
   "packageFolders": {
@@ -11508,9 +11604,9 @@
             "target": "Package",
             "version": "[6.0.16, )"
           },
-          "Newtonsoft.Json": {
+          "datatables.net-dt": {
             "target": "Package",
-            "version": "[13.0.3, )"
+            "version": "[2.0.2, )"
           }
         },
         "imports": [

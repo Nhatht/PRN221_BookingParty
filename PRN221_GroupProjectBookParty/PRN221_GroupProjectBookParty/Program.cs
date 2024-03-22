@@ -23,6 +23,8 @@ builder.Services.Configure<CloudinarySettings>(builder.Configuration.GetSection(
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddDistributedMemoryCache();
 builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
 builder.Services.AddSession(options =>
 {
