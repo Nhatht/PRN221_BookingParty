@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "k2/ecM3IZF9R1YQuRb+HIlX66NZ4qXL+UswfJUWbz+57XDJgf4buKBL26sFPMzoiEmfEhqj32z7v7EC0YRtEaQ==",
+  "dgSpecHash": "zpxPT9wfTHNIz91PyePC/SEfJ6QZQPs+hk/AOrjphAs+f1M6T0c/CSRDADKkQsmMAMXVtY/KI1DOzvXBLFlN/w==",
   "success": true,
   "projectFilePath": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ASUS\\.nuget\\packages\\cloudinarydotnet\\1.26.0\\cloudinarydotnet.1.26.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\cloudinarydotnet\\1.26.2\\cloudinarydotnet.1.26.2.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\datatables.net\\1.12.1\\datatables.net.1.12.1.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\datatables.net-dt\\2.0.2\\datatables.net-dt.2.0.2.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",

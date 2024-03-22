@@ -85,6 +85,10 @@
       "PackagePath": "staticwebassets\\img\\room-1.jpg"
     },
     {
+      "Id": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\img\\room-3.jpg",
+      "PackagePath": "staticwebassets\\img\\room-3.jpg"
+    },
+    {
       "Id": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\js\\PartyManagement.js",
       "PackagePath": "staticwebassets\\js\\PartyManagement.js"
     },
