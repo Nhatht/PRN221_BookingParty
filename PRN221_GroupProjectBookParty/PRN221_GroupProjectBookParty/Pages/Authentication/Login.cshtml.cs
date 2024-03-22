@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using PartyRepository;
 using PartyService;
+using PRN221_GroupProjectBookParty.Models.ViewModels;
 
 namespace PRN221_GroupProjectBookParty.Pages.Authentication
 {
@@ -23,19 +24,17 @@ namespace PRN221_GroupProjectBookParty.Pages.Authentication
 
         public async Task<IActionResult> OnPostAsync()
         {
-                // Kiểm tra đăng nhập sử dụng dữ liệu từ Account model
-                if (_accountService.Login(Account.Email, Account.Password))
+            Account checkLogin = _accountService.GetAccountByEmail(Account.Email);
+            if (checkLogin != null)
+            {
+                bool isMatch = PasswordHasher.VerifyPassword(Account.Email, checkLogin.Password);
+                if (isMatch)
                 {
-                    TempData["Email"] = Account.Email;
-                    var account = _accountService.GetAccountByEmail(Account.Email);
-                    if (account.Role.Equals("Admin")) { return RedirectToPage("/Admin/AdminAccount"); }
-                    else if (account.Role.Equals("Host")) { return RedirectToPage("/Teacher_page/Index"); }
-                    else if (account.Role.Equals("Guest")) { return RedirectToPage("/Student_page/Index"); }
-
+                    if (checkLogin.Role.Equals("Admin")) { return RedirectToPage("/Admin/AdminAccount/Index"); }
+                    else if (checkLogin.Role.Equals("Host")) { return RedirectToPage("/Teacher_page/Index"); }
+                    else if (checkLogin.Role.Equals("Guest")) { return RedirectToPage("/Student_page/Index"); }
+                }
             }
-            
-
-            
             return Page();
         }
     }
