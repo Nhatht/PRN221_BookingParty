@@ -1,8 +1,10 @@
 ﻿using BO;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Newtonsoft.Json;
 using PartyRepository;
 using PartyService;
+using PRN221_WebNovel.Models;
 
 namespace PRN221_GroupProjectBookParty.Pages.Authentication
 {
@@ -14,8 +16,13 @@ namespace PRN221_GroupProjectBookParty.Pages.Authentication
         {
             _accountService = accountService;
         }
+        public string ErrorMessage { get; set; }  = "";
         public IActionResult OnGet()
         {
+            if (HttpContext.Session.GetString("loginUser") != null)
+            {
+                return RedirectToPage("/Reader/Index");
+            }
             return Page();
         }
         [BindProperty]
@@ -23,16 +30,48 @@ namespace PRN221_GroupProjectBookParty.Pages.Authentication
 
         public async Task<IActionResult> OnPostAsync()
         {
-
-            // Kiểm tra đăng nhập sử dụng dữ liệu từ Account model
-            if (_accountService.Login(Account.Email, Account.Password))
+            if(!string.IsNullOrEmpty(Account.Email) && !string.IsNullOrEmpty(Account.Password))
             {
-                TempData["Email"] = Account.Email;
-                var account = _accountService.GetAccountByEmail(Account.Email);
-                if (account.Role.Equals("Admin")) { return RedirectToPage("/Admin/AdminAccount"); }
-                else if (account.Role.Equals("Host")) { return RedirectToPage("/Host/HostParty/PartyManagement"); }
-                else if (account.Role.Equals("Guest")) { return RedirectToPage("/Guest/PartyView"); }
-
+                var account = _accountService.Login(Account.Email, Account.Password);
+                if (account == null)
+                {
+                    TempData["ErrorMessage"] = "Email or Password is incorrect";
+                    return Page();
+                }
+                else
+                {
+                    var loginUser = new AccountViewmodel
+                    {
+                        Id = Account.Id,
+                        UserName = Account.UserName,
+                        Role = Account.Role
+                    };
+                    var loginUserJson = JsonConvert.SerializeObject(loginUser);
+                    HttpContext.Session.SetString("loginUser", loginUserJson);
+                    var role = Account.Role;
+                    if (role == "Admin")
+                    {
+                        return RedirectToPage("/Admin/AdminAccount");
+                    }
+                    else if (role == "Host")
+                    {
+                        return RedirectToPage("/Host/HostParty/PartyManagement");
+                    }
+                    else if (role == "Guest")
+                    {
+                        return RedirectToPage("/Guest/PartyView");
+                    }
+                    else
+                    {
+                        ErrorMessage = "Invalid email or password";
+                        return Page();
+                    }
+                }
+            }
+            else
+            {
+                TempData["ErrorMessage"] = "Invalid ID or Password";
+                return Page();
             }
             return Page();
         }

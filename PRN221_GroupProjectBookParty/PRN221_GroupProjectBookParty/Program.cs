@@ -24,6 +24,12 @@ builder.Services.Configure<CloudinarySettings>(builder.Configuration.GetSection(
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(300);
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
+});
 
 var app = builder.Build();
 
@@ -41,7 +47,7 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
-
+app.UseSession();
 app.MapRazorPages();
 
 app.Run();
