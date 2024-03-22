@@ -5,6 +5,8 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href='https://cdn.jsdelivr.net/npm/froala-editor@latest/css/froala_editor.pkgd.min.css' rel='stylesheet' type='text/css' />
+    <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/froala-editor@latest/js/froala_editor.pkgd.min.js'></script>
     <link rel="icon"
           type="image/x-icon"
           href="https://cdn-icons-png.flaticon.com/512/6556/6556219.png" />
@@ -59,16 +61,22 @@
                     <!-- Layouts -->
 
                     <li class="menu-item">
-                        <a href="PartyManagement" class="menu-link">
+                        <a href="/Host/HostParty/PartyManagement" class="menu-link">
                             <i class="menu-icon fa-solid fa-person-booth"></i>
                             <div data-i18n="Layouts">Quản lý phòng tiệc</div>
                         </a>
                     </li>
 
+                        
                     <li class="menu-header small text-uppercase">
                         <span class="menu-header-text">Management</span>
                     </li>
-
+                    <li class="menu-item">
+                        <a href="UserManagement" class="menu-link">
+                            <i class=" menu-icon tf-icons fa-solid fa-clipboard-user"></i>
+                            <div data-i18n="Layouts">Dashboard</div>
+                        </a>
+                    </li>
                     <li class="menu-item">
                         <a href="UserManagement" class="menu-link">
                             <i class="menu-icon tf-icons fa-solid fa-users"></i>
@@ -89,6 +97,12 @@
                         <a href="PackageManagement" class="menu-link">
                             <i class="menu-icon tf-icons fa-solid fa-box"></i>
                             <div data-i18n="Layouts">Package</div>
+                        </a>
+                    </li>
+
+                    <li class="menu-item">
+                        <a href="/Host/BlogPosts/List" class="menu-link">
+                            <div data-i18n="Layouts">Blog Post</div>
                         </a>
                     </li>
 
@@ -165,6 +179,7 @@
             </div>
         </div>
     </div>
+     @* @RenderSectionAsync("Scripts", required: false) *@
 </body>
 <script>
     function logout() {
