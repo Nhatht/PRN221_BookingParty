@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj": {}
+    "D:\\FPT University\\CN7\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj": {}
   },
   "projects": {
-    "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\BO\\BO.csproj": {
+    "D:\\FPT University\\CN7\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\BO\\BO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\BO\\BO.csproj",
+        "projectUniqueName": "D:\\FPT University\\CN7\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\BO\\BO.csproj",
         "projectName": "BO",
-        "projectPath": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\BO\\BO.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\BO\\obj\\",
+        "projectPath": "D:\\FPT University\\CN7\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\BO\\BO.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\FPT University\\CN7\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\BO\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,11 +38,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -94,21 +93,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\DAO\\DAO.csproj": {
+    "D:\\FPT University\\CN7\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\DAO\\DAO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\DAO\\DAO.csproj",
+        "projectUniqueName": "D:\\FPT University\\CN7\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\DAO\\DAO.csproj",
         "projectName": "DAO",
-        "projectPath": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\DAO\\DAO.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\DAO\\obj\\",
+        "projectPath": "D:\\FPT University\\CN7\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\DAO\\DAO.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\FPT University\\CN7\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\DAO\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -122,8 +125,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\BO\\BO.csproj": {
-                "projectPath": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\BO\\BO.csproj"
+              "D:\\FPT University\\CN7\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\BO\\BO.csproj": {
+                "projectPath": "D:\\FPT University\\CN7\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\BO\\BO.csproj"
               }
             }
           }
@@ -132,11 +135,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -158,21 +156,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyRepository\\PartyRepository.csproj": {
+    "D:\\FPT University\\CN7\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyRepository\\PartyRepository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyRepository\\PartyRepository.csproj",
+        "projectUniqueName": "D:\\FPT University\\CN7\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyRepository\\PartyRepository.csproj",
         "projectName": "PartyRepository",
-        "projectPath": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyRepository\\PartyRepository.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyRepository\\obj\\",
+        "projectPath": "D:\\FPT University\\CN7\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyRepository\\PartyRepository.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\FPT University\\CN7\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyRepository\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -186,8 +188,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\DAO\\DAO.csproj": {
-                "projectPath": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\DAO\\DAO.csproj"
+              "D:\\FPT University\\CN7\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\DAO\\DAO.csproj": {
+                "projectPath": "D:\\FPT University\\CN7\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\DAO\\DAO.csproj"
               }
             }
           }
@@ -196,11 +198,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -222,21 +219,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\PartyService.csproj": {
+    "D:\\FPT University\\CN7\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\PartyService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\PartyService.csproj",
+        "projectUniqueName": "D:\\FPT University\\CN7\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\PartyService.csproj",
         "projectName": "PartyService",
-        "projectPath": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\PartyService.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\obj\\",
+        "projectPath": "D:\\FPT University\\CN7\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\PartyService.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\FPT University\\CN7\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -250,8 +251,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyRepository\\PartyRepository.csproj": {
-                "projectPath": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyRepository\\PartyRepository.csproj"
+              "D:\\FPT University\\CN7\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyRepository\\PartyRepository.csproj": {
+                "projectPath": "D:\\FPT University\\CN7\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyRepository\\PartyRepository.csproj"
               }
             }
           }
@@ -260,11 +261,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -286,21 +282,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj": {
+    "D:\\FPT University\\CN7\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj",
+        "projectUniqueName": "D:\\FPT University\\CN7\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj",
         "projectName": "PRN221_GroupProjectBookParty",
-        "projectPath": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\obj\\",
+        "projectPath": "D:\\FPT University\\CN7\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\FPT University\\CN7\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -314,8 +314,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\PartyService.csproj": {
-                "projectPath": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\PartyService.csproj"
+              "D:\\FPT University\\CN7\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\PartyService.csproj": {
+                "projectPath": "D:\\FPT University\\CN7\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\PartyService.csproj"
               }
             }
           }
@@ -324,17 +324,16 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "CloudinaryDotNet": {
+              "target": "Package",
+              "version": "[1.26.2, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[6.0.28, )"
@@ -377,7 +376,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
