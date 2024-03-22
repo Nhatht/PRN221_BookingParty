@@ -1,6 +1,7 @@
 using BO;
 using PartyRepository;
 using PartyService;
+using PartyService.BlogPosts;
 using PartyService.Helpers;
 using PartyService.PhotoUpload;
 
@@ -20,10 +21,13 @@ builder.Services.AddScoped<IFeedBackService, FeedBackService>();
 builder.Services.AddScoped<IPartyRepo, PartyRepo>();
 builder.Services.AddScoped<IPartysService, PartysService>();
 builder.Services.AddScoped<IPhotoService, PhotoService>();
+builder.Services.AddScoped<ICloudinaryService, CloudinaryService>();
+
 builder.Services.Configure<CloudinarySettings>(builder.Configuration.GetSection("CloudinarySettings"));
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddControllers();
 builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
 builder.Services.AddDbContext<BookingPartyContext>();
 
@@ -46,5 +50,5 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapRazorPages();
-
+app.MapControllers();
 app.Run();
