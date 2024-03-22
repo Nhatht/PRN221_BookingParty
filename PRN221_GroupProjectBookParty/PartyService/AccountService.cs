@@ -48,9 +48,5 @@ namespace PartyService
         {
             return _accountRepo.GetAccountById(id);
         }
-        public Account GetAccount(string email, string password)
-        {
-            return _accountRepo.GetAccount(email, password);
-        }
     }
 }

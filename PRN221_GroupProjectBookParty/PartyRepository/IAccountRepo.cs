@@ -16,6 +16,5 @@ namespace PartyRepository
         public Account GetAccountByEmail(string email);
         public List<Account> GetListAccount();
         public Account GetAccountById(int id);
-        Account GetAccount(string email, string password);
     }
 }

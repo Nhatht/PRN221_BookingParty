@@ -1,15 +1,6 @@
-﻿@using Microsoft.AspNetCore.Http
-@using Newtonsoft.Json
-@using PRN221_WebNovel.Models
-@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
-@{
-    var userType = HttpContextAccessor.HttpContext?.Session.GetString("role");
-    var loginUserJson = HttpContextAccessor.HttpContext?.Session.GetString("loginUser");
-    var loginUser = loginUserJson != null && loginUserJson.Trim() != ""
-    ? JsonConvert.DeserializeObject<AccountViewmodel>(loginUserJson) : null;
-    var loginUserName = loginUser != null ? loginUser.UserName : null;
-}
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
+
+
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -76,7 +67,7 @@
                         </a>
                     </li>
 
-
+                        
                     <li class="menu-header small text-uppercase">
                         <span class="menu-header-text">Management</span>
                     </li>
@@ -100,7 +91,7 @@
                         </a>
                     </li>
 
-
+               
 
                     <li class="menu-item">
                         <a href="PackageManagement" class="menu-link">
@@ -146,18 +137,15 @@
                     <div class="navbar-nav-right d-flex align-items-center"
                          id="navbar-collapse">
                         <!-- Search -->
-                        @if (loginUser != null)
-                        {
-                            <div class="navbar-nav align-items-center">
-                                <div class="nav-item d-flex align-items-center">
-                                    <i class="fa-solid fa-seedling"></i>
-                                    <input type="text"
-                                           class="form-control border-0 shadow-none ps-1 ps-sm-3"
-                                           placeholder="Welcome, @loginUserName"
-                                           aria-label="Welcome, @loginUserName" readonly />
-                                </div>
+                        <div class="navbar-nav align-items-center">
+                            <div class="nav-item d-flex align-items-center">
+                                <i class="fa-solid fa-seedling"></i>
+                                <input type="text"
+                                       class="form-control border-0 shadow-none ps-1 ps-sm-3"
+                                       placeholder="Welcome Admin"
+                                       aria-label="Welcome Admin" readonly />
                             </div>
-                        }
+                        </div>
                         <!-- /Search -->
                     </div>
                 </nav>
@@ -191,13 +179,13 @@
             </div>
         </div>
     </div>
-    @* @RenderSectionAsync("Scripts", required: false) *@
+     @* @RenderSectionAsync("Scripts", required: false) *@
 </body>
 <script>
     function logout() {
         var btnToastDelete = document.querySelector('#btn-toast-logout');
         btnToastDelete.addEventListener('click', function () {
-            var deleteUrl = '/Authentication/Logout';
+            var deleteUrl = '#';
             window.location.href = deleteUrl;
             // Nếu bạn muốn ẩn modal sau khi xác nhận, bạn có thể sử dụng đoạn mã sau:
             document.getElementById('modalConfirmLogout').style.display = 'none';

@@ -1,10 +1,9 @@
 ﻿using BO;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Newtonsoft.Json;
 using PartyRepository;
 using PartyService;
-using PRN221_WebNovel.Models;
+using PRN221_GroupProjectBookParty.Models.ViewModels;
 
 namespace PRN221_GroupProjectBookParty.Pages.Authentication
 {
@@ -16,63 +15,25 @@ namespace PRN221_GroupProjectBookParty.Pages.Authentication
         {
             _accountService = accountService;
         }
-        public string ErrorMessage { get; set; }  = "";
-        [BindProperty]
-        public Account Account { get; set; }
         public IActionResult OnGet()
         {
-            if (HttpContext.Session.GetString("loginUser") != null)
-            {
-                return RedirectToPage("/Reader/Index");
-            }
             return Page();
         }
-        
+        [BindProperty]
+        public Account Account { get; set; }
 
         public async Task<IActionResult> OnPostAsync()
         {
-            if(!string.IsNullOrEmpty(Account.Email) && !string.IsNullOrEmpty(Account.Password))
+            Account checkLogin = _accountService.GetAccountByEmail(Account.Email);
+            if (checkLogin != null)
             {
-                var account = _accountService.GetAccount(Account.Email, Account.Password);
-                if (account == null)
+                bool isMatch = PasswordHasher.VerifyPassword(Account.Email, checkLogin.Password);
+                if (isMatch)
                 {
-                    TempData["ErrorMessage"] = "Email or Password is incorrect";
-                    return Page();
+                    if (checkLogin.Role.Equals("Admin")) { return RedirectToPage("/Admin/AdminAccount/Index"); }
+                    else if (checkLogin.Role.Equals("Host")) { return RedirectToPage("/Teacher_page/Index"); }
+                    else if (checkLogin.Role.Equals("Guest")) { return RedirectToPage("/Student_page/Index"); }
                 }
-                else
-                {
-                    var loginUser = new AccountViewmodel
-                    {
-                        Id = account.Id,
-                        UserName = account.UserName,
-                        Role = account.Role
-                    };
-                    var loginUserJson = JsonConvert.SerializeObject(loginUser);
-                    HttpContext.Session.SetString("loginUser", loginUserJson);
-                    var role = account.Role;
-                    if (role == "Admin")
-                    {
-                        return RedirectToPage("/Admin/AdminAccount");
-                    }
-                    else if (role == "Host")
-                    {
-                        return RedirectToPage("/Host/HostParty/PartyManagement");
-                    }
-                    else if (role == "User")
-                    {
-                        return RedirectToPage("/Guest/PartyView");
-                    }
-                    else
-                    {
-                        ErrorMessage = "Invalid email or password";
-                        return Page();
-                    }
-                }
-            }
-            else
-            {
-                TempData["ErrorMessage"] = "Invalid ID or Password";
-                return Page();
             }
             return Page();
         }

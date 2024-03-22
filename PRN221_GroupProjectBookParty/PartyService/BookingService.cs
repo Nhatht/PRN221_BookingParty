@@ -25,6 +25,5 @@ namespace PartyService
         public Booking GetBookingById(int id) => _bookingRepo.GetBookingById(id);
 
         public void UpdateBooking(Booking booking) => _bookingRepo.UpdateBooking(booking);
-        public List<Booking> GetBookingByHostId(int id) => _bookingRepo.GetBookingByHostId(id);
     }
 }

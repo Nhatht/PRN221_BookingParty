@@ -19,6 +19,5 @@ namespace PartyRepository
         public Booking GetBookingById(int id) => BookingDAO.Instance.GetBookingById(id);
 
         public void UpdateBooking(Booking booking) => BookingDAO.Instance.UpdateBooking(booking);
-        public List<Booking> GetBookingByHostId(int id) => BookingDAO.Instance.GetBookingByHostId(id);
     }
 }

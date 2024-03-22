@@ -17,6 +17,5 @@ namespace PartyRepository
         public Account GetAccountByEmail(string email)=> AccountDAO.Instance.GetAccountByEmail(email);
         public List<Account> GetListAccount() => AccountDAO.Instance.GetListAccount();
         public Account GetAccountById(int id) => AccountDAO.Instance.GetAccountById(id);
-        public Account GetAccount(string email, string password) => AccountDAO.Instance.GetAccount(email, password);
     }
 }

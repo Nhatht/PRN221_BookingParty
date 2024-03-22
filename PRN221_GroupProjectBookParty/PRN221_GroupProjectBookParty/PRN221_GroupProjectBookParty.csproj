@@ -7,13 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Pages\User\**" />
-    <Content Remove="Pages\User\**" />
-    <EmbeddedResource Remove="Pages\User\**" />
-    <None Remove="Pages\User\**" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\PartyService\PartyService.csproj" />
   </ItemGroup>
 
@@ -22,6 +15,7 @@
     <Folder Include="Constants\" />
     <Folder Include="Pages\Admin\AdminAccount\" />
     <Folder Include="Pages\Host\HostBooking\" />
+    <Folder Include="Pages\User\" />
   </ItemGroup>
 
   <ItemGroup>
