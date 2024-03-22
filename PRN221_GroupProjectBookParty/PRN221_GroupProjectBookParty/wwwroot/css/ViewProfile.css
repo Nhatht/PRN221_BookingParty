@@ -1,0 +1,21 @@
+﻿:root {
+    --primary: #5F06DD;
+}
+
+.container {
+    background-color: white;
+}
+
+.cta-btn {
+    border: 1px solid var(--primary);
+    border-radius: 8px;
+    padding: 10px 20px;
+    background-color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--primary);
+}
+
+.table thead th tr{
+    font-size: .8rem !important;
+}

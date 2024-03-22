@@ -1,0 +1,115 @@
+﻿@page
+@using PRN221_GroupProjectBookParty.Pages.Authentication
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@model LoginModel
+@{
+    Layout = null;
+    ViewData["Title"] = "Login";
+}
+@* <link rel="stylesheet" href="~/css/Login.css" />
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<body>
+    <div class="wrapper">
+        <form method="post" asp-page="./Login">
+            <h1>Login</h1>
+            <div class="input-box">
+                <input asp-for="Account.Email" type="text" placeholder="Email" required />
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="input-box">
+                <input asp-for="Account.Password" type="password" placeholder="Password" required />
+                <i class='bx bxs-lock-alt'></i>
+            </div>
+            <button type="submit" class="btn">Login</button>
+            <div class="register-link">
+                <p>
+                    Don't have an account?<a href="/authentication/register"> Register</a>
+                </p>
+            </div>
+        </form>
+
+    </div>
+</body> *@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="~/css/Login.css">
+    <title>Booking Party | Admin</title>
+</head>
+
+<body>
+
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form method="post" asp-page="./Register">
+                <h1>Create Account</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>or use your email for registeration</span>
+                <input asp-for="Account.Email" type="email" placeholder="Email" required>
+                <input asp-for="Account.Password" type="password" placeholder="Password" required>
+                <input asp-for="Account.UserName" type="text" placeholder="username" required>
+                <input asp-for="Account.Phone" type="text" placeholder="phone" required>
+                <input asp-for="Account.Gender" type="text" placeholder="Gender" required>
+                <button>Sign Up</button>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form method="post">
+                <h1>Sign In</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>or use your email password</span>
+                <input asp-for="Account.Email" type="email" placeholder="Email">
+                <input asp-for="Account.Password" type="password" placeholder="Password">
+                <a href="#">Forget Your Password?</a>
+                <button>Sign In</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Welcome Back!</h1>
+                    <p>Enter your personal details to use all of site features</p>
+                    <button class="hidden" id="login">Sign In</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Hello, Friend!</h1>
+                    <p>Register with your personal details to use all of site features</p>
+                    <button class="hidden" id="register">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+<script>
+    const container = document.getElementById('container');
+    const registerBtn = document.getElementById('register');
+    const loginBtn = document.getElementById('login');
+
+    registerBtn.addEventListener('click', () => {
+        container.classList.add("active");
+    });
+
+    loginBtn.addEventListener('click', () => {
+        container.classList.remove("active");
+    });
+</script>
+
