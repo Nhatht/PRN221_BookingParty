@@ -60,6 +60,10 @@
                 <input asp-for="Account.UserName" type="text" placeholder="username" required>
                 <input asp-for="Account.Phone" type="text" placeholder="phone" required>
                 <input asp-for="Account.Gender" type="text" placeholder="Gender" required>
+                @if (TempData["ErrorMessage"] != null)
+                {
+                    <span style="color:red">@TempData["ErorrMessage"]</span>
+                }
                 <button>Sign Up</button>
             </form>
         </div>
@@ -75,6 +79,10 @@
                 <span>or use your email password</span>
                 <input asp-for="Account.Email" type="email" placeholder="Email">
                 <input asp-for="Account.Password" type="password" placeholder="Password">
+                @if (TempData["ErrorMessage"] != null)
+                {
+                    <span style="color:red">@TempData["ErorrMessage"]</span>
+                }
                 <a href="#">Forget Your Password?</a>
                 <button>Sign In</button>
             </form>
