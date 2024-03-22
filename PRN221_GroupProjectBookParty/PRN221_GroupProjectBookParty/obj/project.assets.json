@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "CloudinaryDotNet/1.26.0": {
+      "CloudinaryDotNet/1.26.2": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "13.0.3",
@@ -4197,16 +4197,16 @@
     }
   },
   "libraries": {
-    "CloudinaryDotNet/1.26.0": {
-      "sha512": "x4Q1ASzKqM+3MyuVcUb7EeX/sONIztaXb3TZtKvE+p6c559yP5OxXcRPRTY7fGoliwc/IBpW20V3+hCh4sduuw==",
+    "CloudinaryDotNet/1.26.2": {
+      "sha512": "JUDOUKa7T+h0nmMhBdBxCkCldN4/DIZLOlh5p30KrcBX6Spral6vxTWhzk6OH2pGd8MGL5R379EsK7tJr/IQpw==",
       "type": "package",
-      "path": "cloudinarydotnet/1.26.0",
+      "path": "cloudinarydotnet/1.26.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "CloudinaryIcon.png",
         "README.md",
-        "cloudinarydotnet.1.26.0.nupkg.sha512",
+        "cloudinarydotnet.1.26.2.nupkg.sha512",
         "cloudinarydotnet.nuspec",
         "lib/net452/CloudinaryDotNet.dll",
         "lib/net452/CloudinaryDotNet.xml",
@@ -11525,6 +11525,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "CloudinaryDotNet >= 1.26.2",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.28",
       "Microsoft.EntityFrameworkCore.Sqlite >= 6.0.28",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.28",
@@ -11534,19 +11535,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ASUS\\.nuget\\packages\\": {}
+    "C:\\Users\\ADMIN\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj",
+      "projectUniqueName": "F:\\Code\\C#\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj",
       "projectName": "PRN221_GroupProjectBookParty",
-      "projectPath": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj",
-      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\obj\\",
+      "projectPath": "F:\\Code\\C#\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj",
+      "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+      "outputPath": "F:\\Code\\C#\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11560,8 +11566,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\PartyService.csproj": {
-              "projectPath": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\PartyService.csproj"
+            "F:\\Code\\C#\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\PartyService.csproj": {
+              "projectPath": "F:\\Code\\C#\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\PartyService.csproj"
             }
           }
         }
@@ -11570,17 +11576,16 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "CloudinaryDotNet": {
+            "target": "Package",
+            "version": "[1.26.2, )"
+          },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[6.0.28, )"
@@ -11615,6 +11620,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.28, 6.0.28]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[6.0.28, 6.0.28]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.28, 6.0.28]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.28, 6.0.28]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -11623,7 +11646,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.407\\RuntimeIdentifierGraph.json"
       }
     }
   }

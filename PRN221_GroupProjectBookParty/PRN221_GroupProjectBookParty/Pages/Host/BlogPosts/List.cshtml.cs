@@ -1,7 +1,7 @@
 using BO;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using PartyService;
+using PartyService.BlogPosts;
 using PartyService.ViewModel;
 using System.Text.Json;
 

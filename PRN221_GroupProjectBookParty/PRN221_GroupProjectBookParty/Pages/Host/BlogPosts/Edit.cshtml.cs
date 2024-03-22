@@ -3,8 +3,8 @@ using BO;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using PartyService.ViewModel;
-using PartyService;
 using System.Text.Json;
+using PartyService.BlogPosts;
 
 namespace PRN221_GroupProjectBookParty.Pages.Host.BlogPosts
 {
@@ -13,6 +13,8 @@ namespace PRN221_GroupProjectBookParty.Pages.Host.BlogPosts
         private readonly IBlogPostService blogService;
         [BindProperty]
         public BlogPost BlogPost { get; set; }
+        [BindProperty]
+        public IFormFile FeaturedImage { get; set; }
         [BindProperty]
         public string Tags { get; set; }
         public EditModel(IBlogPostService blog) => blogService = blog;
