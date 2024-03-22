@@ -1,3 +1,4 @@
+using BO;
 using PartyRepository;
 using PartyService;
 using PartyService.Helpers;
@@ -24,6 +25,8 @@ builder.Services.Configure<CloudinarySettings>(builder.Configuration.GetSection(
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
+builder.Services.AddDbContext<BookingPartyContext>();
+
 
 var app = builder.Build();
 
