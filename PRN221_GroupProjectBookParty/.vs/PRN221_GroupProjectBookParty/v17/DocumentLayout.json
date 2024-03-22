@@ -1,7 +1,236 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\How\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|d:\\prn221\\asmproject\\prn221_bookingparty\\prn221_groupprojectbookparty\\prn221_groupprojectbookparty\\pages\\viewprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\pages\\viewprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|d:\\prn221\\asmproject\\prn221_bookingparty\\prn221_groupprojectbookparty\\prn221_groupprojectbookparty\\pages\\viewprofile.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\pages\\viewprofile.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\prn221_groupprojectbookparty\\pages\\guest\\partyview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\pages\\guest\\partyview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\prn221_groupprojectbookparty\\pages\\layout\\_layoutuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\pages\\layout\\_layoutuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\prn221_groupprojectbookparty\\pages\\layout\\_layouthost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\pages\\layout\\_layouthost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|d:\\prn221\\asmproject\\prn221_bookingparty\\prn221_groupprojectbookparty\\prn221_groupprojectbookparty\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\prn221_groupprojectbookparty\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A53DF3AD-3A0C-4595-B5F0-A317E6DFF852}|BO\\BO.csproj|D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\bo\\bookingpartycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A53DF3AD-3A0C-4595-B5F0-A317E6DFF852}|BO\\BO.csproj|solutionrelative:bo\\bookingpartycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|d:\\prn221\\asmproject\\prn221_bookingparty\\prn221_groupprojectbookparty\\prn221_groupprojectbookparty\\prn221_groupprojectbookparty.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\prn221_groupprojectbookparty.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\prn221_groupprojectbookparty\\pages\\authentication\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\pages\\authentication\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\prn221_groupprojectbookparty\\pages\\authentication\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\pages\\authentication\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|d:\\prn221\\asmproject\\prn221_bookingparty\\prn221_groupprojectbookparty\\prn221_groupprojectbookparty\\pages\\authentication\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\pages\\authentication\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\prn221_groupprojectbookparty\\pages\\authentication\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\pages\\authentication\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\prn221_groupprojectbookparty\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\prn221_groupprojectbookparty\\pages\\admin\\adminaccount\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\pages\\admin\\adminaccount\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\prn221_groupprojectbookparty\\pages\\admin\\adminbooking\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\pages\\admin\\adminbooking\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\prn221_groupprojectbookparty\\pages\\admin\\adminaccount\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\pages\\admin\\adminaccount\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\prn221_groupprojectbookparty\\pages\\admin\\adminaccount\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\pages\\admin\\adminaccount\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\prn221_groupprojectbookparty\\pages\\host\\hostparty\\partymanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\pages\\host\\hostparty\\partymanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\prn221_groupprojectbookparty\\pages\\host\\hostparty\\createparty.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\pages\\host\\hostparty\\createparty.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\prn221_groupprojectbookparty\\pages\\shared\\_notification.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\pages\\shared\\_notification.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C390766-6EEC-4EF9-BF9E-F8557ACF2D0C}|PartyService\\PartyService.csproj|D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\partyservice\\viewmodel\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C390766-6EEC-4EF9-BF9E-F8557ACF2D0C}|PartyService\\PartyService.csproj|solutionrelative:partyservice\\viewmodel\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A53DF3AD-3A0C-4595-B5F0-A317E6DFF852}|BO\\BO.csproj|D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\bo\\enums\\notificationtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A53DF3AD-3A0C-4595-B5F0-A317E6DFF852}|BO\\BO.csproj|solutionrelative:bo\\enums\\notificationtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C390766-6EEC-4EF9-BF9E-F8557ACF2D0C}|PartyService\\PartyService.csproj|D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\partyservice\\blogpostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C390766-6EEC-4EF9-BF9E-F8557ACF2D0C}|PartyService\\PartyService.csproj|solutionrelative:partyservice\\blogpostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C390766-6EEC-4EF9-BF9E-F8557ACF2D0C}|PartyService\\PartyService.csproj|D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\partyservice\\iblogpostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C390766-6EEC-4EF9-BF9E-F8557ACF2D0C}|PartyService\\PartyService.csproj|solutionrelative:partyservice\\iblogpostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C390766-6EEC-4EF9-BF9E-F8557ACF2D0C}|PartyService\\PartyService.csproj|D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\partyservice\\ipartysservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C390766-6EEC-4EF9-BF9E-F8557ACF2D0C}|PartyService\\PartyService.csproj|solutionrelative:partyservice\\ipartysservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EB12299-F44B-4DDB-BCF6-709D47122F44}|PartyRepository\\PartyRepository.csproj|D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\partyrepository\\blogpostrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EB12299-F44B-4DDB-BCF6-709D47122F44}|PartyRepository\\PartyRepository.csproj|solutionrelative:partyrepository\\blogpostrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EB12299-F44B-4DDB-BCF6-709D47122F44}|PartyRepository\\PartyRepository.csproj|D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\partyrepository\\iblogpostrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EB12299-F44B-4DDB-BCF6-709D47122F44}|PartyRepository\\PartyRepository.csproj|solutionrelative:partyrepository\\iblogpostrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D555FB69-42E5-4BAC-8301-C2FCEFA20171}|DAO\\DAO.csproj|D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\dao\\blogpostdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D555FB69-42E5-4BAC-8301-C2FCEFA20171}|DAO\\DAO.csproj|solutionrelative:dao\\blogpostdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D555FB69-42E5-4BAC-8301-C2FCEFA20171}|DAO\\DAO.csproj|D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\dao\\accountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D555FB69-42E5-4BAC-8301-C2FCEFA20171}|DAO\\DAO.csproj|solutionrelative:dao\\accountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A53DF3AD-3A0C-4595-B5F0-A317E6DFF852}|BO\\BO.csproj|D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\bo\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A53DF3AD-3A0C-4595-B5F0-A317E6DFF852}|BO\\BO.csproj|solutionrelative:bo\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A53DF3AD-3A0C-4595-B5F0-A317E6DFF852}|BO\\BO.csproj|D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\bo\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A53DF3AD-3A0C-4595-B5F0-A317E6DFF852}|BO\\BO.csproj|solutionrelative:bo\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A53DF3AD-3A0C-4595-B5F0-A317E6DFF852}|BO\\BO.csproj|D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\bo\\party.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A53DF3AD-3A0C-4595-B5F0-A317E6DFF852}|BO\\BO.csproj|solutionrelative:bo\\party.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A53DF3AD-3A0C-4595-B5F0-A317E6DFF852}|BO\\BO.csproj|D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\bo\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A53DF3AD-3A0C-4595-B5F0-A317E6DFF852}|BO\\BO.csproj|solutionrelative:bo\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C390766-6EEC-4EF9-BF9E-F8557ACF2D0C}|PartyService\\PartyService.csproj|D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\partyservice\\photoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C390766-6EEC-4EF9-BF9E-F8557ACF2D0C}|PartyService\\PartyService.csproj|solutionrelative:partyservice\\photoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\prn221_groupprojectbookparty\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\prn221_groupprojectbookparty\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C390766-6EEC-4EF9-BF9E-F8557ACF2D0C}|PartyService\\PartyService.csproj|D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\partyservice\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C390766-6EEC-4EF9-BF9E-F8557ACF2D0C}|PartyService\\PartyService.csproj|solutionrelative:partyservice\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A53DF3AD-3A0C-4595-B5F0-A317E6DFF852}|BO\\BO.csproj|D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\bo\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A53DF3AD-3A0C-4595-B5F0-A317E6DFF852}|BO\\BO.csproj|solutionrelative:bo\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\prn221_groupprojectbookparty\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\prn221_groupprojectbookparty\\pages\\admin\\adminaccount\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\pages\\admin\\adminaccount\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\prn221_groupprojectbookparty\\pages\\host\\hostparty\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\pages\\host\\hostparty\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\prn221_groupprojectbookparty\\prn221_groupprojectbookparty.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\prn221_groupprojectbookparty.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\prn221_groupprojectbookparty\\pages\\guest\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\pages\\guest\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\prn221_groupprojectbookparty\\pages\\host\\hostparty\\updateparty.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\pages\\host\\hostparty\\updateparty.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\prn221_groupprojectbookparty\\wwwroot\\css\\contact.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\wwwroot\\css\\contact.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\prn221_groupprojectbookparty\\pages\\host\\hostparty\\updateparty.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\pages\\host\\hostparty\\updateparty.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D555FB69-42E5-4BAC-8301-C2FCEFA20171}|DAO\\DAO.csproj|D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\dao\\feedbackdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D555FB69-42E5-4BAC-8301-C2FCEFA20171}|DAO\\DAO.csproj|solutionrelative:dao\\feedbackdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C390766-6EEC-4EF9-BF9E-F8557ACF2D0C}|PartyService\\PartyService.csproj|D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\partyservice\\viewmodel\\editpartyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C390766-6EEC-4EF9-BF9E-F8557ACF2D0C}|PartyService\\PartyService.csproj|solutionrelative:partyservice\\viewmodel\\editpartyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D555FB69-42E5-4BAC-8301-C2FCEFA20171}|DAO\\DAO.csproj|D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\dao\\partydao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D555FB69-42E5-4BAC-8301-C2FCEFA20171}|DAO\\DAO.csproj|solutionrelative:dao\\partydao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\prn221_groupprojectbookparty\\pages\\host\\hostparty\\createparty.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\pages\\host\\hostparty\\createparty.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\prn221_groupprojectbookparty\\pages\\host\\hostparty\\partymanagement.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\pages\\host\\hostparty\\partymanagement.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\prn221_groupprojectbookparty\\wwwroot\\js\\partymanagement.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\wwwroot\\js\\partymanagement.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\prn221_groupprojectbookparty\\pages\\host\\hostparty\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\pages\\host\\hostparty\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C390766-6EEC-4EF9-BF9E-F8557ACF2D0C}|PartyService\\PartyService.csproj|D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\partyservice\\partysservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C390766-6EEC-4EF9-BF9E-F8557ACF2D0C}|PartyService\\PartyService.csproj|solutionrelative:partyservice\\partysservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EB12299-F44B-4DDB-BCF6-709D47122F44}|PartyRepository\\PartyRepository.csproj|D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\partyrepository\\partyrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EB12299-F44B-4DDB-BCF6-709D47122F44}|PartyRepository\\PartyRepository.csproj|solutionrelative:partyrepository\\partyrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EB12299-F44B-4DDB-BCF6-709D47122F44}|PartyRepository\\PartyRepository.csproj|D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\partyrepository\\ipartyrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EB12299-F44B-4DDB-BCF6-709D47122F44}|PartyRepository\\PartyRepository.csproj|solutionrelative:partyrepository\\ipartyrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,15 +238,1051 @@
       "DocumentGroups": [
         {
           "DockedWidth": 565,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 87,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:144:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:147:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{873151d0-cf2e-48cc-b4bf-ad0394f6a3c3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1377497384:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:15:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:16:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:17:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:10:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:9:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:8:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:7:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:16:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:17:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{588470cc-84f8-4a57-9ac4-86bca0625ff4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1928210406:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:350743133:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:27:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:23:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:29:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:19:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:33:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:38:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:40:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:41:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:42:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:43:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:44:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:9:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ViewProfile.cshtml",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\ViewProfile.cshtml",
+              "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\ViewProfile.cshtml",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\ViewProfile.cshtml*",
+              "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\ViewProfile.cshtml*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-22T01:02:07.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Authentication\\Register.cshtml",
+              "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Authentication\\Register.cshtml",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Authentication\\Register.cshtml",
+              "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Authentication\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-22T00:50:00.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Admin\\AdminAccount\\Index.cshtml",
+              "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Admin\\AdminAccount\\Index.cshtml",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Admin\\AdminAccount\\Index.cshtml",
+              "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Admin\\AdminAccount\\Index.cshtml",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAAAGwAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-22T00:50:00.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "NotificationType.cs",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\BO\\Enums\\NotificationType.cs",
+              "RelativeDocumentMoniker": "BO\\Enums\\NotificationType.cs",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\BO\\Enums\\NotificationType.cs",
+              "RelativeToolTip": "BO\\Enums\\NotificationType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T00:50:00.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_LayoutHost.cshtml",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Layout\\_LayoutHost.cshtml",
+              "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Layout\\_LayoutHost.cshtml",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Layout\\_LayoutHost.cshtml",
+              "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Layout\\_LayoutHost.cshtml",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAAAEsAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-22T00:50:00.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BookingPartyContext.cs",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\BO\\BookingPartyContext.cs",
+              "RelativeDocumentMoniker": "BO\\BookingPartyContext.cs",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\BO\\BookingPartyContext.cs",
+              "RelativeToolTip": "BO\\BookingPartyContext.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA1wAgAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T00:50:00.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\appsettings.json",
+              "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\appsettings.json",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\appsettings.json",
+              "RelativeToolTip": "PRN221_GroupProjectBookParty\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-22T00:50:00.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_LayoutUser.cshtml",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Layout\\_LayoutUser.cshtml",
+              "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Layout\\_LayoutUser.cshtml",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Layout\\_LayoutUser.cshtml",
+              "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Layout\\_LayoutUser.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAB8AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-22T00:50:00.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PartyView.cshtml",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Guest\\PartyView.cshtml",
+              "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Guest\\PartyView.cshtml",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Guest\\PartyView.cshtml",
+              "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Guest\\PartyView.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-22T00:50:00.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ViewProfile.cshtml.cs",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\ViewProfile.cshtml.cs",
+              "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\ViewProfile.cshtml.cs",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\ViewProfile.cshtml.cs",
+              "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\ViewProfile.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T01:02:24.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PRN221_GroupProjectBookParty",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj",
+              "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj",
+              "RelativeToolTip": "PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-22T01:02:05.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Program.cs",
+              "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Program.cs",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Program.cs",
+              "RelativeToolTip": "PRN221_GroupProjectBookParty\\Program.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAwwDEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T01:02:38.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Authentication\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Authentication\\Register.cshtml.cs",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Authentication\\Register.cshtml.cs",
+              "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Authentication\\Register.cshtml.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T00:49:59.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Authentication\\Login.cshtml",
+              "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Authentication\\Login.cshtml",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Authentication\\Login.cshtml",
+              "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Authentication\\Login.cshtml",
+              "ViewState": "AQIAACUAAAAAAAAAAAAAADEAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-22T00:50:00.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Authentication\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Authentication\\Login.cshtml.cs",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Authentication\\Login.cshtml.cs",
+              "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Authentication\\Login.cshtml.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T00:50:00.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Login.css",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\css\\Login.css",
+              "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\wwwroot\\css\\Login.css",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\css\\Login.css",
+              "RelativeToolTip": "PRN221_GroupProjectBookParty\\wwwroot\\css\\Login.css",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAIwNMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-22T00:50:00.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Admin\\AdminAccount\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Admin\\AdminAccount\\Index.cshtml.cs",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Admin\\AdminAccount\\Index.cshtml.cs",
+              "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Admin\\AdminAccount\\Index.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T00:50:00.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Admin\\AdminBooking\\Index.cshtml",
+              "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Admin\\AdminBooking\\Index.cshtml",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Admin\\AdminBooking\\Index.cshtml",
+              "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Admin\\AdminBooking\\Index.cshtml",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAAUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-22T00:50:00.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Admin\\AdminAccount\\Delete.cshtml",
+              "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Admin\\AdminAccount\\Delete.cshtml",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Admin\\AdminAccount\\Delete.cshtml",
+              "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Admin\\AdminAccount\\Delete.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAC0AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-22T00:50:00.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PartyManagement.cshtml",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\PartyManagement.cshtml",
+              "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\PartyManagement.cshtml",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\PartyManagement.cshtml",
+              "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\PartyManagement.cshtml",
+              "ViewState": "AQIAABcAAAAAAAAAAAAcwLIAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-22T00:50:00.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CreateParty.cshtml",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\CreateParty.cshtml",
+              "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\CreateParty.cshtml",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\CreateParty.cshtml",
+              "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\CreateParty.cshtml",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-22T00:50:00.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "BlogPostService.cs",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\BlogPostService.cs",
+              "RelativeDocumentMoniker": "PartyService\\BlogPostService.cs",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\BlogPostService.cs",
+              "RelativeToolTip": "PartyService\\BlogPostService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T00:50:00.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_Notification.cshtml",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Shared\\_Notification.cshtml",
+              "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Shared\\_Notification.cshtml",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Shared\\_Notification.cshtml",
+              "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Shared\\_Notification.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-22T00:50:00.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\ViewModel\\Notification.cs",
+              "RelativeDocumentMoniker": "PartyService\\ViewModel\\Notification.cs",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\ViewModel\\Notification.cs",
+              "RelativeToolTip": "PartyService\\ViewModel\\Notification.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T00:50:00.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IBlogPostService.cs",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\IBlogPostService.cs",
+              "RelativeDocumentMoniker": "PartyService\\IBlogPostService.cs",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\IBlogPostService.cs",
+              "RelativeToolTip": "PartyService\\IBlogPostService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T00:50:00.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "BlogPostRepo.cs",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyRepository\\BlogPostRepo.cs",
+              "RelativeDocumentMoniker": "PartyRepository\\BlogPostRepo.cs",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyRepository\\BlogPostRepo.cs",
+              "RelativeToolTip": "PartyRepository\\BlogPostRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T00:50:00.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IBlogPostRepo.cs",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyRepository\\IBlogPostRepo.cs",
+              "RelativeDocumentMoniker": "PartyRepository\\IBlogPostRepo.cs",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyRepository\\IBlogPostRepo.cs",
+              "RelativeToolTip": "PartyRepository\\IBlogPostRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T00:50:00.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "BlogPostDAO.cs",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\DAO\\BlogPostDAO.cs",
+              "RelativeDocumentMoniker": "DAO\\BlogPostDAO.cs",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\DAO\\BlogPostDAO.cs",
+              "RelativeToolTip": "DAO\\BlogPostDAO.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAuwHEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T00:50:00.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AccountDAO.cs",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\DAO\\AccountDAO.cs",
+              "RelativeDocumentMoniker": "DAO\\AccountDAO.cs",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\DAO\\AccountDAO.cs",
+              "RelativeToolTip": "DAO\\AccountDAO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T00:50:00.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "PhotoService.cs",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\PhotoService.cs",
+              "RelativeDocumentMoniker": "PartyService\\PhotoService.cs",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\PhotoService.cs",
+              "RelativeToolTip": "PartyService\\PhotoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T00:50:00.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IPartysService.cs",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\IPartysService.cs",
+              "RelativeDocumentMoniker": "PartyService\\IPartysService.cs",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\IPartysService.cs",
+              "RelativeToolTip": "PartyService\\IPartysService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T00:50:00.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-22T00:50:00.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "FeedBack.cs",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\BO\\FeedBack.cs",
+              "RelativeDocumentMoniker": "BO\\FeedBack.cs",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\BO\\FeedBack.cs",
+              "RelativeToolTip": "BO\\FeedBack.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T00:50:00.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Party.cs",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\BO\\Party.cs",
+              "RelativeDocumentMoniker": "BO\\Party.cs",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\BO\\Party.cs",
+              "RelativeToolTip": "BO\\Party.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T00:50:00.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\BO\\Booking.cs",
+              "RelativeDocumentMoniker": "BO\\Booking.cs",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\BO\\Booking.cs",
+              "RelativeToolTip": "BO\\Booking.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T00:50:00.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "BlogPost.cs",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\BO\\BlogPost.cs",
+              "RelativeDocumentMoniker": "BO\\BlogPost.cs",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\BO\\BlogPost.cs",
+              "RelativeToolTip": "BO\\BlogPost.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T00:50:00.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\AccountService.cs",
+              "RelativeDocumentMoniker": "PartyService\\AccountService.cs",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\AccountService.cs",
+              "RelativeToolTip": "PartyService\\AccountService.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T00:50:00.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Index.cshtml",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Index.cshtml",
+              "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-22T00:50:00.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\Delete.cshtml",
+              "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\Delete.cshtml",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\Delete.cshtml",
+              "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-22T00:50:00.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Privacy.cshtml",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Privacy.cshtml",
+              "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-22T00:50:00.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Account.cs",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\BO\\Account.cs",
+              "RelativeDocumentMoniker": "BO\\Account.cs",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\BO\\Account.cs",
+              "RelativeToolTip": "BO\\Account.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T00:50:00.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "FeedBackDAO.cs",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\DAO\\FeedBackDAO.cs",
+              "RelativeDocumentMoniker": "DAO\\FeedBackDAO.cs",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\DAO\\FeedBackDAO.cs",
+              "RelativeToolTip": "DAO\\FeedBackDAO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T00:50:00.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Guest\\Contact.cshtml",
+              "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Guest\\Contact.cshtml",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Guest\\Contact.cshtml",
+              "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Guest\\Contact.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABrAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-22T00:50:00.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Admin\\AdminAccount\\Edit.cshtml",
+              "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Admin\\AdminAccount\\Edit.cshtml",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Admin\\AdminAccount\\Edit.cshtml",
+              "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Admin\\AdminAccount\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-22T00:50:00.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "PRN221_GroupProjectBookParty",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj",
+              "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj",
+              "RelativeToolTip": "PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-22T00:50:00.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "UpdateParty.cshtml",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\UpdateParty.cshtml",
+              "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\UpdateParty.cshtml",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\UpdateParty.cshtml",
+              "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\UpdateParty.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAADYAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-22T00:50:00.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Contact.css",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\css\\Contact.css",
+              "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\wwwroot\\css\\Contact.css",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\css\\Contact.css",
+              "RelativeToolTip": "PRN221_GroupProjectBookParty\\wwwroot\\css\\Contact.css",
+              "ViewState": "AQIAADwAAAAAAAAAAAAYwFUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-22T00:50:00.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "UpdateParty.cshtml.cs",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\UpdateParty.cshtml.cs",
+              "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\UpdateParty.cshtml.cs",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\UpdateParty.cshtml.cs",
+              "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\UpdateParty.cshtml.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAwwDEAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T00:50:00.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "PartyDAO.cs",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\DAO\\PartyDAO.cs",
+              "RelativeDocumentMoniker": "DAO\\PartyDAO.cs",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\DAO\\PartyDAO.cs",
+              "RelativeToolTip": "DAO\\PartyDAO.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAwFIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T00:50:00.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "PartyManagement.cshtml.cs",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\PartyManagement.cshtml.cs",
+              "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\PartyManagement.cshtml.cs",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\PartyManagement.cshtml.cs",
+              "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\PartyManagement.cshtml.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T00:50:00.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "EditPartyViewModel.cs",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\ViewModel\\EditPartyViewModel.cs",
+              "RelativeDocumentMoniker": "PartyService\\ViewModel\\EditPartyViewModel.cs",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\ViewModel\\EditPartyViewModel.cs",
+              "RelativeToolTip": "PartyService\\ViewModel\\EditPartyViewModel.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T00:50:00.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "CreateParty.cshtml.cs",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\CreateParty.cshtml.cs",
+              "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\CreateParty.cshtml.cs",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\CreateParty.cshtml.cs",
+              "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\CreateParty.cshtml.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAAAB0AAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T00:50:00.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "PartyManagement.js",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\js\\PartyManagement.js",
+              "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\wwwroot\\js\\PartyManagement.js",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\js\\PartyManagement.js",
+              "RelativeToolTip": "PRN221_GroupProjectBookParty\\wwwroot\\js\\PartyManagement.js",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAkwCoAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-03-22T00:50:00.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "PartyRepo.cs",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyRepository\\PartyRepo.cs",
+              "RelativeDocumentMoniker": "PartyRepository\\PartyRepo.cs",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyRepository\\PartyRepo.cs",
+              "RelativeToolTip": "PartyRepository\\PartyRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T00:50:00.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "IPartyRepo.cs",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyRepository\\IPartyRepo.cs",
+              "RelativeDocumentMoniker": "PartyRepository\\IPartyRepo.cs",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyRepository\\IPartyRepo.cs",
+              "RelativeToolTip": "PartyRepository\\IPartyRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T00:50:00.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\Delete.cshtml.cs",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\Delete.cshtml.cs",
+              "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\Delete.cshtml.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAgwDQAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T00:50:00.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "PartysService.cs",
+              "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\PartysService.cs",
+              "RelativeDocumentMoniker": "PartyService\\PartysService.cs",
+              "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\PartysService.cs",
+              "RelativeToolTip": "PartyService\\PartysService.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAuwCsAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T00:50:00.101Z"
             }
           ]
         },
@@ -25,6 +1290,54 @@
           "DockedWidth": 239,
           "SelectedChildIndex": -1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:26:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:31:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:32:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:35:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:36:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:39:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:24:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:28:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:22:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
@@ -37,11 +1350,7 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:4:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:2:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
             }
           ]
         }
