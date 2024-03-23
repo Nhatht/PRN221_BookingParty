@@ -2,8 +2,11 @@ using BO;
 using BO.enums;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.Extensions.Hosting;
+using Newtonsoft.Json;
 using PartyService;
 using PartyService.ViewModel;
+using PRN221_WebNovel.Models;
 
 namespace PRN221_GroupProjectBookParty.Pages.Host.HostBooking
 {
@@ -12,13 +15,23 @@ namespace PRN221_GroupProjectBookParty.Pages.Host.HostBooking
         [BindProperty]
         public List<Booking> Booking { get; set; }
         private readonly IBookingService bookingService;
+        public int HostId { get; set; }
         public ListModel(IBookingService _bookingService)
         {
             bookingService = _bookingService;
         }
         public void OnGet()
         {
-            Booking = bookingService.GetBookingByHostId(2);
+            if (HttpContext.Session.GetString("loginUser") != null)
+            {
+                var loginUser = JsonConvert.DeserializeObject<AccountViewmodel>(HttpContext.Session.GetString("loginUser"));
+                HostId = loginUser.Id;
+                Booking = bookingService.GetBookingByHostId(HostId);
+            }
+            else
+            {
+                RedirectToPage("/Authentication/Login");
+            }
         }
         public async Task<IActionResult> OnPostConfirm(int id)
         {

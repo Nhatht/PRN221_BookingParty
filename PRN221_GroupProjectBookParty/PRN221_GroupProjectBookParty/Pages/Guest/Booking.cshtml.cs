@@ -2,9 +2,12 @@ using BO;
 using BO.enums;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.Extensions.Hosting;
+using Newtonsoft.Json;
 using PartyService;
 using PartyService.ViewModel;
-using System.Text.Json;
+using PRN221_WebNovel.Models;
+
 
 namespace PRN221_GroupProjectBookParty.Pages.Guest
 {
@@ -16,14 +19,26 @@ namespace PRN221_GroupProjectBookParty.Pages.Guest
         public AddBookingModel AddBooking { get; set; }
         private readonly IPartysService partysService;
         private readonly IBookingService bookingService;
+        public int HostId { get; set; }
         public BookingModel(IPartysService _partyService, IBookingService _bookingService)
         {
             partysService = _partyService;
             bookingService = _bookingService;
         }
-        public async Task OnGet(int id)
+        public async Task <IActionResult> OnGet(int id)
         {
-            Party = await partysService.GetPartyById(id);
+            if (HttpContext.Session.GetString("loginUser") != null)
+            {
+                var loginUser = JsonConvert.DeserializeObject<AccountViewmodel>(HttpContext.Session.GetString("loginUser"));
+                HostId = loginUser.Id;
+                Party = await partysService.GetPartyById(id);
+                return Page();
+            }
+            else
+            {
+               return RedirectToPage("/Authentication/Login");
+            }
+            
             
         }
         public async Task<IActionResult> OnPost()
@@ -45,7 +60,7 @@ namespace PRN221_GroupProjectBookParty.Pages.Guest
                 Type = NotificationType.Success,
                 Message = "Booking Successfully ! Please Wait For Host Accept"
             };
-            TempData["Notification"] = JsonSerializer.Serialize(noti);
+            TempData["Notification"] = JsonConvert.SerializeObject(noti);
             return RedirectToPage("./PartyView");
         }
     }
