@@ -82,29 +82,36 @@
                 <div class="table-responsive" style="margin-top: 15px;">
                     <table class="table table-bordered table-striped">
                         <thead>
-                        <tr>
-                            <th style="font-size: .8rem">Booking ID</th>
-                            <th style="font-size: .8rem">Party ID</th>
-                            <th style="font-size: .8rem">Total Price</th>
-                            <th style="font-size: .8rem">Number of People</th>
-                            <th style="font-size: .8rem">Inquiry</th>
-                            <th style="font-size: .8rem">Start Date</th>
-                            <th style="font-size: .8rem">Status</th>
-                        </tr>
+                            <tr>
+                                <th style="font-size: .8rem">Booking ID</th>
+                                <th style="font-size: .8rem">Party ID</th>
+                                <th style="font-size: .8rem">Total Price</th>
+                                <th style="font-size: .8rem">Number of People</th>
+                                <th style="font-size: .8rem">Inquiry</th>
+                                <th style="font-size: .8rem">Start Date</th>
+                                <th style="font-size: .8rem">Status</th>
+                                <th style="font-size: .8rem"></th>
+                            </tr>
                         </thead>
                         <tbody>
-                        @foreach (var booking in Model.Bookings)
-                        {
-                            <tr>
-                                <td style="font-size: .8rem">@booking.Id</td>
-                                <td style="font-size: .8rem">@booking.PartyId</td>
-                                <td style="font-size: .8rem">@booking.TotalPrice</td>
-                                <td style="font-size: .8rem">@booking.NumberOfPeople</td>
-                                <td style="font-size: .8rem">@booking.Inquiry</td>
-                                <td style="font-size: .8rem">@booking.StartDate.ToShortDateString()</td>
-                                <td style="font-size: .8rem">@(booking.Status ? "Active" : "Inactive")</td>
-                            </tr>
-                        }
+                            @foreach (var booking in Model.Bookings)
+                            {
+                                <tr>
+                                    <td style="font-size: .8rem">@booking.Id</td>
+                                    <td style="font-size: .8rem">@booking.PartyId</td>
+                                    <td style="font-size: .8rem">@booking.TotalPrice</td>
+                                    <td style="font-size: .8rem">@booking.NumberOfPeople</td>
+                                    <td style="font-size: .8rem">@booking.Inquiry</td>
+                                    <td style="font-size: .8rem">@booking.StartDate.ToShortDateString()</td>
+                                    <td style="font-size: .8rem">@(booking.Status ? "Active" : "Inactive")</td>
+                                    @if (booking.Status == true)
+                                    {
+                                        <td style="font-size: .8rem">
+                                            <button>Pay</button>
+                                        </td>
+                                    }
+                                </tr>
+                            }
                         </tbody>
                     </table>
                 </div>
@@ -163,6 +170,6 @@
 
 <script>
     document.getElementById('changePasswordForm').addEventListener('submit', function (event) {
-       
+
     });
 </script>
