@@ -71,5 +71,15 @@ namespace DAO
                 dbContext.SaveChanges();
             }
         }
+        public List<Booking> GetBookingByHostId(int id)
+        {
+            var party = dbContext.Parties.Where(x => x.HostId == id).ToList();
+            List<Booking> bookings = new List<Booking>();
+            foreach (var item in party)
+            {
+                bookings.AddRange(dbContext.Bookings.Where(x => x.PartyId == item.Id).ToList());
+            }
+            return bookings;
+        }
     }
 }
