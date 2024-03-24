@@ -94,6 +94,10 @@ namespace BO
 
                 entity.Property(e => e.StartDate).HasColumnType("datetime");
 
+                entity.Property(e => e.Status)
+                    .HasMaxLength(200)
+                    .HasDefaultValueSql("('Not Approved')");
+
                 entity.Property(e => e.TotalPrice).HasColumnType("decimal(8, 2)");
 
                 entity.HasOne(d => d.Guest)
