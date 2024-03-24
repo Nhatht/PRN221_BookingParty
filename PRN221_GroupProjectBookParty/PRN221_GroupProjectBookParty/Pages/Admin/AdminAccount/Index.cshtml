@@ -16,70 +16,74 @@
                     <!-- Button trigger modal -->
 
                 </h5>
-                <div class="table-responsive text-nowrap">
-                    <table id="myTable" class="table">
-                        <thead>
-                            <tr>
-                                <th>
-                                    @Html.DisplayNameFor(model => model.Account[0].Email)
-                                </th>
-                                <th>
-                                    @Html.DisplayNameFor(model => model.Account[0].UserName)
-                                </th>
-                                <th>
-                                    @Html.DisplayNameFor(model => model.Account[0].Phone)
-                                </th>
-                                <th>
-                                    @Html.DisplayNameFor(model => model.Account[0].Gender)
-                                </th>
-                                <th>
-                                    @Html.DisplayNameFor(model => model.Account[0].Role)
-                                </th>
-                                <th>
-                                    @Html.DisplayNameFor(model => model.Account[0].Status)
-                                </th>
-                                <th></th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            @foreach (var item in Model.Account)
-                            {
-
+                <form method="post">
+                    <div class="table-responsive text-nowrap">
+                        <table id="myTable" class="table">
+                            <thead>
                                 <tr>
-                                    <td>
-                                        @Html.DisplayFor(modelItem => item.Email)
-                                    </td>
-                                    <td>
-                                        @Html.DisplayFor(modelItem => item.UserName)
-                                    </td>
-                                    <td>
-                                        @Html.DisplayFor(modelItem => item.Phone)
-                                    </td>
-                                    <td>
-                                        @Html.DisplayFor(modelItem => item.Gender)
-                                    </td>
-                                    <td>
-                                        @Html.DisplayFor(modelItem => item.Role)
-                                    </td>
-                                    <td>
-
-                                        @if (item.Status == false)
-                                        {
-                                            <span style="color: red; font-weight: bold">Bị ban</span>
-                                        }
-                                        else if (item.Status == true)
-                                        {
-                                            <span style="color: green; font-weight: bold">Hoạt động</span>
-                                        }
-                                    </td>
-                                    <td>
-                                        @*                         <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
-                                    <a asp-page="./Details" asp-route-id="@item.Id">Details</a> | *@
-                                        <a asp-page="./Delete" asp-route-id="@item.Id">Ban</a>
-                                    </td>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.Account[0].Email)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.Account[0].UserName)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.Account[0].Phone)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.Account[0].Gender)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.Account[0].Role)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.Account[0].Status)
+                                    </th>
+                                    <th></th>
                                 </tr>
-                            }
-                        </tbody>
-                    </table>
-                </div>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model.Account)
+                                {
+
+                                    <tr>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Email)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.UserName)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Phone)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Gender)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Role)
+                                        </td>
+                                        <td>
+
+                                            @if (item.Status == false)
+                                            {
+                                                <span style="color: red; font-weight: bold">Bị ban</span>
+                                            }
+                                            else if (item.Status == true)
+                                            {
+                                                <span style="color: green; font-weight: bold">Hoạt động</span>
+                                            }
+                                        </td>
+                                        <td>
+
+                                            <button type="submit" asp-route-id="@item.Id" asp-page-handler="Confirm">UnBan</button>
+                                            <button type="submit" asp-route-id="@item.Id" asp-page-handler="Cancel">Ban</button>
+
+                                            @* <a asp-page="./Delete" asp-route-id="@item.Id">Ban</a> *@
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </form>
 </body>

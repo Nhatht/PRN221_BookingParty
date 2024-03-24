@@ -10,6 +10,8 @@ using PartyService;
 using CloudinaryDotNet.Actions;
 using Newtonsoft.Json;
 using PRN221_WebNovel.Models;
+using BO.enums;
+using PartyService.ViewModel;
 
 namespace PRN221_GroupProjectBookParty.Pages.Admin
 {
@@ -45,6 +47,56 @@ namespace PRN221_GroupProjectBookParty.Pages.Admin
             }
             TempData["ErrorMessage"] = "You must be an administrator to perform this action.";
             return RedirectToPage("/Authentication/Login");
+        }
+        public async Task<IActionResult> OnPostConfirm(int id)
+        {
+            try
+            {
+                var bk = _accountService.GetAccountById(id);
+                bk.Status = true;
+                _accountService.UpdateAccount(bk);
+                ViewData["Notification"] = new Notification
+                {
+                    Message = "Record Updated Successfully !",
+                    Type = NotificationType.Success
+                };
+            }
+            catch (Exception ex)
+            {
+                ViewData["Notification"] = new Notification
+                {
+                    Message = "Something Went Wrong !" + ex,
+                    Type = NotificationType.Error
+                };
+            }
+
+            return RedirectToPage();
+        }
+
+        public async Task<IActionResult> OnPostCancel(int id)
+        {
+            try
+            {
+                var bk = _accountService.GetAccountById(id);
+                bk.Status = false;
+                _accountService.UpdateAccount(bk);
+
+                ViewData["Notification"] = new Notification
+                {
+                    Message = "Record Updated Successfully !",
+                    Type = NotificationType.Success
+                };
+            }
+            catch (Exception ex)
+            {
+                ViewData["Notification"] = new Notification
+                {
+                    Message = "Something Went Wrong !" + ex,
+                    Type = NotificationType.Error
+                };
+            }
+
+            return RedirectToPage();
         }
     }
 }
