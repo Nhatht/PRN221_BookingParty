@@ -60,20 +60,12 @@
                                     <td style="text-align: center;">
                                         @Html.DisplayFor(modelItem => item.StartDate)
                                     </td>
-                                    <td>
-
-                                        @if (item.Status == false)
-                                        {
-                                            <span style="color: red; font-weight: bold">Thất bại</span>
-                                        }
-                                        else if (item.Status == true)
-                                        {
-                                            <span style="color: green; font-weight: bold">Thành công</span>
-                                        }
+                                    <td style="text-align: center;">
+                                            @Html.DisplayFor(modelItem => item.Status)
+                                    </td>
                                         @{
                                             index++;
                                         }
-                                    </td>
                                 </tr>
                                 index++;
                             }

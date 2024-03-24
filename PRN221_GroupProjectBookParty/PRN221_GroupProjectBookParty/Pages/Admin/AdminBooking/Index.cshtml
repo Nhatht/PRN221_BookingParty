@@ -115,13 +115,13 @@
                                     </td>
                                     <td>
 
-                                        @if (item.Status == false)
+                                        @if (item.Status.Equals("Approved"))
                                         {
-                                            <span style="color: red; font-weight: bold">Thất bại</span>
+                                            <span style="color: red; font-weight: bold">@item.Status</span>
                                         }
-                                        else if (item.Status == true)
+                                        else if (item.Status.Equals("Deny"))
                                         {
-                                            <span style="color: green; font-weight: bold">Thành công</span>
+                                            <span style="color: green; font-weight: bold">@item.Status</span>
                                         }
                                         @{
                                             index++;

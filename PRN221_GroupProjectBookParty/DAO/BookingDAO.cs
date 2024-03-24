@@ -71,13 +71,13 @@ namespace DAO
                 await dbContext.SaveChangesAsync();
             }
         }
-        public List<Booking> GetBookingByHostId(int id)
+        public async Task<List<Booking>> GetBookingByHostId(int id)
         {
-            var party = dbContext.Parties.Where(x => x.HostId == id).ToList();
+            var party =  dbContext.Parties.Where(x => x.HostId == id).ToList();
             List<Booking> bookings = new List<Booking>();
             foreach (var item in party)
             {
-                bookings.AddRange(dbContext.Bookings.Where(x => x.PartyId == item.Id).Include(x => x.Guest).ToList());
+                 bookings.AddRange(dbContext.Bookings.Where(x => x.PartyId == item.Id).Include(x => x.Guest).ToList());
             }
             return bookings;
         }

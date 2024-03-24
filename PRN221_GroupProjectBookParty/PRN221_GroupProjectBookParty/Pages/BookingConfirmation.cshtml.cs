@@ -23,8 +23,8 @@ namespace PRN221_GroupProjectBookParty.Pages
                 Session session = service.Get(BookingStatus.SessionId);
                 if(session.PaymentStatus.ToLower() == "paid")
                 {
-                    BookingStatus.Status = "Paid";
-                    BookingStatus.IsActive = "Paid";
+                    bk.Status = "Paid";
+                    bookingService.UpdateBooking(bk);
                 }
             }
             BookingId = id;

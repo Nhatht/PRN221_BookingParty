@@ -7,7 +7,6 @@
 @inject IOptions<StripeSettings> Stripe
 @{
     Layout = "/Pages/Layout/_LayoutUser.cshtml";
-    var status = BookingStatus.Status;
 }
 
 <link rel="stylesheet" href="~/css/ViewProfile.css" />
@@ -95,11 +94,7 @@
                                 <th style="font-size: .8rem">Inquiry</th>
                                 <th style="font-size: .8rem">Start Date</th>
                                 <th style="font-size: .8rem">Status</th>
-                                <th style="font-size: .8rem;text-align:center">Payment Status</th>
-                                @if(status.Equals("Not Paid"))
-                                {
-                                    <th style="font-size: .8rem">Action</th>
-                                }
+                                <th style="font-size: .8rem">Action</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -113,9 +108,8 @@
                                     <td style="font-size: .8rem">@booking.NumberOfPeople</td>
                                     <td style="font-size: .8rem">@booking.Inquiry</td>
                                     <td style="font-size: .8rem">@booking.StartDate.ToShortDateString()</td>
-                                    <td style="font-size: .8rem">@(booking.Status ? "Active" : "Inactive")</td>
-                                    <td style="font-size: .8rem; text-align:center">@status</td>
-                                    @if (booking.Status == true && status.Equals("Not Paid"))
+                                    <td style="font-size: .8rem">@(booking.Status)</td>
+                                    @if (booking.Status.Equals("Approved"))
                                     {
                                         <td style="font-size: .8rem">
                                             <button class="btn btn-primary" asp-route-id="@booking.Id" type="submit" asp-page-handler="Pay">Pay</button>

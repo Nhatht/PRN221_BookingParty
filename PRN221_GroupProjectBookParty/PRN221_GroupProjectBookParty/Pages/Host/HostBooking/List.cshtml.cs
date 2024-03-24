@@ -8,6 +8,7 @@ using PartyService;
 using PartyService.ViewModel;
 using PRN221_GroupProjectBookParty.Models;
 using PRN221_WebNovel.Models;
+using System.Collections.Generic;
 
 namespace PRN221_GroupProjectBookParty.Pages.Host.HostBooking
 {
@@ -22,7 +23,7 @@ namespace PRN221_GroupProjectBookParty.Pages.Host.HostBooking
         {
             bookingService = _bookingService;
         }
-        public IActionResult OnGet()
+        public async Task<IActionResult> OnGet()
         {
             var loginUserJson = HttpContext.Session.GetString("loginUser");
             if (loginUserJson != null)
@@ -32,7 +33,7 @@ namespace PRN221_GroupProjectBookParty.Pages.Host.HostBooking
                 role = loginUser.Role;
                 if (role == "Host")
                 {
-                    Booking = bookingService.GetBookingByHostId(HostId);
+                    Booking =  await bookingService.GetBookingByHostId(HostId);
                     return Page();
                 }
                 else
@@ -50,7 +51,7 @@ namespace PRN221_GroupProjectBookParty.Pages.Host.HostBooking
             try
             {
                 var bk = await bookingService.GetBookingById(id);
-                bk.Status = true;
+                bk.Status = "Approved";
                 await bookingService.UpdateBooking(bk);
 
                 ViewData["Notification"] = new Notification
@@ -76,7 +77,7 @@ namespace PRN221_GroupProjectBookParty.Pages.Host.HostBooking
             try
             {
                 var bk = await bookingService.GetBookingById(id);
-                bk.Status = false;
+                bk.Status = "Deny";
                 await bookingService.UpdateBooking(bk);
 
                 ViewData["Notification"] = new Notification
@@ -96,17 +97,26 @@ namespace PRN221_GroupProjectBookParty.Pages.Host.HostBooking
 
             return RedirectToPage();
         }
-        public async Task<IActionResult> OnPostFinish()
+        public async Task<IActionResult> OnPostFinish(int id)
         {
             try
             {
 
-                BookingStatus.IsActive = "Finish";
-                ViewData["Notification"] = new Notification
+                var bk = await bookingService.GetBookingById(id);
+                if(DateTime.Now >= bk.StartDate)
                 {
-                    Message = "Record Updated Successfully !",
-                    Type = NotificationType.Success
-                };
+                    bk.Status = "Finish";
+                    await bookingService.UpdateBooking(bk);
+                    ViewData["Notification"] = new Notification
+                    {
+                        Message = "Record Updated Successfully !",
+                        Type = NotificationType.Success
+                    };
+                }
+                else
+                {
+                    TempData["ErrorFinish"] = "The StartDate haven't start yet";
+                }
             }
             catch (Exception ex)
             {
@@ -117,7 +127,7 @@ namespace PRN221_GroupProjectBookParty.Pages.Host.HostBooking
                 };
             }
 
-            return RedirectToPage();
+            return RedirectToPage("/Host/HostBooking/List");
         }
     }
 }
