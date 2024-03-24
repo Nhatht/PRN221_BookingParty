@@ -1,26 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj": {}
+    "D:\\How\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj": {}
   },
   "projects": {
-    "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\BO\\BO.csproj": {
+    "D:\\How\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\BO\\BO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\BO\\BO.csproj",
+        "projectUniqueName": "D:\\How\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\BO\\BO.csproj",
         "projectName": "BO",
-        "projectPath": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\BO\\BO.csproj",
-        "packagesPath": "C:\\Users\\nhath\\.nuget\\packages\\",
-        "outputPath": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\BO\\obj\\",
+        "projectPath": "D:\\How\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\BO\\BO.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "D:\\How\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\BO\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\nhath\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -102,27 +94,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\DAO\\DAO.csproj": {
+    "D:\\How\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\DAO\\DAO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\DAO\\DAO.csproj",
+        "projectUniqueName": "D:\\How\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\DAO\\DAO.csproj",
         "projectName": "DAO",
-        "projectPath": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\DAO\\DAO.csproj",
-        "packagesPath": "C:\\Users\\nhath\\.nuget\\packages\\",
-        "outputPath": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\DAO\\obj\\",
+        "projectPath": "D:\\How\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\DAO\\DAO.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "D:\\How\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\DAO\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\nhath\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -130,16 +116,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\BO\\BO.csproj": {
-                "projectPath": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\BO\\BO.csproj"
+              "D:\\How\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\BO\\BO.csproj": {
+                "projectPath": "D:\\How\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\BO\\BO.csproj"
               }
             }
           }
@@ -174,27 +158,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyRepository\\PartyRepository.csproj": {
+    "D:\\How\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyRepository\\PartyRepository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyRepository\\PartyRepository.csproj",
+        "projectUniqueName": "D:\\How\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyRepository\\PartyRepository.csproj",
         "projectName": "PartyRepository",
-        "projectPath": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyRepository\\PartyRepository.csproj",
-        "packagesPath": "C:\\Users\\nhath\\.nuget\\packages\\",
-        "outputPath": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyRepository\\obj\\",
+        "projectPath": "D:\\How\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyRepository\\PartyRepository.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "D:\\How\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyRepository\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\nhath\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -202,16 +180,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\DAO\\DAO.csproj": {
-                "projectPath": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\DAO\\DAO.csproj"
+              "D:\\How\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\DAO\\DAO.csproj": {
+                "projectPath": "D:\\How\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\DAO\\DAO.csproj"
               }
             }
           }
@@ -246,27 +222,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\PartyService.csproj": {
+    "D:\\How\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\PartyService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\PartyService.csproj",
+        "projectUniqueName": "D:\\How\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\PartyService.csproj",
         "projectName": "PartyService",
-        "projectPath": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\PartyService.csproj",
-        "packagesPath": "C:\\Users\\nhath\\.nuget\\packages\\",
-        "outputPath": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\obj\\",
+        "projectPath": "D:\\How\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\PartyService.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "D:\\How\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\nhath\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -274,16 +244,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyRepository\\PartyRepository.csproj": {
-                "projectPath": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyRepository\\PartyRepository.csproj"
+              "D:\\How\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyRepository\\PartyRepository.csproj": {
+                "projectPath": "D:\\How\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyRepository\\PartyRepository.csproj"
               }
             }
           }
@@ -318,27 +286,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj": {
+    "D:\\How\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj",
+        "projectUniqueName": "D:\\How\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj",
         "projectName": "PRN221_GroupProjectBookParty",
-        "projectPath": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj",
-        "packagesPath": "C:\\Users\\nhath\\.nuget\\packages\\",
-        "outputPath": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\obj\\",
+        "projectPath": "D:\\How\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "D:\\How\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\nhath\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -346,16 +308,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\PartyService.csproj": {
-                "projectPath": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\PartyService.csproj"
+              "D:\\How\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\PartyService.csproj": {
+                "projectPath": "D:\\How\\PRN221\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\PartyService.csproj"
               }
             }
           }
@@ -425,7 +385,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

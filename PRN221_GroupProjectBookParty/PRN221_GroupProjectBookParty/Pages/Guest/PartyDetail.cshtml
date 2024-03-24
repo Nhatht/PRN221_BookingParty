@@ -3,6 +3,7 @@
 
 @{
     var party = Model.Party;
+    var feedback = Model.FeedBack;
     ViewData["Title"] = "Party Detail";
     Layout = "/Pages/Layout/_LayoutUser.cshtml";
 }
@@ -83,6 +84,22 @@
                     </div>
 
                 </div>
+                <h4 style="color: orange">Reviews From Others</h4>
+                @foreach (var item in Model.FeedBack)
+                {
+                    <div>
+                        @* <h5 class="mb-0" style="font-size: larger;">@Html.DisplayFor(modelItem => item.GuestId)</h5> *@
+                        @if (Model.GuestName.ContainsKey(item.GuestId))
+                        {
+                            <h5 class="mb-0" style="font-size: larger;">@Model.GuestName[item.GuestId]</h5>
+                        }
+                        <h5 class="mb-0" style="font-style: italic; color: #666; font-size: x-small;">@Html.DisplayFor(modelItem => item.ReviewDate)</h5>
+                        <div style="font-size: smaller; font-weight: bold; background-color: #f2f2f2; padding: 5px; word-wrap: break-word; width: 600px;">
+                            @Html.DisplayFor(modelItem => item.Comment)
+                        </div>
+                        <br />
+                    </div>
+                }
             </div>
 
             @*  *@
