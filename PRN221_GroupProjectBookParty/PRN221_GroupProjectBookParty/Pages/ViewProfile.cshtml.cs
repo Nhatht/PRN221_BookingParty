@@ -31,7 +31,7 @@ public class ViewProfile : PageModel
 
         if (Account == null) return NotFound();
         
-        Bookings = bookingService.GetBookingByHostId(id);
+        Bookings = bookingService.GetBookingByUserId(id);
         
         return Page();
     }

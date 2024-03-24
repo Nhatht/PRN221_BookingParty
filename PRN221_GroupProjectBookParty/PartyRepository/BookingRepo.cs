@@ -20,5 +20,6 @@ namespace PartyRepository
 
         public async Task UpdateBooking(Booking booking) => await BookingDAO.Instance.UpdateBooking(booking);
         public List<Booking> GetBookingByHostId(int id) => BookingDAO.Instance.GetBookingByHostId(id);
+        public List<Booking> GetBookingByUserId(int id) => BookingDAO.Instance.GetBookingByUserId(id);
     }
 }

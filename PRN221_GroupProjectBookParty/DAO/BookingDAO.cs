@@ -14,7 +14,7 @@ namespace DAO
         private readonly BookingPartyContext dbContext = null;
         public BookingDAO()
         {
-            if(dbContext == null)
+            if (dbContext == null)
             {
                 dbContext = new BookingPartyContext();
             }
@@ -80,6 +80,10 @@ namespace DAO
                 bookings.AddRange(dbContext.Bookings.Where(x => x.PartyId == item.Id).Include(x => x.Guest).ToList());
             }
             return bookings;
+        }
+        public List<Booking> GetBookingByUserId(int id)
+        {
+            return dbContext.Bookings.Where(x => x.GuestId == id).Include(x => x.Party).ToList();
         }
     }
 }
