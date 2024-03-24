@@ -10,15 +10,16 @@ namespace PartyRepository
 {
     public class BookingRepo : IBookingRepo
     {
-        public void AddBooking(Booking booking) => BookingDAO.Instance.AddBooking(booking);
+        public async Task AddBooking(Booking booking) => await BookingDAO.Instance.AddBooking(booking);
 
         public List<Booking> GetAllBooking() => BookingDAO.Instance.GetAllBooking();
 
         public List<Booking> GetBookingByAccountId(int id) => BookingDAO.Instance.GetBookingByAccountId(id);
 
-        public Booking GetBookingById(int id) => BookingDAO.Instance.GetBookingById(id);
+        public async Task<Booking> GetBookingById(int id) => await BookingDAO.Instance.GetBookingById(id);
 
-        public void UpdateBooking(Booking booking) => BookingDAO.Instance.UpdateBooking(booking);
+        public async Task UpdateBooking(Booking booking) => await BookingDAO.Instance.UpdateBooking(booking);
         public List<Booking> GetBookingByHostId(int id) => BookingDAO.Instance.GetBookingByHostId(id);
+        public List<Booking> GetBookingByUserId(int id) => BookingDAO.Instance.GetBookingByUserId(id);
     }
 }

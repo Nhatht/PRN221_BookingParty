@@ -1,8 +1,13 @@
 ﻿@page "{id}"
+@using Microsoft.Extensions.Options;
+@using PRN221_GroupProjectBookParty.Models;
+@using PRN221_GroupProjectBookParty.Pages;
+@using PartyService.Helpers;
 @model ViewProfile
-
+@inject IOptions<StripeSettings> Stripe
 @{
     Layout = "/Pages/Layout/_LayoutUser.cshtml";
+    var status = BookingStatus.Status;
 }
 
 <link rel="stylesheet" href="~/css/ViewProfile.css" />
@@ -82,29 +87,44 @@
                 <div class="table-responsive" style="margin-top: 15px;">
                     <table class="table table-bordered table-striped">
                         <thead>
-                        <tr>
-                            <th style="font-size: .8rem">Booking ID</th>
-                            <th style="font-size: .8rem">Party ID</th>
-                            <th style="font-size: .8rem">Total Price</th>
-                            <th style="font-size: .8rem">Number of People</th>
-                            <th style="font-size: .8rem">Inquiry</th>
-                            <th style="font-size: .8rem">Start Date</th>
-                            <th style="font-size: .8rem">Status</th>
-                        </tr>
+                            <tr>
+                                <th style="font-size: .8rem">Booking ID</th>
+                                <th style="font-size: .8rem">Party ID</th>
+                                <th style="font-size: .8rem">Total Price</th>
+                                <th style="font-size: .8rem">Number of People</th>
+                                <th style="font-size: .8rem">Inquiry</th>
+                                <th style="font-size: .8rem">Start Date</th>
+                                <th style="font-size: .8rem">Status</th>
+                                <th style="font-size: .8rem;text-align:center">Payment Status</th>
+                                @if(status.Equals("Not Paid"))
+                                {
+                                    <th style="font-size: .8rem">Action</th>
+                                }
+                            </tr>
                         </thead>
                         <tbody>
-                        @foreach (var booking in Model.Bookings)
-                        {
-                            <tr>
-                                <td style="font-size: .8rem">@booking.Id</td>
-                                <td style="font-size: .8rem">@booking.PartyId</td>
-                                <td style="font-size: .8rem">@booking.TotalPrice</td>
-                                <td style="font-size: .8rem">@booking.NumberOfPeople</td>
-                                <td style="font-size: .8rem">@booking.Inquiry</td>
-                                <td style="font-size: .8rem">@booking.StartDate.ToShortDateString()</td>
-                                <td style="font-size: .8rem">@(booking.Status ? "Active" : "Inactive")</td>
-                            </tr>
-                        }
+                            <form method="post">
+                            @foreach (var booking in Model.Bookings)
+                            {
+                                <tr>
+                                    <td style="font-size: .8rem">@booking.Id</td>
+                                    <td style="font-size: .8rem">@booking.PartyId</td>
+                                    <td style="font-size: .8rem">@booking.TotalPrice</td>
+                                    <td style="font-size: .8rem">@booking.NumberOfPeople</td>
+                                    <td style="font-size: .8rem">@booking.Inquiry</td>
+                                    <td style="font-size: .8rem">@booking.StartDate.ToShortDateString()</td>
+                                    <td style="font-size: .8rem">@(booking.Status ? "Active" : "Inactive")</td>
+                                    <td style="font-size: .8rem; text-align:center">@status</td>
+                                    @if (booking.Status == true && status.Equals("Not Paid"))
+                                    {
+                                        <td style="font-size: .8rem">
+                                            <button class="btn btn-primary" asp-route-id="@booking.Id" type="submit" asp-page-handler="Pay">Pay</button>
+                                        </td>
+                                    }
+                                 
+                                </tr>
+                            }
+                            </form>
                         </tbody>
                     </table>
                 </div>
@@ -163,6 +183,7 @@
 
 <script>
     document.getElementById('changePasswordForm').addEventListener('submit', function (event) {
-       
+
     });
+    <script src="https://js.stripe.com/v3/" ></script>
 </script>

@@ -16,15 +16,16 @@ namespace PartyService
             _bookingRepo = new BookingRepo();
         }
 
-        public void AddBooking(Booking booking) => _bookingRepo.AddBooking(booking);
+        public async Task AddBooking(Booking booking) => await _bookingRepo.AddBooking(booking);
 
         public List<Booking> GetAllBooking() => _bookingRepo.GetAllBooking();
 
         public List<Booking> GetBookingByAccountId(int id) => _bookingRepo.GetBookingByAccountId(id);
 
-        public Booking GetBookingById(int id) => _bookingRepo.GetBookingById(id);
+        public async Task<Booking> GetBookingById(int id) => await _bookingRepo.GetBookingById(id);
 
-        public void UpdateBooking(Booking booking) => _bookingRepo.UpdateBooking(booking);
+        public async Task UpdateBooking(Booking booking) => await _bookingRepo.UpdateBooking(booking);
         public List<Booking> GetBookingByHostId(int id) => _bookingRepo.GetBookingByHostId(id);
+        public List<Booking> GetBookingByUserId(int id) => _bookingRepo.GetBookingByUserId(id);
     }
 }

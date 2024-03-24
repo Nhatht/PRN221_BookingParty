@@ -10,10 +10,11 @@ namespace PartyService
     public interface IBookingService
     {
         List<Booking> GetAllBooking();
-        Booking GetBookingById(int id);
+        Task<Booking> GetBookingById(int id);
         List<Booking> GetBookingByAccountId(int id);
-        void AddBooking(Booking booking);
-        void UpdateBooking(Booking booking);
+        Task AddBooking(Booking booking);
+        Task UpdateBooking(Booking booking);
         List<Booking> GetBookingByHostId(int id);
+        List<Booking> GetBookingByUserId(int id);
     }
 }

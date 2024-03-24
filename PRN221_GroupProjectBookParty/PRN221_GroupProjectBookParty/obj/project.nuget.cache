@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4rfodKbiAPpe62NBQcj9X+n/Nvsq4y5NSaHUlpVhcsNszgex43RJdGSWDDMB4I/KpjEK4RK6Q8CD9CzZNa4nlQ==",
+  "dgSpecHash": "0TnSJs1JnEGyNmTAu+4ZJ049RVFT6WRXMjtZm57Nm2l4d5yohzcAHuIf8kZ6wxY6PmaZluCFuV65Hq8kk8WadA==",
   "success": true,
   "projectFilePath": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj",
   "expectedPackageFiles": [
@@ -159,6 +159,7 @@
     "C:\\Users\\nhath\\.nuget\\packages\\sqlitepclraw.core\\2.1.2\\sqlitepclraw.core.2.1.2.nupkg.sha512",
     "C:\\Users\\nhath\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.2\\sqlitepclraw.lib.e_sqlite3.2.1.2.nupkg.sha512",
     "C:\\Users\\nhath\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.2\\sqlitepclraw.provider.e_sqlite3.2.1.2.nupkg.sha512",
+    "C:\\Users\\nhath\\.nuget\\packages\\stripe.net\\43.20.0\\stripe.net.43.20.0.nupkg.sha512",
     "C:\\Users\\nhath\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\nhath\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\nhath\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",

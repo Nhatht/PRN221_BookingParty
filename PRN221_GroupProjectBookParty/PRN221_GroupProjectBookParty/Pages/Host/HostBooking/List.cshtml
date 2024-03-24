@@ -1,0 +1,181 @@
+﻿@page
+@using PRN221_GroupProjectBookParty.Models;
+@model PRN221_GroupProjectBookParty.Pages.Host.HostBooking.ListModel
+@{
+    ViewData["Title"] = "Host - Manage Booking";
+    Layout = "/Pages/Layout/_LayoutHost.cshtml";
+    var finish = BookingStatus.IsActive;
+}
+<body>
+    <div class="content-wrapper">
+        <div class="container-xxl flex-grow-1 container-p-y ">
+            <!-- Basic Bootstrap Table -->
+            <div class="card">
+                <h5 class="card-header"
+                    style="display: flex; justify-content: space-between">
+                    <div>Booking</div>
+                    <!-- Button trigger modal -->
+                </h5>
+                <form method="post">
+
+                <div class="table-responsive text-nowrap">
+                   
+                        <table id="myTable" class="table">
+                     
+                            <thead>
+                                <tr>
+                                    <th>STT</th>
+                                    <th>Guest</th>
+                                    <th>Total Price</th>
+                                    <th>Number Of People</th>
+                                    <th>Inquiry</th>
+                                    <th>Start Date</th>
+                                    <th>Status</th>
+                                    <th>Finished</th>
+                                    <th style="text-align:center">Action</th>
+                                </tr>
+                            </thead>
+                            <tbody class="table-border-bottom-0">
+                                @{
+                                    int index = 1;
+                                }
+                                @foreach (var item in Model.Booking)
+                                {
+                                    <tr>
+                                        <td>
+                                            @index
+                                        </td>
+
+                                        <td style="text-align:center">
+                                            @Html.DisplayFor(modelItem => item.Guest.UserName)
+                                        </td>
+                                        <td style="text-align:center">
+                                            @Html.DisplayFor(modelItem => item.TotalPrice)
+                                        </td>
+                                        <td style="text-align:center">
+                                            @Html.DisplayFor(modelItem => item.NumberOfPeople)
+                                        </td>
+                                        <td style="text-align:center">
+                                            @Html.DisplayFor(modelItem => item.Inquiry)
+                                        </td>
+
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.StartDate)
+                                        </td>
+                                        <td>
+                                            @if (item.Status == false)
+                                            {
+                                                <span style="color: red; font-weight: bold">Đang chờ duyệt</span>
+                                            }
+                                            else if (item.Status == true)
+                                            {
+                                                <span style="color: green; font-weight: bold">Đã được duyệt</span>
+                                            }
+                                        </td>
+                                        <td>
+                                            @if(finish.Equals("Finish"))
+                                            {
+                                                <span style="color: firebrick; font-weight: bold">Finished</span>
+                                            }
+                                            else if (finish.Equals("Paid"))
+                                            {
+                                                <span style="color: coral; font-weight: bold">Paid</span>
+                                            }
+                                            else
+                                            {
+                                                <span style="color: green; font-weight: bold">Not Paid</span>
+                                            }
+                                        </td>
+
+                                        <td>
+                                            <button type="submit" asp-route-id="@item.Id" asp-page-handler="Confirm">Confirm</button> |
+                                            <button type="submit" asp-route-id="@item.Id" asp-page-handler="Cancel">Cancel</button> |
+                                            <button type="submit" asp-route-id="@item.Id" asp-page-handler="Finish">Finish</button>
+
+                                        </td>
+
+                                    </tr>
+                                    index++;
+                                }
+                    
+                    </tbody>
+                    </table>
+                </div>
+                </form>
+
+
+
+                <div class="modal fade" id="modalConfirmDelete" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                     aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="staticBackdropLabel">XÁC NHẬN LOẠI BỎ</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Bạn có chắc muốn xóa câu hỏi này?
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Hủy</button>
+                                <button type="button" class="btn btn-primary" id="btn-toast-delete" class="btn-close"
+                                        data-bs-dismiss="modal" aria-label="Close">
+                                    Xác nhận
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    @* </div> *@
+
+    <script>
+        function showDeactive(id) {
+            var btnToastDelete = document.querySelector('#btn-toast-deactive');
+            btnToastDelete.addEventListener('click', function () {
+                var deleteUrl = 'memberStaff?action=deactive&status=1&id=' + id;
+                window.location.href = deleteUrl;
+                // Nếu bạn muốn ẩn modal sau khi xác nhận, bạn có thể sử dụng đoạn mã sau:
+                document.getElementById('modalConfirmDeactive').style.display = 'none';
+            });
+        }
+        function showActive(id) {
+            var btnToastDelete = document.querySelector('#btn-toast-active');
+            btnToastDelete.addEventListener('click', function () {
+                var deleteUrl = 'memberStaff?action=active&status=0&id=' + id;
+                window.location.href = deleteUrl;
+                // Nếu bạn muốn ẩn modal sau khi xác nhận, bạn có thể sử dụng đoạn mã sau:
+                document.getElementById('modalConfirmActive').style.display = 'none';
+            });
+        }
+
+        window.addEventListener('DOMContentLoaded', (event) => {
+            const message = '${message}'; // Lấy giá trị thông báo từ servlet
+            if (message) {
+                showToast(message); // Gọi hàm hiển thị thông báo
+            }
+        });
+
+        function showToast(message) {
+            const toast = document.getElementById('toast-notification');
+            const toastMessage = document.getElementById('toast-message');
+            if (message === 'success') {
+                var success = 'Cập nhật trạng thái thành công!';
+                toastMessage.textContent = success;
+            } else {
+                var fail = 'Cập nhật trạng thái thất bại!';
+                toastMessage.textContent = fail;
+            }
+            toast.classList.remove('hide');
+            toast.classList.add('show');
+            setTimeout(() => {
+                toast.classList.remove('show');
+            }, 3000);
+        }
+    </script>
+
+</body>

@@ -42,6 +42,13 @@ namespace DAO
 		{
 			return dbContext.FeedBacks.FirstOrDefault(x => x.Id == id);
 		}
+		public List<FeedBack> GetFeedBackByPartyId(int id)
+		{
+			return dbContext.FeedBacks
+					.Where(x => x.PartyId == id)
+					.OrderByDescending(x => x.ReviewDate)
+					.ToList();
+		}
 		public void UpdateFeedBack(FeedBack feedback)
 		{
 			FeedBack fb = GetFeedBackById(feedback.Id);
