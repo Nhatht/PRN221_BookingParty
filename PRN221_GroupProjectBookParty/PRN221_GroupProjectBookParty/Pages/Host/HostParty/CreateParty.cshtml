@@ -26,10 +26,7 @@
                                         <div class="card-body">
                                             <form method="post" enctype="multipart/form-data">
                                             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                                            <div class="mb-3">
-                                                <label asp-for="Party.HostId" class="form-label">Tên người tổ chức:</label>
-                                                <select asp-for="Party.HostId" class="form-control" asp-items="ViewBag.HostId"></select>
-                                            </div>
+                                            
                                             <div class="mb-3">
                                                 <label asp-for="Party.Description" class="form-label">Mô tả buổi tiệc:</label>
                                                 <input asp-for="Party.Description" type="text" placeholder="Mô tả buổi tiệc" class="form-control" />

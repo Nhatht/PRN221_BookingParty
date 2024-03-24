@@ -33,7 +33,8 @@ namespace PRN221_GroupProjectBookParty.Pages.Authentication
         {
             if(!string.IsNullOrEmpty(Account.Email) && !string.IsNullOrEmpty(Account.Password))
             {
-                var account = _accountService.GetAccount(Account.Email, Account.Password);
+                var account = _accountService.GetAccountByEmail(Account.Email);
+                bool passwordMatch = PasswordHashing.VerifyPassword(Account.Password, account.Password);
                 if (account == null)
                 {
                     TempData["ErrorMessage"] = "Email or Password is incorrect";

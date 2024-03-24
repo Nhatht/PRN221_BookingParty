@@ -26,15 +26,15 @@ namespace PRN221_GroupProjectBookParty.Pages.Authentication
 
                 return RedirectToPage("/Authentication/Login");
             }
-
+            string hashedPassword = PasswordHashing.HashPassword(Account.Password);
             Account newAccount = new Account();
             newAccount.Status = true;
             newAccount.Email = Account.Email;
-            newAccount.Password = Account.Password;
+            newAccount.Password = hashedPassword;
             newAccount.UserName = Account.UserName;
             newAccount.Phone = Account.Phone;
             newAccount.Gender = Account.Gender;
-            newAccount.Role = "Guest";
+            newAccount.Role = Account.Role;
              _accountService.AddAccount(newAccount);
 
             return RedirectToPage("/Authentication/Login");
