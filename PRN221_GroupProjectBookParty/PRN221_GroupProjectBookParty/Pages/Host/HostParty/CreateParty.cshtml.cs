@@ -10,6 +10,8 @@ using PartyService;
 using PartyService.ViewModel;
 using PartyService.PhotoUpload;
 using System.IO;
+using Newtonsoft.Json;
+using PRN221_WebNovel.Models;
 
 namespace PRN221_GroupProjectBookParty.Pages.Host.HostParty
 {
@@ -34,17 +36,22 @@ namespace PRN221_GroupProjectBookParty.Pages.Host.HostParty
         [BindProperty]
         public AddPartyViewModel Party { get; set; } = default!;
         public string StatusMessage { get; set; }
+        public int HostId { get; set; }
 
 
         // To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD
         public async Task<IActionResult> OnPostAsync()
         {
+            var loginUserJson = HttpContext.Session.GetString("loginUser");
+
+            var loginUser = JsonConvert.DeserializeObject<AccountViewmodel>(loginUserJson);
+            HostId = loginUser.Id;
             var result = await _photoService.AddPhotoAsync(Party.ImageUrl);
             if (result != null)
             {
                 var party = new Party
                 {
-                    HostId = Party.HostId,
+                    HostId = HostId,
                     Description = Party.Description,
                     Name = Party.Name,
                     City = Party.City,
@@ -58,6 +65,7 @@ namespace PRN221_GroupProjectBookParty.Pages.Host.HostParty
                 bool addsuccessfully = await _partysService.AddParty(party);
                 if (addsuccessfully)
                 {
+
                     return RedirectToPage("./PartyManagement");
                 }
                 else
