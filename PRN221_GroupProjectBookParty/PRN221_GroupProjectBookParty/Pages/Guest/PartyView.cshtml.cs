@@ -27,8 +27,8 @@ namespace PRN221_GroupProjectBookParty.Pages.Guest
         {
             if (_partysService.GetAllParties() != null)
             {
-                int pageSize = 5;
-                Party = _partysService.GetAllParties();
+                int pageSize = 6;
+                Party = _partysService.GetAllPartyByStatusTrue();
                 TotalPages = (int)Math.Ceiling(Party.Count / (double)pageSize);
                 CurrentPage = Math.Min(Math.Max(currentPage, 1), TotalPages);
                 Party = Party.Skip((CurrentPage - 1) * pageSize).Take(pageSize).ToList();

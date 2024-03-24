@@ -31,31 +31,26 @@ namespace PRN221_GroupProjectBookParty.Pages.Host.HostParty
 
         public async Task<IActionResult> OnGetAsync(int id)
         {
-            try
-            {
-                var party = _partysService.GetPartyByIdNoAsync(id);
-                if(party == null) return NotFound();
-                Party = new EditPartyViewModel
-                {
-                    Description = party.Description,
-                    Name = party.Name,
-                    City = party.City,
-                    Price = party.Price,
-                    Theme = party.Theme,
-                    Package = party.Package,
-                    MaxPeople = party.MaxPeople,
-                    Url = party.ImageUrl,
-                    Status = party.Status,
-                };
 
-                Party = Party;
-                var host = _partysService.GetAllHost();
-                ViewData["HostId"] = new SelectList(host, "Id", "UserName");
-            }
-            catch (Exception ex)
+            var party = _partysService.GetPartyByIdNoAsync(id);
+            if (party == null) return NotFound();
+            Party = new EditPartyViewModel
             {
-                 
-            }
+                Description = party.Description,
+                Name = party.Name,
+                City = party.City,
+                Price = party.Price,
+                Theme = party.Theme,
+                Package = party.Package,
+                MaxPeople = party.MaxPeople,
+                Url = party.ImageUrl,
+                Status = party.Status,
+            };
+
+            Party = Party;
+            var host = _partysService.GetAllHost();
+            ViewData["HostId"] = new SelectList(host, "Id", "UserName");
+
             return Page();
 
         }
@@ -64,38 +59,42 @@ namespace PRN221_GroupProjectBookParty.Pages.Host.HostParty
         // For more details, see https://aka.ms/RazorPagesCRUD.
         public async Task<IActionResult> OnPostAsync(int id)
         {
-
+            if (!ModelState.IsValid)
+            {
+                return Page();
+            }
             var party = await _partysService.GetPartyByIdNoTracking(id);
 
-            if(party != null)
+            if (party != null)
             {
                 var partyVM = new Party();
-                if(Party.ImageUrl != null)
+                if (Party.ImageUrl != null)
                 {
                     await _photoService.DeletePhotoAsync(party.ImageUrl);
                     var photoResult = await _photoService.AddPhotoAsync(Party.ImageUrl);
                     partyVM.Id = id;
-                    partyVM.Description = party.Description;
-                    partyVM.Name = party.Name;
-                    partyVM.City = party.City;
-                    partyVM.Price = party.Price;
-                    partyVM.Theme = party.Theme;
-                    partyVM.Package = party.Package;
-                    partyVM.MaxPeople = party.MaxPeople;
+                    partyVM.Description = Party.Description;
+                    partyVM.Name = Party.Name;
+                    partyVM.City = Party.City;
+                    partyVM.Price = Party.Price;
+                    partyVM.Theme = Party.Theme;
+                    partyVM.Package = Party.Package;
+                    partyVM.MaxPeople = Party.MaxPeople;
                     partyVM.ImageUrl = photoResult.Url.ToString();
-                    partyVM.Status = party.Status;
-                }else
+                    partyVM.Status = Party.Status;
+                }
+                else
                 {
                     partyVM.Id = id;
-                    partyVM.Description = party.Description;
-                    partyVM.Name = party.Name;
-                    partyVM.City = party.City;
-                    partyVM.Price = party.Price;
-                    partyVM.Theme = party.Theme;
-                    partyVM.Package = party.Package;
-                    partyVM.MaxPeople = party.MaxPeople;
+                    partyVM.Description = Party.Description;
+                    partyVM.Name = Party.Name;
+                    partyVM.City = Party.City;
+                    partyVM.Price = Party.Price;
+                    partyVM.Theme = Party.Theme;
+                    partyVM.Package = Party.Package;
+                    partyVM.MaxPeople = Party.MaxPeople;
                     partyVM.ImageUrl = party.ImageUrl;
-                    partyVM.Status = party.Status;
+                    partyVM.Status = Party.Status;
                 }
                 await _partysService.UpdateParty(partyVM);
                 return RedirectToPage("./PartyManagement");
@@ -107,7 +106,7 @@ namespace PRN221_GroupProjectBookParty.Pages.Host.HostParty
 
         private bool PartyExists(int id)
         {
-          return (_partysService.GetAllParties().Any(e => e.Id == id));
+            return (_partysService.GetAllParties().Any(e => e.Id == id));
         }
     }
 }

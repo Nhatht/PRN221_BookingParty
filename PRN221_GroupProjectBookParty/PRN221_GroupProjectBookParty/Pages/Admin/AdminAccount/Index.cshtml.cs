@@ -7,6 +7,9 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using BO;
 using PartyService;
+using CloudinaryDotNet.Actions;
+using Newtonsoft.Json;
+using PRN221_WebNovel.Models;
 
 namespace PRN221_GroupProjectBookParty.Pages.Admin
 {
@@ -20,23 +23,28 @@ namespace PRN221_GroupProjectBookParty.Pages.Admin
         }
 
         public IList<Account> Account { get;set; } = default!;
-        [BindProperty(SupportsGet = true)]
-        public string SearchQuery { get; set; }
-        public async Task OnGetAsync()
+        public string role { get; set; }
+        public IActionResult OnGet()
         {
-            if (!string.IsNullOrEmpty(SearchQuery))
+            var loginUserJson = HttpContext.Session.GetString("loginUser");
+            if (loginUserJson != null)
             {
-                Account = _accountService.GetListAccount()
-                    .Where(a => a.Gender.Contains(SearchQuery, StringComparison.OrdinalIgnoreCase) ||
-                                a.Email.Contains(SearchQuery, StringComparison.OrdinalIgnoreCase) ||
-                                a.Role.Contains(SearchQuery, StringComparison.OrdinalIgnoreCase) ||
-                                a.UserName.Contains(SearchQuery, StringComparison.OrdinalIgnoreCase))
-                    .ToList();
+                var loginUser = JsonConvert.DeserializeObject<AccountViewmodel>(loginUserJson);
+                role = loginUser.Role;
+                if (role == "Admin")
+                {
+                    Account = _accountService.GetListAccount();
+                    return Page();
+                }
+                else
+                {
+                    HttpContext.Session.Clear();
+                    TempData["ErrorMessage"] = "You must be an administrator to perform this action.";
+                    return RedirectToPage("/Authentication/Login");
+                }
             }
-            else
-            {
-                Account = _accountService.GetListAccount();
-            }
+            TempData["ErrorMessage"] = "You must be an administrator to perform this action.";
+            return RedirectToPage("/Authentication/Login");
         }
     }
 }

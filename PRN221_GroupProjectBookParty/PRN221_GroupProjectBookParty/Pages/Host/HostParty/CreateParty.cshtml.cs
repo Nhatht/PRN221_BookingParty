@@ -35,13 +35,17 @@ namespace PRN221_GroupProjectBookParty.Pages.Host.HostParty
 
         [BindProperty]
         public AddPartyViewModel Party { get; set; } = default!;
-        public string StatusMessage { get; set; }
+        public string ErrorMessage { get; set; } = "";
         public int HostId { get; set; }
 
 
         // To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD
         public async Task<IActionResult> OnPostAsync()
         {
+            if (!ModelState.IsValid || _partysService.GetAllParties == null)
+            {
+                return Page();
+            }
             var loginUserJson = HttpContext.Session.GetString("loginUser");
 
             var loginUser = JsonConvert.DeserializeObject<AccountViewmodel>(loginUserJson);
@@ -60,7 +64,7 @@ namespace PRN221_GroupProjectBookParty.Pages.Host.HostParty
                     Package = Party.Package,
                     MaxPeople = Party.MaxPeople,
                     ImageUrl = result.Url.ToString(),
-                    Status = Party.Status,
+                    Status = false,
                 };
                 bool addsuccessfully = await _partysService.AddParty(party);
                 if (addsuccessfully)
@@ -70,10 +74,11 @@ namespace PRN221_GroupProjectBookParty.Pages.Host.HostParty
                 }
                 else
                 {
-                    return RedirectToPage("./Index");
+                    TempData["ErrorMessage"] = "Add party failed";
+                    return RedirectToPage("./PartyManagement");
                 }
             }
-            return RedirectToPage("./Index");
+            return RedirectToPage("./PartyManagement");
         }
     }
 }

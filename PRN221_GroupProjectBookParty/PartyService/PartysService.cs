@@ -19,6 +19,10 @@ namespace PartyService
             _partyRepo = new PartyRepo();
             _photoService = photoService;
         }
+        public List<Party> GetAllPartyByStatusTrue()
+        {
+            return _partyRepo.GetAllPartyByStatusTrue();
+        }
         public List<Party> GetPartyByHostId(int id)
         {
             return _partyRepo.GetPartyByHostId(id);
