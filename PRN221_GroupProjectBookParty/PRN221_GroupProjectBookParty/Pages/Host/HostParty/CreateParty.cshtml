@@ -8,28 +8,24 @@
 
 
 
-    <body>
-        <div class="layout-wrapper layout-content-navbar">
-            <div class="layout-container">
-                <div class="layout-page">
-                    <div class="content-wrapper">
-                        <div class="container-xxl flex-grow-1 container-p-y">
-                            <h4 class="py-3 mb-4">
-                                <span class="text-muted fw-light">Forms/</span> Tạo Tiệc Mới
-                            </h4>
-                            <div class="row">
-                                <div class="col-xl">
-                                    <div class="card mb-4">
-                                        <div class="card-header d-flex justify-content-between align-items-center">
-                                            <h5 class="mb-0">Nhập các thông tin sau</h5>
-                                        </div>
-                                        <div class="card-body">
-                                            <form method="post" enctype="multipart/form-data">
+<body>
+    <div class="layout-wrapper layout-content-navbar">
+        <div class="layout-container">
+            <div class="layout-page">
+                <div class="content-wrapper">
+                    <div class="container-xxl flex-grow-1 container-p-y">
+                        <h4 class="py-3 mb-4">
+                            <span class="text-muted fw-light">Forms/</span> Tạo Tiệc Mới
+                        </h4>
+                        <div class="row">
+                            <div class="col-xl">
+                                <div class="card mb-4">
+                                    <div class="card-header d-flex justify-content-between align-items-center">
+                                        <h5 class="mb-0">Nhập các thông tin sau</h5>
+                                    </div>
+                                    <div class="card-body">
+                                        <form method="post" enctype="multipart/form-data">
                                             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                                            <div class="mb-3">
-                                                <label asp-for="Party.HostId" class="form-label">Tên người tổ chức:</label>
-                                                <select asp-for="Party.HostId" class="form-control" asp-items="ViewBag.HostId"></select>
-                                            </div>
                                             <div class="mb-3">
                                                 <label asp-for="Party.Description" class="form-label">Mô tả buổi tiệc:</label>
                                                 <input asp-for="Party.Description" type="text" placeholder="Mô tả buổi tiệc" class="form-control" />
@@ -47,13 +43,13 @@
                                             </div>
                                             <div class="mb-3">
                                                 <label asp-for="Party.Price" class="form-label">Giá:</label>
-                                                <input asp-for="Party.Price" class="form-control" type="text" placeholder="Giá" />
+                                                <input asp-for="Party.Price" class="form-control" type="number" placeholder="Giá" />
                                                 <span asp-validation-for="Party.Price" class="text-danger"></span>
                                             </div>
                                             <div class="mb-3">
                                                 <label asp-for="Party.Theme" class="form-label">Chủ đề:</label>
                                                 <input asp-for="Party.Theme" class="form-control" type="text" placeholder="Chủ đề" />
-                                                <span asp-validation-for="Party.Theme" class="text-danger" ></span>
+                                                <span asp-validation-for="Party.Theme" class="text-danger"></span>
                                             </div>
                                             <div class="mb-3">
                                                 <label asp-for="Party.Package" class="form-label">Gói:</label>
@@ -62,7 +58,7 @@
                                             </div>
                                             <div class="mb-3">
                                                 <label asp-for="Party.MaxPeople" class="form-label">Số người tối đa:</label>
-                                                <input asp-for="Party.MaxPeople" class="form-control" type="text" placeholder="Số người tối đa" />
+                                                <input asp-for="Party.MaxPeople" class="form-control" type="number" placeholder="Số người tối đa" />
                                                 <span asp-validation-for="Party.MaxPeople" class="text-danger"></span>
                                             </div>
                                             <div class="mb-3">
@@ -70,21 +66,16 @@
                                                 <input asp-for="Party.ImageUrl" type="file" class="form-control" placeholder="Chọn ảnh" />
                                                 <span asp-validation-for="Party.ImageUrl" class="text-danger"></span>
                                             </div>
-                                            <div class="mb-3 form-check">
-                                                <label class="form-check-label">
-                                                    <input class="form-check-input" asp-for="Party.Status" /> @Html.DisplayNameFor(model => model.Party.Status)
-                                                </label>
-                                            </div>                                          
-                                            <input type="submit" value="Create" class="btn btn-primary" />                                           
+                                            <div class="mb-3">
+                                                <input class="form-control" asp-for="Party.Status" hidden />
+                                            </div>
+                                            <input type="submit" value="Create" class="btn btn-primary"/>
                                             <a style="text-decoration: none;
                                                    color: inherit;" asp-page="PartyManagement">
                                                 <button type="button" class="btn btn-primary">Back to List</button>
                                             </a>
-                                                </form>
-                                                <!-- Tên đăng nhập -->
-                                                
-                                            
-                                        </div>
+                                        </form>
+                                        <!-- Tên đăng nhập -->
                                     </div>
                                 </div>
                             </div>
@@ -93,6 +84,7 @@
                 </div>
             </div>
         </div>
+    </div>
     <script src="~/js/vendor/libs/jquery/jquery.js"></script>
     <script src="~/js/vendor/libs/popper/popper.js"></script>
     <script src="~/js/vendor/js/bootstrap.js"></script>
@@ -107,4 +99,4 @@
     <!-- Page JS -->
     <!-- Place this tag in your head or just before your close body tag. -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
-    </body>
+</body>

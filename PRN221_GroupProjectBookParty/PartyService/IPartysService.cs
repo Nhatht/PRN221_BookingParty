@@ -20,5 +20,6 @@ namespace PartyService
         public Party GetPartyByIdNoAsync(int id);
         public Task<Party> GetPartyByIdNoTracking(int id);
         List<Party> GetPartyByHostId(int id);
+        public List<Party> GetAllPartyByStatusTrue();
     }
 }

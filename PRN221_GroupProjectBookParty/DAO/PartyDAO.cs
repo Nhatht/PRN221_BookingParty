@@ -33,6 +33,11 @@ namespace DAO
             }
         } 
 
+        public List<Party> GetAllPartyByStatusTrue()
+        {
+            return dbContext.Parties.Where(p => p.Status == true).Include(p => p.Bookings).Include(p => p.FeedBacks)
+                .Include(p => p.Host).ToList();
+        }
         public List<Party> GetAllParties()
         {
             return dbContext.Parties.Include(p => p.Bookings).Include(p => p.FeedBacks)
