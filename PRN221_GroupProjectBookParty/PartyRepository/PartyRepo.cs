@@ -23,5 +23,6 @@ namespace PartyRepository
         public Party GetPartyByIdNoAsync(int id) => PartyDAO.Instance.GetPartyByIdNoAsync(id);
 
         public async Task<Party> GetPartyByIdNoTracking(int id) => await PartyDAO.Instance.GetPartyByIdNoTracking(id);
+        public List<Party> GetPartyByHostId(int id) => PartyDAO.Instance.GetPartyByHostId(id);
     }
 }

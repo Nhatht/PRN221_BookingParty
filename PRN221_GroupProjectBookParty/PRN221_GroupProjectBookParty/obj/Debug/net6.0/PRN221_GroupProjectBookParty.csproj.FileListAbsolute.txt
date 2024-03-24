@@ -1,4 +1,3 @@
-E:\University\FPTU\Semester_7-SP24\Data_PRN221\PRN221_GroupProjectBookParty\PRN221_GroupProjectBookParty\bin\Debug\net6.0\appsettings.Development.json
 E:\University\FPTU\Semester_7-SP24\Data_PRN221\PRN221_GroupProjectBookParty\PRN221_GroupProjectBookParty\bin\Debug\net6.0\PRN221_GroupProjectBookParty.staticwebassets.runtime.json
 E:\University\FPTU\Semester_7-SP24\Data_PRN221\PRN221_GroupProjectBookParty\PRN221_GroupProjectBookParty\bin\Debug\net6.0\PRN221_GroupProjectBookParty.exe
 E:\University\FPTU\Semester_7-SP24\Data_PRN221\PRN221_GroupProjectBookParty\PRN221_GroupProjectBookParty\bin\Debug\net6.0\appsettings.json
@@ -136,7 +135,6 @@ E:\University\GitHub\PRN221_BookingParty\PRN221_GroupProjectBookParty\PRN221_Gro
 E:\University\GitHub\PRN221_BookingParty\PRN221_GroupProjectBookParty\PRN221_GroupProjectBookParty\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 E:\University\GitHub\PRN221_BookingParty\PRN221_GroupProjectBookParty\PRN221_GroupProjectBookParty\obj\Debug\net6.0\scopedcss\bundle\PRN221_GroupProjectBookParty.styles.css
 E:\University\GitHub\PRN221_BookingParty\PRN221_GroupProjectBookParty\PRN221_GroupProjectBookParty\obj\Debug\net6.0\scopedcss\projectbundle\PRN221_GroupProjectBookParty.bundle.scp.css
-E:\University\GitHub\PRN221_BookingParty\PRN221_GroupProjectBookParty\PRN221_GroupProjectBookParty\obj\Debug\net6.0\PRN221_GroupProjectBookParty.csproj.CopyComplete
 E:\University\GitHub\PRN221_BookingParty\PRN221_GroupProjectBookParty\PRN221_GroupProjectBookParty\obj\Debug\net6.0\PRN221_GroupProjectBookParty.dll
 E:\University\GitHub\PRN221_BookingParty\PRN221_GroupProjectBookParty\PRN221_GroupProjectBookParty\obj\Debug\net6.0\refint\PRN221_GroupProjectBookParty.dll
 E:\University\GitHub\PRN221_BookingParty\PRN221_GroupProjectBookParty\PRN221_GroupProjectBookParty\obj\Debug\net6.0\PRN221_GroupProjectBookParty.pdb
@@ -3539,3 +3537,5 @@ D:\PRN221_BookingParty\PRN221_GroupProjectBookParty\PRN221_GroupProjectBookParty
 D:\PRN221_BookingParty\PRN221_GroupProjectBookParty\PRN221_GroupProjectBookParty\obj\Debug\net6.0\PRN221_GroupProjectBookParty.csproj.CopyComplete
 D:\PRN221_BookingParty\PRN221_GroupProjectBookParty\PRN221_GroupProjectBookParty\obj\Debug\net6.0\PRN221_GroupProjectBookParty.genruntimeconfig.cache
 D:\PRN221_BookingParty\PRN221_GroupProjectBookParty\PRN221_GroupProjectBookParty\obj\Debug\net6.0\ref\PRN221_GroupProjectBookParty.dll
+E:\University\GitHub\PRN221_BookingParty\PRN221_GroupProjectBookParty\PRN221_GroupProjectBookParty\obj\Debug\net6.0\PRN221_G.2E1D323D.Up2Date
+E:\University\GitHub\PRN221_BookingParty\PRN221_GroupProjectBookParty\PRN221_GroupProjectBookParty\bin\Debug\net6.0\Stripe.net.dll

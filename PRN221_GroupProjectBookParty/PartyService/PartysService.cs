@@ -19,7 +19,10 @@ namespace PartyService
             _partyRepo = new PartyRepo();
             _photoService = photoService;
         }
-
+        public List<Party> GetPartyByHostId(int id)
+        {
+            return _partyRepo.GetPartyByHostId(id);
+        }
         public async Task<bool> AddParty(Party party)
         {          
            return await _partyRepo.AddParty(party);          

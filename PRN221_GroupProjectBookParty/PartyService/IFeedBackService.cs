@@ -1,4 +1,5 @@
 ﻿using BO;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,6 +16,6 @@ namespace PartyService
 		public List<FeedBack> GetListFeedBack();
 		public FeedBack GetFeedBackById(int id);
 		public Booking GetBookingById(int id);
-
+		public List<FeedBack> GetFeedBackByPartyId(int id);
 	}
 }

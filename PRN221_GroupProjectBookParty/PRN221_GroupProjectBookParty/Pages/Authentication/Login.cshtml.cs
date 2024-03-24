@@ -23,7 +23,7 @@ namespace PRN221_GroupProjectBookParty.Pages.Authentication
         {
             if (HttpContext.Session.GetString("loginUser") != null)
             {
-                return RedirectToPage("/Reader/Index");
+                return RedirectToPage("/Guest/PartyView");
             }
             return Page();
         }
@@ -42,6 +42,11 @@ namespace PRN221_GroupProjectBookParty.Pages.Authentication
                 }
                 else
                 {
+                    if(account.Status == false)
+                    {
+                        TempData["ErrorMessage"] = "Your account has been blocked";
+                        return Page();
+                    }
                     var loginUser = new AccountViewmodel
                     {
                         Id = account.Id,
@@ -53,7 +58,7 @@ namespace PRN221_GroupProjectBookParty.Pages.Authentication
                     var role = account.Role;
                     if (role == "Admin")
                     {
-                        return RedirectToPage("/Admin/AdminAccount");
+                        return RedirectToPage("/Admin/AdminAccount/Index");
                     }
                     else if (role == "Host")
                     {
@@ -75,7 +80,6 @@ namespace PRN221_GroupProjectBookParty.Pages.Authentication
                 TempData["ErrorMessage"] = "Invalid ID or Password";
                 return Page();
             }
-            return Page();
         }
     }
 }

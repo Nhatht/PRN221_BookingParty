@@ -38,6 +38,11 @@ namespace DAO
             return dbContext.Parties.Include(p => p.Bookings).Include(p => p.FeedBacks)
                 .Include(p => p.Host).ToList();
         }
+        public List<Party> GetPartyByHostId(int id)
+        {
+            return dbContext.Parties.Where(p => p.HostId == id).Include(p => p.FeedBacks)
+                .Include(p => p.Host).ToList();
+        }
         public async Task<bool> AddParty(Party party)
         {
             bool result = false;

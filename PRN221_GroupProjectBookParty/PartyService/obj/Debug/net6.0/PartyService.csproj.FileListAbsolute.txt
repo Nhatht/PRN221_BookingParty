@@ -32,7 +32,6 @@ E:\University\GitHub\PRN221_BookingParty\PRN221_GroupProjectBookParty\PartyServi
 E:\University\GitHub\PRN221_BookingParty\PRN221_GroupProjectBookParty\PartyService\obj\Debug\net6.0\PartyService.AssemblyInfo.cs
 E:\University\GitHub\PRN221_BookingParty\PRN221_GroupProjectBookParty\PartyService\obj\Debug\net6.0\PartyService.csproj.CoreCompileInputs.cache
 E:\University\GitHub\PRN221_BookingParty\PRN221_GroupProjectBookParty\PartyService\obj\Debug\net6.0\PartyService.sourcelink.json
-E:\University\GitHub\PRN221_BookingParty\PRN221_GroupProjectBookParty\PartyService\obj\Debug\net6.0\PartyService.csproj.CopyComplete
 E:\University\GitHub\PRN221_BookingParty\PRN221_GroupProjectBookParty\PartyService\obj\Debug\net6.0\PartyService.dll
 E:\University\GitHub\PRN221_BookingParty\PRN221_GroupProjectBookParty\PartyService\obj\Debug\net6.0\refint\PartyService.dll
 E:\University\GitHub\PRN221_BookingParty\PRN221_GroupProjectBookParty\PartyService\obj\Debug\net6.0\PartyService.pdb
@@ -1864,3 +1863,4 @@ D:\PRN221_BookingParty\PRN221_GroupProjectBookParty\PartyService\obj\Debug\net6.
 D:\PRN221_BookingParty\PRN221_GroupProjectBookParty\PartyService\obj\Debug\net6.0\refint\PartyService.dll
 D:\PRN221_BookingParty\PRN221_GroupProjectBookParty\PartyService\obj\Debug\net6.0\PartyService.pdb
 D:\PRN221_BookingParty\PRN221_GroupProjectBookParty\PartyService\obj\Debug\net6.0\ref\PartyService.dll
+E:\University\GitHub\PRN221_BookingParty\PRN221_GroupProjectBookParty\PartyService\obj\Debug\net6.0\PartySer.CB5D3A97.Up2Date

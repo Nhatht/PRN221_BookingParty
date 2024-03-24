@@ -1,7 +1,9 @@
 using BO;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Newtonsoft.Json;
 using PartyService;
+using PRN221_WebNovel.Models;
 
 namespace PRN221_GroupProjectBookParty.Pages.Admin.AdminParty
 {
@@ -15,10 +17,28 @@ namespace PRN221_GroupProjectBookParty.Pages.Admin.AdminParty
         }
 
         public IList<Party> Parties { get; set; } = new List<Party>();
-
-        public void OnGet()
+        public string role { get; set; }
+        public IActionResult OnGet()
         {
-            Parties = _partyService.GetAllParties();
+            var loginUserJson = HttpContext.Session.GetString("loginUser");
+            if (loginUserJson != null)
+            {
+                var loginUser = JsonConvert.DeserializeObject<AccountViewmodel>(loginUserJson);
+                role = loginUser.Role;
+                if (role == "Admin")
+                {
+                    Parties = _partyService.GetAllParties();
+                    return Page();
+                }
+                else
+                {
+                    HttpContext.Session.Clear();
+                    TempData["ErrorMessage"] = "You must be an administrator to perform this action.";
+                    return RedirectToPage("/Authentication/Login");
+                }
+            }
+            TempData["ErrorMessage"] = "You must be an administrator to perform this action.";
+            return RedirectToPage("/Authentication/Login");
         }
     }
 }

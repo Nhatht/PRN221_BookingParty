@@ -19,5 +19,6 @@ namespace PartyService
         public Task<bool> UpdateParty(Party party);
         public Party GetPartyByIdNoAsync(int id);
         public Task<Party> GetPartyByIdNoTracking(int id);
+        List<Party> GetPartyByHostId(int id);
     }
 }

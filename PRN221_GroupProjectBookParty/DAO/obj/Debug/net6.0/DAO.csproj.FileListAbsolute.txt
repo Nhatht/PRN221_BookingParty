@@ -24,7 +24,6 @@ E:\University\GitHub\PRN221_BookingParty\PRN221_GroupProjectBookParty\DAO\obj\De
 E:\University\GitHub\PRN221_BookingParty\PRN221_GroupProjectBookParty\DAO\obj\Debug\net6.0\DAO.AssemblyInfo.cs
 E:\University\GitHub\PRN221_BookingParty\PRN221_GroupProjectBookParty\DAO\obj\Debug\net6.0\DAO.csproj.CoreCompileInputs.cache
 E:\University\GitHub\PRN221_BookingParty\PRN221_GroupProjectBookParty\DAO\obj\Debug\net6.0\DAO.sourcelink.json
-E:\University\GitHub\PRN221_BookingParty\PRN221_GroupProjectBookParty\DAO\obj\Debug\net6.0\DAO.csproj.CopyComplete
 E:\University\GitHub\PRN221_BookingParty\PRN221_GroupProjectBookParty\DAO\obj\Debug\net6.0\DAO.dll
 E:\University\GitHub\PRN221_BookingParty\PRN221_GroupProjectBookParty\DAO\obj\Debug\net6.0\refint\DAO.dll
 E:\University\GitHub\PRN221_BookingParty\PRN221_GroupProjectBookParty\DAO\obj\Debug\net6.0\DAO.pdb
@@ -1836,3 +1835,4 @@ D:\PRN221_BookingParty\PRN221_GroupProjectBookParty\DAO\obj\Debug\net6.0\DAO.dll
 D:\PRN221_BookingParty\PRN221_GroupProjectBookParty\DAO\obj\Debug\net6.0\refint\DAO.dll
 D:\PRN221_BookingParty\PRN221_GroupProjectBookParty\DAO\obj\Debug\net6.0\DAO.pdb
 D:\PRN221_BookingParty\PRN221_GroupProjectBookParty\DAO\obj\Debug\net6.0\ref\DAO.dll
+E:\University\GitHub\PRN221_BookingParty\PRN221_GroupProjectBookParty\DAO\obj\Debug\net6.0\DAO.csproj.Up2Date
