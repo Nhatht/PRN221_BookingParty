@@ -42,15 +42,16 @@ namespace PRN221_GroupProjectBookParty.Pages.Host.HostParty
         // To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD
         public async Task<IActionResult> OnPostAsync()
         {
-            if (!ModelState.IsValid || _partysService.GetAllParties == null)
+            
+            var loginUserJson = HttpContext.Session.GetString("loginUser");
+            var loginUser = JsonConvert.DeserializeObject<AccountViewmodel>(loginUserJson);
+            HostId = loginUser.Id;
+            if (!ModelState.IsValid)
             {
                 return Page();
             }
-            var loginUserJson = HttpContext.Session.GetString("loginUser");
-
-            var loginUser = JsonConvert.DeserializeObject<AccountViewmodel>(loginUserJson);
-            HostId = loginUser.Id;
             var result = await _photoService.AddPhotoAsync(Party.ImageUrl);
+            
             if (result != null)
             {
                 var party = new Party

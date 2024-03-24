@@ -59,12 +59,18 @@ namespace PRN221_GroupProjectBookParty.Pages.Host.HostParty
         // For more details, see https://aka.ms/RazorPagesCRUD.
         public async Task<IActionResult> OnPostAsync(int id)
         {
-            if (!ModelState.IsValid)
+
+            var party = await _partysService.GetPartyByIdNoTracking(id);
+            if (Party.Price <= 0 || Party.Price.ToString().Length > 6)
             {
+                ModelState.AddModelError("Party.Price", "Price should be greater than 0 and have a length equal to or less than 7.");
                 return Page();
             }
-            var party = await _partysService.GetPartyByIdNoTracking(id);
-
+            else if (Party.MaxPeople > 5000)
+            {
+                ModelState.AddModelError("Party.MaxPeople", "Max People should not exceed 500.");
+                return Page();
+            }
             if (party != null)
             {
                 var partyVM = new Party();

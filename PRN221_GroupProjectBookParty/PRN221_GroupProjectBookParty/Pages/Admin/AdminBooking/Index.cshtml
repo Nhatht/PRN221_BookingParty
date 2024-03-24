@@ -117,11 +117,19 @@
 
                                         @if (item.Status.Equals("Approved"))
                                         {
-                                            <span style="color: red; font-weight: bold">@item.Status</span>
+                                            <span style="color: green; font-weight: bold">@item.Status</span>
                                         }
                                         else if (item.Status.Equals("Deny"))
                                         {
                                             <span style="color: green; font-weight: bold">@item.Status</span>
+                                        }
+                                        else if (item.Status.Equals("Paid"))
+                                        {
+                                            <span style="color: green; font-weight: bold">@item.Status</span>
+                                        }
+                                        else if (item.Status.Equals("Not Approved"))
+                                        {
+                                            <span style="color: red; font-weight: bold">@item.Status</span>
                                         }
                                         @{
                                             index++;

@@ -28,7 +28,7 @@ namespace BO
         [Required]
         public string? Package { get; set; }
         [Required]
-        [Range(0, 5000)]
+        [Range(0, 500)]
         public int MaxPeople { get; set; }
         public string ImageUrl { get; set; } = null!;
         [Required]

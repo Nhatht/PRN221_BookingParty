@@ -23,14 +23,14 @@ namespace PRN221_GroupProjectBookParty.Pages.Authentication
 
             if (_accountService.GetAccountByEmail(Account.Email) != null)
             {
-
+                TempData["ErrorMessage"] = "Email already exists.";
                 return RedirectToPage("/Authentication/Login");
             }
-            string hashedPassword = PasswordHashing.HashPassword(Account.Password);
+            //string hashedPassword = PasswordHashing.HashPassword(Account.Password);
             Account newAccount = new Account();
             newAccount.Status = true;
             newAccount.Email = Account.Email;
-            newAccount.Password = hashedPassword;
+            newAccount.Password = Account.Password;
             newAccount.UserName = Account.UserName;
             newAccount.Phone = Account.Phone;
             newAccount.Gender = Account.Gender;
