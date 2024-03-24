@@ -4,7 +4,7 @@
 
 @{
 	ViewData["Title"] = "Gửi đánh giá";
-	Layout = "/Pages/Layout/_LayoutHost.cshtml";
+	Layout = "/Pages/Layout/_LayoutUser.cshtml";
 }
 
 
@@ -89,7 +89,7 @@
 											</div>
 											<div class="mb-3">
 												<label asp-for="FeedBack.Comment" class="form-label">Nội dung đánh giá:</label>
-												<textarea asp-for="FeedBack.Comment" class="form-control" required placeholder="Vui lòng nhập..." rows="5"></textarea>
+												<textarea asp-for="FeedBack.Comment" class="form-control" required placeholder="Vui lòng nhập..." rows="5" maxlength="255"></textarea>
 												<span asp-validation-for="FeedBack.Comment" class="text-danger"></span>
 											</div>
 											<div class="mb-3">
@@ -107,8 +107,7 @@
 												</label>
 											</div>
 											<input type="submit" value="Send" class="btn btn-primary" />
-											<a style="text-decoration: none;
-                                                   color: inherit;" asp-page="PartyManagement">
+											<a asp-page="./Guest/PartyDetail" asp-route-id="@ViewData["PartyId"]" style="text-decoration: none; color: inherit;">
 												<button type="button" class="btn btn-primary">Return</button>
 											</a>
 										</form>

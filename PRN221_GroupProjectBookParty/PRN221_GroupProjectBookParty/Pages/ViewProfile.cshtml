@@ -95,6 +95,7 @@
                                 <th style="font-size: .8rem">Start Date</th>
                                 <th style="font-size: .8rem">Status</th>
                                 <th style="font-size: .8rem">Action</th>
+                                <th style="font-size: .8rem">Action</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -109,6 +110,18 @@
                                     <td style="font-size: .8rem">@booking.Inquiry</td>
                                     <td style="font-size: .8rem">@booking.StartDate.ToShortDateString()</td>
                                     <td style="font-size: .8rem">@(booking.Status)</td>
+                                        @if (booking.Status.Equals("Finish"))
+                                        {
+                                        <td style="font-size: .8rem">
+                                            <a asp-page="./Guest/SendFeedBack" asp-route-id="@booking.Id" class="btn btn-primary">Feedback</a>
+                                        </td>
+                                        }
+                                        else
+                                        {
+                                        <td style="font-size: .8rem">
+                                            <a asp-page="#" asp-route-id="@booking.Id" class="btn btn-sencondary" style="background-color: #CCCCCC; cursor: not-allowed;" disabled>Feedback</a>
+                                        </td>
+                                        }
                                     @if (booking.Status.Equals("Approved"))
                                     {
                                         <td style="font-size: .8rem">
