@@ -1,4 +1,5 @@
 using BO;
+using CloudinaryDotNet.Actions;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Newtonsoft.Json;
@@ -16,18 +17,29 @@ namespace PRN221_GroupProjectBookParty.Pages.Host.HostBooking
         }
         public IList<Booking> Bookings { get; set; }
         public int HostId { get; set; }
-
-        public async Task OnGetAsync()
+        public string role { get; set; }
+        public IActionResult OnGetAsync()
         {
-            if(HttpContext.Session.GetString("loginUser") != null)
+            var loginUserJson = HttpContext.Session.GetString("loginUser");
+            if (loginUserJson != null)
             {
-                var loginUser = JsonConvert.DeserializeObject<AccountViewmodel>(HttpContext.Session.GetString("loginUser"));
+                var loginUser = JsonConvert.DeserializeObject<AccountViewmodel>(loginUserJson);
                 HostId = loginUser.Id;
-                Bookings = _bookingService.GetBookingByHostId(HostId);
-            }else
-            {
-                RedirectToPage("/Authentication/Login");
+                role = loginUser.Role;
+                if (role == "Host")
+                {
+                    Bookings = _bookingService.GetBookingByHostId(HostId);
+                    return Page();
+                }
+                else
+                {
+                    HttpContext.Session.Clear();
+                    TempData["ErrorMessage"] = "You must be a host to perform this action.";
+                    return RedirectToPage("/Authentication/Login");
+                }
             }
+            TempData["ErrorMessage"] = "You must be a host to perform this action.";
+            return RedirectToPage("/Authentication/Login");
         }
     }
 }
