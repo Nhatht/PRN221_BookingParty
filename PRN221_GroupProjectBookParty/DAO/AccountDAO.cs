@@ -29,6 +29,10 @@ namespace DAO
                 return instance;
             }
         }
+        public Account GetAccount(string email, string password)
+        {
+            return dbContext.Accounts.FirstOrDefault(x => x.Email.Equals(email) && x.Password.Equals(password));
+        }
         public bool Login(string email, string password)
         {
             var user = dbContext.Accounts.FirstOrDefault(x => x.Email.Equals(email)
