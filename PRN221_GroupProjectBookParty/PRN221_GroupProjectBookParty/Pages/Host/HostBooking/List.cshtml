@@ -1,8 +1,10 @@
 ﻿@page
+@using PRN221_GroupProjectBookParty.Models;
 @model PRN221_GroupProjectBookParty.Pages.Host.HostBooking.ListModel
 @{
     ViewData["Title"] = "Host - Manage Booking";
     Layout = "/Pages/Layout/_LayoutHost.cshtml";
+    var finish = BookingStatus.IsActive;
 }
 <body>
     <div class="content-wrapper">
@@ -29,7 +31,8 @@
                                     <th>Inquiry</th>
                                     <th>Start Date</th>
                                     <th>Status</th>
-                                    <th>Action</th>
+                                    <th>Finished</th>
+                                    <th style="text-align:center">Action</th>
                                 </tr>
                             </thead>
                             <tbody class="table-border-bottom-0">
@@ -69,10 +72,26 @@
                                                 <span style="color: green; font-weight: bold">Đã được duyệt</span>
                                             }
                                         </td>
+                                        <td>
+                                            @if(finish.Equals("Finish"))
+                                            {
+                                                <span style="color: firebrick; font-weight: bold">Finished</span>
+                                            }
+                                            else if (finish.Equals("Paid"))
+                                            {
+                                                <span style="color: coral; font-weight: bold">Paid</span>
+                                            }
+                                            else
+                                            {
+                                                <span style="color: green; font-weight: bold">Not Paid</span>
+                                            }
+                                        </td>
 
                                         <td>
                                             <button type="submit" asp-route-id="@item.Id" asp-page-handler="Confirm">Confirm</button> |
-                                            <button type="submit" asp-route-id="@item.Id" asp-page-handler="Cancel">Cancel</button>
+                                            <button type="submit" asp-route-id="@item.Id" asp-page-handler="Cancel">Cancel</button> |
+                                            <button type="submit" asp-route-id="@item.Id" asp-page-handler="Finish">Finish</button>
+
                                         </td>
 
                                     </tr>

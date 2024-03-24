@@ -4,10 +4,11 @@ using PartyService;
 using PartyService.BlogPosts;
 using PartyService.Helpers;
 using PartyService.PhotoUpload;
+using Stripe;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddScoped<IAccountRepo, AccountRepo>();
-builder.Services.AddScoped<IAccountService, AccountService>();
+builder.Services.AddScoped<IAccountService, PartyService.AccountService>();
 
 builder.Services.AddScoped<IBlogPostRepo, BlogPostRepo>();
 builder.Services.AddScoped<IBlogPostService, BlogPostService>();
@@ -24,6 +25,7 @@ builder.Services.AddScoped<IPhotoService, PhotoService>();
 builder.Services.AddScoped<ICloudinaryService, CloudinaryService>();
 
 builder.Services.Configure<CloudinarySettings>(builder.Configuration.GetSection("CloudinarySettings"));
+builder.Services.Configure<StripeSettings>(builder.Configuration.GetSection("Stripe"));
 
 // Add services to the container.
 builder.Services.AddRazorPages();
@@ -55,7 +57,8 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
+string key = builder.Configuration.GetSection("Stripe:SecretKey").Get<string>();
+StripeConfiguration.ApiKey = key;
 app.UseAuthorization();
 app.UseSession();
 app.MapRazorPages();
