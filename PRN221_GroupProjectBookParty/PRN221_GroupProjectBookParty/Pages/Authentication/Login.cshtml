@@ -59,7 +59,58 @@
                 <input asp-for="Account.Password" type="password" placeholder="Password" required>
                 <input asp-for="Account.UserName" type="text" placeholder="username" required>
                 <input asp-for="Account.Phone" type="text" placeholder="phone" required>
-                <input asp-for="Account.Gender" type="text" placeholder="Gender" required>
+                <div class="input-box" style="position: relative;">
+                    <select asp-for="Account.Gender" required style="
+        background-color: #ffffff;
+        border: 1px solid #ced4da;
+        border-radius: 10px; /* Bo góc */
+        box-sizing: border-box;
+        font-size: 16px;
+        padding: 10px;
+        width: 100%; /* Kéo dài combo box ra */
+        -webkit-appearance: none; /* Ẩn kiểu dáng mặc định của combo box trên Chrome/Safari */
+        -moz-appearance: none; /* Ẩn kiểu dáng mặc định của combo box trên Firefox */
+        appearance: none; /* Ẩn kiểu dáng mặc định của combo box */
+    ">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                    <i class='bx bxs-down-arrow' style="
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+        pointer-events: none;
+        color: #666666;
+    "></i>
+                </div>
+
+                <div class="input-box" style="position: relative;">
+                    <select asp-for="Account.Role" required style="
+        background-color: #ffffff;
+        border: 1px solid #ced4da;
+        border-radius: 10px; /* Bo góc */
+        box-sizing: border-box;
+        font-size: 16px;
+        padding: 10px;
+        width: 100%; /* Kéo dài combo box ra */
+        -webkit-appearance: none; /* Ẩn kiểu dáng mặc định của combo box trên Chrome/Safari */
+        -moz-appearance: none; /* Ẩn kiểu dáng mặc định của combo box trên Firefox */
+        appearance: none; /* Ẩn kiểu dáng mặc định của combo box */
+    ">
+                        <option value="Host">Host</option>
+                        <option value="User">User</option>
+                    </select>
+                    <i class='bx bxs-down-arrow' style="
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+        pointer-events: none;
+        color: #666666;
+    "></i>
+                </div>
+
                 @if (TempData["ErrorMessage"] != null)
                 {
                     <span style="color:red">@TempData["ErorrMessage"]</span>
