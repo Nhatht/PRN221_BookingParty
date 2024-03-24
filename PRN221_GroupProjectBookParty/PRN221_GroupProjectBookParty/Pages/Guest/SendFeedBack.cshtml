@@ -77,22 +77,23 @@
 												@* <label asp-for="FeedBack.GuestId" class="form-label">Người gửi:</label>
 												<input asp-for="FeedBack.GuestId" class="form-control" asp-items="ViewBag.GuestId" /> *@
 												<label asp-for="FeedBack.GuestId" class="form-label">Người gửi:</label>
-												<input asp-for="FeedBack.GuestId" type="text" placeholder="" value="@ViewData["GuestId"]" readonly class="form-control" />
+												<input asp-for="FeedBack.GuestId" type="text" placeholder="" value="@ViewData["GuestId"]" hidden readonly class="form-control" />
+												<input type="text" placeholder="" value="@ViewData["GuestName"]" readonly class="form-control" />
 												<span asp-validation-for="FeedBack.GuestId" class="text-danger"></span>
 											</div>
 											<div class="mb-3">
 												<label asp-for="FeedBack.PartyId" class="form-label">Buổi tiệc:</label>
-												<input asp-for="FeedBack.PartyId" type="text" placeholder="" value="@ViewData["PartyId"]" readonly class="form-control" />
+												<input asp-for="FeedBack.PartyId" type="text" placeholder="" value="@ViewData["PartyId"]" hidden readonly class="form-control" />
+												<input type="text" placeholder="" value="@ViewData["PartyName"]" readonly class="form-control" />
 												<span asp-validation-for="FeedBack.PartyId" class="text-danger"></span>
 											</div>
 											<div class="mb-3">
 												<label asp-for="FeedBack.Comment" class="form-label">Nội dung đánh giá:</label>
-												<textarea asp-for="FeedBack.Comment" class="form-control" placeholder="Vui lòng nhập..." rows="5"></textarea>
+												<textarea asp-for="FeedBack.Comment" class="form-control" required placeholder="Vui lòng nhập..." rows="5"></textarea>
 												<span asp-validation-for="FeedBack.Comment" class="text-danger"></span>
 											</div>
 											<div class="mb-3">
-												<label asp-for="FeedBack.ReviewDate" class="form-label">Thời gian:</label>
-												<input asp-for="FeedBack.ReviewDate" class="form-control" type="" value="@DateTime.Now" />
+												<input asp-for="FeedBack.ReviewDate" class="form-control" hidden type="" value="@DateTime.Now" />
 												<span asp-validation-for="FeedBack.ReviewDate" class="text-danger"></span>
 											</div>
 											@* <div class="mb-3">
