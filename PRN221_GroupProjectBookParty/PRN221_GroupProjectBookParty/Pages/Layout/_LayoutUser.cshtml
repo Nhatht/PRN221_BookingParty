@@ -64,7 +64,23 @@
                             </div>
                             <a asp-page="/Guest/Contact" class="nav-item nav-link">Contact</a>
                         </div>
-                        <a asp-page="/Authentication/Login" class="btn btn-primary rounded-0 py-4 px-md-5 d-none d-lg-block">Login<i class="fa fa-arrow-right ms-3"></i></a>
+                        @if (loginUserName != null)
+                        {
+                            <div class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle btn btn-primary rounded-0 py-4 px-md-5 d-none d-lg-block" data-bs-toggle="dropdown">
+                                    <i class="bi bi-person-circle"></i>Welcome, @loginUserName
+                                </a>
+                                <div class="dropdown-menu rounded-0 m-0">
+                                    <a href="/ViewProfile/@loginUser.Id" class="dropdown-item">Profile</a>
+                                    <a asp-page="/Authentication/Logout" class="dropdown-item">Logout</a>
+                                </div>
+                            </div>
+                        }
+                        else
+                        {
+                            <a asp-page="/Authentication/Login" class="btn btn-primary rounded-0 py-4 px-md-5 d-none d-lg-block">Login<i class="fa fa-arrow-right ms-3"></i></a>
+                        }
+
                     </div>
                 </nav>
             </div>
