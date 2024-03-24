@@ -16,22 +16,33 @@ namespace PRN221_GroupProjectBookParty.Pages.Host.HostBooking
         public List<Booking> Booking { get; set; }
         private readonly IBookingService bookingService;
         public int HostId { get; set; }
+        public string role { get; set; }
         public ListModel(IBookingService _bookingService)
         {
             bookingService = _bookingService;
         }
-        public void OnGet()
+        public IActionResult OnGet()
         {
-            if (HttpContext.Session.GetString("loginUser") != null)
+            var loginUserJson = HttpContext.Session.GetString("loginUser");
+            if (loginUserJson != null)
             {
-                var loginUser = JsonConvert.DeserializeObject<AccountViewmodel>(HttpContext.Session.GetString("loginUser"));
+                var loginUser = JsonConvert.DeserializeObject<AccountViewmodel>(loginUserJson);
                 HostId = loginUser.Id;
-                Booking = bookingService.GetBookingByHostId(HostId);
+                role = loginUser.Role;
+                if (role == "Host")
+                {
+                    Booking = bookingService.GetBookingByHostId(HostId);
+                    return Page();
+                }
+                else
+                {
+                    HttpContext.Session.Clear();
+                    TempData["ErrorMessage"] = "You must be a host to perform this action.";
+                    return RedirectToPage("/Authentication/Login");
+                }
             }
-            else
-            {
-                RedirectToPage("/Authentication/Login");
-            }
+            TempData["ErrorMessage"] = "You must be a host to perform this action.";
+            return RedirectToPage("/Authentication/Login");
         }
         public async Task<IActionResult> OnPostConfirm(int id)
         {

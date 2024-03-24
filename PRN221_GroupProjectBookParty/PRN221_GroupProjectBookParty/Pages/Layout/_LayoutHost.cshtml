@@ -116,65 +116,77 @@
                 <div class="menu-inner-shadow"></div>
 
                 <ul class="menu-inner py-1">
-                    <li class="menu-header small text-uppercase">
-                        <span class="menu-header-text">Tools &amp; page</span>
-                    </li>
-                    <!-- Layouts -->
+                    @if (loginUser != null && loginUser.Role == "Host")
+                    {
+                        <li class="menu-header small text-uppercase">
+                            <span class="menu-header-text">Tools &amp; Host</span>
+                        </li>
+                        <!-- Layouts -->
 
-                    <li class="menu-item">
-                        <a href="/Host/HostParty/PartyManagement" class="menu-link">
-                            <i class="menu-icon fa-solid fa-person-booth"></i>
-                            <div data-i18n="Layouts">Quản lý phòng tiệc</div>
-                        </a>
-                    </li>
-                    <li class="menu-item">
-                        <a href="/Host/HostBooking/List" class="menu-link">
-                            <i class="menu-icon fa-solid fa-person-booth"></i>
-                            <div data-i18n="Layouts">Booking Management</div>
-                        </a>
-                    </li>
+                        <li class="menu-item">
+                            <a href="/Host/HostParty/PartyManagement" class="menu-link">
+                                <i class="menu-icon fa-solid fa-house"></i>
+                                <div data-i18n="Layouts">Quản lý phòng tiệc</div>
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="/Host/HostBooking/List" class="menu-link">
+                                <i class="menu-icon fa-solid fa-money-check"></i>
+                                <div data-i18n="Layouts">Booking Management</div>
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="/Host/HostBooking" class="menu-link">
+                                <i class="menu-icon fa-solid fa-clipboard-list"></i>
+                                <div data-i18n="Layouts">List Booking</div>
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="/Host/BlogPosts/List" class="menu-link">
+                                <i class="menu-icon fa-solid fa-newspaper"></i>
+                                <div data-i18n="Layouts">Blog Post</div>
+                            </a>
+                        </li>
+                    }
 
-                    <li class="menu-header small text-uppercase">
-                        <span class="menu-header-text">Management</span>
-                    </li>
-                    <li class="menu-item">
-                        <a href="UserManagement" class="menu-link">
-                            <i class=" menu-icon tf-icons fa-solid fa-clipboard-user"></i>
-                            <div data-i18n="Layouts">Dashboard</div>
-                        </a>
-                    </li>
-                    <li class="menu-item">
-                        <a href="UserManagement" class="menu-link">
-                            <i class="menu-icon tf-icons fa-solid fa-users"></i>
-                            <div data-i18n="Layouts">User</div>
-                        </a>
-                    </li>
+                    @if (loginUser != null && loginUser.Role == "Admin")
+                    {
+                        <li class="menu-header small text-uppercase">
+                            <span class="menu-header-text">Admin</span>
+                        </li>
+                        <li class="menu-item">
+                            <a href="UserManagement" class="menu-link">
+                                <i class=" menu-icon tf-icons fa-solid fa-clipboard-user"></i>
+                                <div data-i18n="Layouts">Dashboard</div>
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="/Admin/AdminAccount" class="menu-link">
+                                <i class="menu-icon tf-icons fa-solid fa-users"></i>
+                                <div data-i18n="Layouts">User</div>
+                            </a>
+                        </li>
 
-                    <li class="menu-item">
-                        <a href="HostManagement" class="menu-link">
-                            <i class="menu-icon tf-icons fa-solid fa-people-group"></i>
-                            <div data-i18n="Layouts">Host</div>
-                        </a>
-                    </li>
+                        <li class="menu-item">
+                            <a href="/Admin/AdminParty" class="menu-link">
+                                <i class="menu-icon tf-icons fa-solid fa-people-group"></i>
+                                <div data-i18n="Layouts">List Party</div>
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="/Admin/AdminBooking" class="menu-link">
+                                <i class="menu-icon fa-solid fa-clipboard-list"></i>
+                                <div data-i18n="Layouts">List All Booking</div>
+                            </a>
+                        </li>
 
-
-
-                    <li class="menu-item">
-                        <a href="PackageManagement" class="menu-link">
-                            <i class="menu-icon tf-icons fa-solid fa-box"></i>
-                            <div data-i18n="Layouts">Package</div>
-                        </a>
-                    </li>
-
-                    <li class="menu-item">
-                        <a href="/Host/BlogPosts/List" class="menu-link">
-                            <div data-i18n="Layouts">Blog Post</div>
-                        </a>
-                    </li>
-
-                    <li class="menu-header small text-uppercase">
-                        <span class="menu-header-text">Account &amp; User</span>
-                    </li>
+                        <li class="menu-item">
+                            <a href="/Host/BlogPosts/List" class="menu-link">
+                                <i class="menu-icon fa-solid fa-newspaper"></i>
+                                <div data-i18n="Layouts">Blog Post</div>
+                            </a>
+                        </li>
+                    }
 
                     <li class="menu-item"
                         data-toggle="tooltip"
@@ -282,20 +294,20 @@
         }
     });
 </script>
-    <script src="~/js/vendor/libs/jquery/jquery.js"></script>
-    <script src="~/js/vendor/libs/popper/popper.js"></script>
-    <script src="~/js/vendor/js/bootstrap.js"></script>
-    <script src="~/js/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
-    <script src="~/js/vendor/js/menu.js"></script>
+<script src="~/js/vendor/libs/jquery/jquery.js"></script>
+<script src="~/js/vendor/libs/popper/popper.js"></script>
+<script src="~/js/vendor/js/bootstrap.js"></script>
+<script src="~/js/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+<script src="~/js/vendor/js/menu.js"></script>
 
-    <!-- endbuild -->
-    <!-- Vendors JS -->
-    <!-- Main JS -->
-    <script src="~/js/main.js"></script>
+<!-- endbuild -->
+<!-- Vendors JS -->
+<!-- Main JS -->
+<script src="~/js/main.js"></script>
 
-    <!-- Page JS -->
-    <!-- Place this tag in your head or just before your close body tag. -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
+<!-- Page JS -->
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
 <!-- DataTable-->
 <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>

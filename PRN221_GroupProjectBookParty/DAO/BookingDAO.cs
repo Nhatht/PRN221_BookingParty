@@ -77,7 +77,7 @@ namespace DAO
             List<Booking> bookings = new List<Booking>();
             foreach (var item in party)
             {
-                bookings.AddRange(dbContext.Bookings.Where(x => x.PartyId == item.Id).ToList());
+                bookings.AddRange(dbContext.Bookings.Where(x => x.PartyId == item.Id).Include(x => x.Guest).ToList());
             }
             return bookings;
         }

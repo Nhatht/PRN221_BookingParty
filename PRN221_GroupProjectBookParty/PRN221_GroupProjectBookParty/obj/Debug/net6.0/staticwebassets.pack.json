@@ -53,6 +53,10 @@
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
     {
+      "Id": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\css\\dashboard.css",
+      "PackagePath": "staticwebassets\\css\\dashboard.css"
+    },
+    {
       "Id": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\css\\demo.css",
       "PackagePath": "staticwebassets\\css\\demo.css"
     },
@@ -81,8 +85,16 @@
       "PackagePath": "staticwebassets\\img\\carousel-1.jpg"
     },
     {
+      "Id": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\img\\man-with-laptop-light.png",
+      "PackagePath": "staticwebassets\\img\\man-with-laptop-light.png"
+    },
+    {
       "Id": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\img\\room-1.jpg",
       "PackagePath": "staticwebassets\\img\\room-1.jpg"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\img\\room-3.jpg",
+      "PackagePath": "staticwebassets\\img\\room-3.jpg"
     },
     {
       "Id": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\js\\PartyManagement.js",

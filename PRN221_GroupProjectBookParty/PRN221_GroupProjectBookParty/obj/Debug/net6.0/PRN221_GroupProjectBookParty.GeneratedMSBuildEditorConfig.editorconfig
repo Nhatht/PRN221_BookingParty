@@ -46,6 +46,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWRtaW5QYXJ0eVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/University/GitHub/PRN221_BookingParty/PRN221_GroupProjectBookParty/PRN221_GroupProjectBookParty/Pages/Admin/Dashboard/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRGFzaGJvYXJkXERhc2hib2FyZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/University/GitHub/PRN221_BookingParty/PRN221_GroupProjectBookParty/PRN221_GroupProjectBookParty/Pages/Authentication/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aGVudGljYXRpb25cTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -66,12 +70,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR3Vlc3RcQWJvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/University/GitHub/PRN221_BookingParty/PRN221_GroupProjectBookParty/PRN221_GroupProjectBookParty/Pages/Guest/Booking.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR3Vlc3RcQm9va2luZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/University/GitHub/PRN221_BookingParty/PRN221_GroupProjectBookParty/PRN221_GroupProjectBookParty/Pages/Guest/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR3Vlc3RcQ29udGFjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/University/GitHub/PRN221_BookingParty/PRN221_GroupProjectBookParty/PRN221_GroupProjectBookParty/Pages/Guest/PartyDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR3Vlc3RcUGFydHlEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/University/GitHub/PRN221_BookingParty/PRN221_GroupProjectBookParty/PRN221_GroupProjectBookParty/Pages/Guest/PartyView.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR3Vlc3RcUGFydHlWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/University/GitHub/PRN221_BookingParty/PRN221_GroupProjectBookParty/PRN221_GroupProjectBookParty/Pages/Guest/SendFeedBack.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR3Vlc3RcU2VuZEZlZWRCYWNrLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/University/GitHub/PRN221_BookingParty/PRN221_GroupProjectBookParty/PRN221_GroupProjectBookParty/Pages/Host/BlogPosts/Add.cshtml]
@@ -88,6 +104,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [E:/University/GitHub/PRN221_BookingParty/PRN221_GroupProjectBookParty/PRN221_GroupProjectBookParty/Pages/Host/HostBooking/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9zdFxIb3N0Qm9va2luZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/University/GitHub/PRN221_BookingParty/PRN221_GroupProjectBookParty/PRN221_GroupProjectBookParty/Pages/Host/HostBooking/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9zdFxIb3N0Qm9va2luZ1xMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/University/GitHub/PRN221_BookingParty/PRN221_GroupProjectBookParty/PRN221_GroupProjectBookParty/Pages/Host/HostParty/CreateParty.cshtml]

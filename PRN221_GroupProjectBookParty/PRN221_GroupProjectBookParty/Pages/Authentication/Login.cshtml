@@ -62,7 +62,9 @@
                 <input asp-for="Account.Gender" type="text" placeholder="Gender" required>
                 @if (TempData["ErrorMessage"] != null)
                 {
-                    <span style="color:red">@TempData["ErorrMessage"]</span>
+                    <div class="alert alert-danger" style="color:red">
+                        @TempData["ErrorMessage"]
+                    </div>
                 }
                 <button>Sign Up</button>
             </form>
@@ -81,7 +83,9 @@
                 <input asp-for="Account.Password" type="password" placeholder="Password">
                 @if (TempData["ErrorMessage"] != null)
                 {
-                    <span style="color:red">@TempData["ErorrMessage"]</span>
+                    <div class="alert alert-danger" style="color:red">
+                        @TempData["ErrorMessage"]
+                    </div>
                 }
                 <a href="#">Forget Your Password?</a>
                 <button>Sign In</button>
