@@ -14,7 +14,7 @@ namespace PartyService
         List<Booking> GetBookingByAccountId(int id);
         Task AddBooking(Booking booking);
         Task UpdateBooking(Booking booking);
-        List<Booking> GetBookingByHostId(int id);
+         Task<List<Booking>> GetBookingByHostId(int id);
         List<Booking> GetBookingByUserId(int id);
     }
 }

@@ -18,7 +18,7 @@ namespace PRN221_GroupProjectBookParty.Pages.Host.HostBooking
         public IList<Booking> Bookings { get; set; }
         public int HostId { get; set; }
         public string role { get; set; }
-        public IActionResult OnGetAsync()
+        public async Task<IActionResult> OnGetAsync()
         {
             var loginUserJson = HttpContext.Session.GetString("loginUser");
             if (loginUserJson != null)
@@ -28,7 +28,7 @@ namespace PRN221_GroupProjectBookParty.Pages.Host.HostBooking
                 role = loginUser.Role;
                 if (role == "Host")
                 {
-                    Bookings = _bookingService.GetBookingByHostId(HostId);
+                    Bookings = await _bookingService.GetBookingByHostId(HostId);
                     return Page();
                 }
                 else

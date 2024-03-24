@@ -43,7 +43,22 @@ namespace PRN221_GroupProjectBookParty.Pages.Guest
         }
         public async Task<IActionResult> OnPost()
         {
+            if (AddBooking.NumberOfPeople > Party.MaxPeople)
+            {
+                ModelState.AddModelError("AddBooking.NumberOfPeople", "Number of people cannot exceed maximum allowed.");
+                return Page();
+            }
+            if (AddBooking.NumberOfPeople < 1)
+            {
+                ModelState.AddModelError("AddBooking.NumberOfPeople", "Number of people must be more than 1.");
+                return Page();
+            }
 
+            if (AddBooking.StartDate < DateTime.Now)
+            {
+                ModelState.AddModelError("AddBooking.StartDate", "Start date cannot be in the past.");
+                return Page();
+            }
             var bk = new Booking()
             {
                 PartyId = Party.Id,

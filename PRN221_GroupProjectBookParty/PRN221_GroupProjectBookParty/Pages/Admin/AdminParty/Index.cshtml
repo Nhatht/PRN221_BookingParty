@@ -16,79 +16,84 @@
                     <!-- Button trigger modal -->
 
                 </h5>
-
-                <div class="table-responsive text-nowrap">
-                    <table id="myTable" class="table">
-                        <thead>
-                            <tr>
-                                <th style ="text-align: center;">STT</th>
-                                <th style="text-align: center;">Tên chủ tiệc</th>
-                                <th style="text-align: center;">Tên</th>
-                                <th style="text-align: center;">Hình ảnh</th>
-                                <th style="text-align: center;">Giá</th>
-                                <th style="text-align: center;">Chủ đề</th>
-                                <th style="text-align: center;">Số lượng</th>
-                                <th style="text-align: center;">Yêu cầu</th>
-                                <th style="text-align: center;">Status</th>
-                                <th style="text-align: center;">Action</th>
-                            </tr>
-                        </thead>
-                        <tbody class="table-border-bottom-0">
-                            @{
-                                int index = 1;
-                            }
-                            @foreach (var item in Model.Parties)
-                            {
+                <form method="post">
+                    <div class="table-responsive text-nowrap">
+                        <table id="myTable" class="table">
+                            <thead>
                                 <tr>
-                                    <td style="text-align: center;">
-                                        @index
-                                    </td>
-
-                                    <td style="text-align: center;">
-                                        @Html.DisplayFor(modelItem => item.Host.UserName)
-                                    </td>
-                                    <td style="text-align: center;">
-                                        @Html.DisplayFor(modelItem => item.Name)
-                                    </td>
-                                    <td>
-                                        <img src="@item.ImageUrl" alt="Party Image" style="max-width: 100px; max-height: 100px;" />
-                                    </td>
-                                    <td style="text-align: center;">
-                                        @Html.DisplayFor(modelItem => item.Price)
-                                    </td>
-
-                                    <td style="text-align: center;">
-                                        @Html.DisplayFor(modelItem => item.Theme)
-                                    </td>
-                                    <td style="text-align: center;">
-                                        @Html.DisplayFor(modelItem => item.MaxPeople)
-                                    </td>
-                                    <td style="text-align: center;">
-                                        @Html.DisplayFor(modelItem => item.Request)
-                                    </td>
-                                    <td>
-
-                                        @if (item.Status == false)
-                                        {
-                                            <span style="color: red; font-weight: bold">Thất bại</span>
-                                        }
-                                        else if (item.Status == true)
-                                        {
-                                            <span style="color: green; font-weight: bold">Thành công</span>
-                                        }
-                                        @{
-                                            index++;
-                                        }
-                                    </td>
-                                    <td>
-                                        <a type="btn btn-success" type="button" class="btn btn-sm btn-outline-secondary" asp-page="./Delete" asp-route-id="@item.Id">chặn</a>
-                                    </td>
+                                    <th style="text-align: center;">STT</th>
+                                    <th style="text-align: center;">Tên chủ tiệc</th>
+                                    <th style="text-align: center;">Tên</th>
+                                    <th style="text-align: center;">Hình ảnh</th>
+                                    <th style="text-align: center;">Giá</th>
+                                    <th style="text-align: center;">Chủ đề</th>
+                                    <th style="text-align: center;">Số lượng</th>
+                                    <th style="text-align: center;">Yêu cầu</th>
+                                    <th style="text-align: center;">Status</th>
+                                    <th style="text-align: center;">Action</th>
                                 </tr>
-                                index++;
-                            }
-                        </tbody>
-                    </table>
-                </div>
+                            </thead>
+                            <tbody class="table-border-bottom-0">
+                                @{
+                                    int index = 1;
+                                }
+                                @foreach (var item in Model.Parties)
+                                {
+                                    <tr>
+                                        <td style="text-align: center;">
+                                            @index
+                                        </td>
+
+                                        <td style="text-align: center;">
+                                            @Html.DisplayFor(modelItem => item.Host.UserName)
+                                        </td>
+                                        <td style="text-align: center;">
+                                            @Html.DisplayFor(modelItem => item.Name)
+                                        </td>
+                                        <td>
+                                            <img src="@item.ImageUrl" alt="Party Image" style="max-width: 100px; max-height: 100px;" />
+                                        </td>
+                                        <td style="text-align: center;">
+                                            @Html.DisplayFor(modelItem => item.Price)
+                                        </td>
+
+                                        <td style="text-align: center;">
+                                            @Html.DisplayFor(modelItem => item.Theme)
+                                        </td>
+                                        <td style="text-align: center;">
+                                            @Html.DisplayFor(modelItem => item.MaxPeople)
+                                        </td>
+                                        <td style="text-align: center;">
+                                            @Html.DisplayFor(modelItem => item.Request)
+                                        </td>
+                                        <td>
+
+                                            @if (item.Status == false)
+                                            {
+                                                <span style="color: red; font-weight: bold">Waiting To Approved</span>
+                                            }
+                                            else if (item.Status == true)
+                                            {
+                                                <span style="color: green; font-weight: bold">Approved</span>
+                                            }
+                                            @{
+                                                index++;
+                                            }
+                                        </td>
+                                        <td>
+                                            @if (item.Status == false)
+                                            {
+                                                <button type="submit" asp-route-id="@item.Id" asp-page-handler="Confirm">Confirm</button>
+                                                <button type="submit" asp-route-id="@item.Id" asp-page-handler="Cancel">Cancel</button>
+                                            }
+                                        </td>
+                                    </tr>
+                                    index++;
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </form>
 
                 <div class="modal fade" id="modalConfirmDelete" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
                      aria-labelledby="staticBackdropLabel" aria-hidden="true">

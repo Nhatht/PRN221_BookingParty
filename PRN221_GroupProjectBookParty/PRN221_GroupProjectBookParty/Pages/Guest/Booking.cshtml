@@ -56,10 +56,12 @@
                                             <div class="mb-3">
                                                 <label for="NumberPeople" class="form-label">Register Number Of People</label>
                                                 <input class="form-control" id="NumberPeople" asp-for="AddBooking.NumberOfPeople" />
+                                                <span asp-validation-for="AddBooking.NumberOfPeople" class="text-danger"></span>
                                             </div>
                                             <div class="mb-3">
                                                 <label for="startedDate" class="form-label">Start Date</label>
                                                 <input type="date" class="form-control" id="startedDate" asp-for="AddBooking.StartDate">
+                                                <span asp-validation-for="AddBooking.StartDate" class="text-danger"></span>
                                             </div>
                                             <input type="submit" value="Book" class="btn btn-primary" />
                                           
