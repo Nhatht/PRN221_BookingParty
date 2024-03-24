@@ -12,21 +12,34 @@ namespace PRN221_GroupProjectBookParty.Pages.Guest
 	public class SendFeedBackModel : PageModel
 	{
 		private readonly IFeedBackService _feedbackService;
-		public SendFeedBackModel(IFeedBackService feedbackService)
+		private readonly IBookingService _bookingService;
+		private readonly IPartysService _partysService;
+		private readonly IAccountService _accountService;
+		public SendFeedBackModel(IFeedBackService feedbackService, IBookingService bookingService, IPartysService partysService, IAccountService accountService)
 		{
 			_feedbackService = feedbackService;
+			_bookingService = bookingService;
+			_partysService = partysService;
+			_accountService = accountService;
 		}
 		public IActionResult OnGetAsync(int id)
 		{
-			//if (id == 5) return NotFound();
 			id = 1;
-			var booking = _feedbackService.GetBookingById(id);
+			var booking = _bookingService.GetBookingById(id);
 			if (booking != null)
 			{
-				ViewData["GuestId"] = booking.GuestId;
-				//ViewData["GuestName"] = booking.GuestName;
-				ViewData["PartyId"] = booking.PartyId;
-				return Page();
+				ViewData["GuestId"] = booking.Result.GuestId;
+				ViewData["PartyId"] = booking.Result.PartyId;
+			}
+			var party = _partysService.GetPartyById(booking.Result.PartyId);
+			if (party != null)
+			{
+				ViewData["PartyName"] = party.Result.Name;
+			}
+			var acc = _accountService.GetAccountById(booking.Result.GuestId);
+			if (acc != null)
+			{
+				ViewData["GuestName"] = acc.UserName;
 			}
 			return Page();
 		}

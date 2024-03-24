@@ -1,8 +1,13 @@
 ﻿@page "{id}"
+@using Microsoft.Extensions.Options;
+@using PRN221_GroupProjectBookParty.Models;
+@using PRN221_GroupProjectBookParty.Pages;
+@using PartyService.Helpers;
 @model ViewProfile
-
+@inject IOptions<StripeSettings> Stripe
 @{
     Layout = "/Pages/Layout/_LayoutUser.cshtml";
+    var status = BookingStatus.Status;
 }
 
 <link rel="stylesheet" href="~/css/ViewProfile.css" />
@@ -90,10 +95,15 @@
                                 <th style="font-size: .8rem">Inquiry</th>
                                 <th style="font-size: .8rem">Start Date</th>
                                 <th style="font-size: .8rem">Status</th>
-                                <th style="font-size: .8rem"></th>
+                                <th style="font-size: .8rem;text-align:center">Payment Status</th>
+                                @if(status.Equals("Not Paid"))
+                                {
+                                    <th style="font-size: .8rem">Action</th>
+                                }
                             </tr>
                         </thead>
                         <tbody>
+                            <form method="post">
                             @foreach (var booking in Model.Bookings)
                             {
                                 <tr>
@@ -104,14 +114,17 @@
                                     <td style="font-size: .8rem">@booking.Inquiry</td>
                                     <td style="font-size: .8rem">@booking.StartDate.ToShortDateString()</td>
                                     <td style="font-size: .8rem">@(booking.Status ? "Active" : "Inactive")</td>
-                                    @if (booking.Status == true)
+                                    <td style="font-size: .8rem; text-align:center">@status</td>
+                                    @if (booking.Status == true && status.Equals("Not Paid"))
                                     {
                                         <td style="font-size: .8rem">
-                                            <button>Pay</button>
+                                            <button class="btn btn-primary" asp-route-id="@booking.Id" type="submit" asp-page-handler="Pay">Pay</button>
                                         </td>
                                     }
+                                 
                                 </tr>
                             }
+                            </form>
                         </tbody>
                     </table>
                 </div>
@@ -172,4 +185,5 @@
     document.getElementById('changePasswordForm').addEventListener('submit', function (event) {
 
     });
+    <script src="https://js.stripe.com/v3/" ></script>
 </script>

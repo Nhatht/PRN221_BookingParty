@@ -6,6 +6,7 @@ using Microsoft.Extensions.Hosting;
 using Newtonsoft.Json;
 using PartyService;
 using PartyService.ViewModel;
+using PRN221_GroupProjectBookParty.Models;
 using PRN221_WebNovel.Models;
 
 namespace PRN221_GroupProjectBookParty.Pages.Host.HostBooking
@@ -78,6 +79,29 @@ namespace PRN221_GroupProjectBookParty.Pages.Host.HostBooking
                 bk.Status = false;
                 await bookingService.UpdateBooking(bk);
 
+                ViewData["Notification"] = new Notification
+                {
+                    Message = "Record Updated Successfully !",
+                    Type = NotificationType.Success
+                };
+            }
+            catch (Exception ex)
+            {
+                ViewData["Notification"] = new Notification
+                {
+                    Message = "Something Went Wrong !" + ex,
+                    Type = NotificationType.Error
+                };
+            }
+
+            return RedirectToPage();
+        }
+        public async Task<IActionResult> OnPostFinish()
+        {
+            try
+            {
+
+                BookingStatus.IsActive = "Finish";
                 ViewData["Notification"] = new Notification
                 {
                     Message = "Record Updated Successfully !",

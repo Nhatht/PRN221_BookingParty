@@ -1,5 +1,6 @@
 ﻿using BO;
 using DAO;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,6 +17,7 @@ namespace PartyRepository
 		public List<FeedBack> GetListFeedBack() => FeedBackDAO.Instance.GetListFeedBack();
 		public FeedBack GetFeedBackById(int id) => FeedBackDAO.Instance.GetFeedBackById(id);
 		public Booking GetBookingById(int id) => FeedBackDAO.Instance.GetBookingById(id);
+		public List<FeedBack> GetFeedBackByPartyId(int id) => FeedBackDAO.Instance.GetFeedBackByPartyId(id);
 
 	}
 }
