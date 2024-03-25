@@ -12,11 +12,11 @@
     <div style="display: flex;justify-content: space-between;align-items: center;padding: 20px 0;border-bottom: 1px solid #c8c7cc;">
         <h1 style="font-size: 2.6rem;font-weight: 500">Your Profile</h1>
         <div style="display: flex;gap: 15px">
-            <button class="cta-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <button class="cta-btn" data-bs-toggle="modal" data-bs-target="#updatePassword">
                 Change password
             </button>
 
-            <button class="cta-btn">
+            <button class="cta-btn" data-bs-toggle="modal" data-bs-target="#updateProfile">
                 Edit profile
             </button>
         </div>
@@ -82,37 +82,40 @@
                 <div class="table-responsive" style="margin-top: 15px;">
                     <table class="table table-bordered table-striped">
                         <thead>
-                        <tr>
-                            <th style="font-size: .8rem">Booking ID</th>
-                            <th style="font-size: .8rem">Party ID</th>
-                            <th style="font-size: .8rem">Total Price</th>
-                            <th style="font-size: .8rem">Number of People</th>
-                            <th style="font-size: .8rem">Inquiry</th>
-                            <th style="font-size: .8rem">Start Date</th>
-                            <th style="font-size: .8rem">Status</th>
-                        </tr>
+                            <tr>
+                                <th style="font-size: .8rem">Booking ID</th>
+                                <th style="font-size: .8rem">Party ID</th>
+                                <th style="font-size: .8rem">Total Price</th>
+                                <th style="font-size: .8rem">Number of People</th>
+                                <th style="font-size: .8rem">Inquiry</th>
+                                <th style="font-size: .8rem">Start Date</th>
+                                <th style="font-size: .8rem">Status</th>
+                            </tr>
                         </thead>
                         <tbody>
-                        @foreach (var booking in Model.Bookings)
-                        {
-                            <tr>
-                                <td style="font-size: .8rem">@booking.Id</td>
-                                <td style="font-size: .8rem">@booking.PartyId</td>
-                                <td style="font-size: .8rem">@booking.TotalPrice</td>
-                                <td style="font-size: .8rem">@booking.NumberOfPeople</td>
-                                <td style="font-size: .8rem">@booking.Inquiry</td>
-                                <td style="font-size: .8rem">@booking.StartDate.ToShortDateString()</td>
-                                <td style="font-size: .8rem">@(booking.Status ? "Active" : "Inactive")</td>
-                            </tr>
-                        }
+                            @if (Model.Bookings != null)
+                            {
+                                foreach (var booking in Model.Bookings)
+                                {
+                                    <tr>
+                                        <td style="font-size: .8rem">@booking.Id</td>
+                                        <td style="font-size: .8rem">@booking.PartyId</td>
+                                        <td style="font-size: .8rem">@booking.TotalPrice</td>
+                                        <td style="font-size: .8rem">@booking.NumberOfPeople</td>
+                                        <td style="font-size: .8rem">@booking.Inquiry</td>
+                                        <td style="font-size: .8rem">@booking.StartDate.ToShortDateString()</td>
+                                        <td style="font-size: .8rem">@(booking.Status ? "Active" : "Inactive")</td>
+                                    </tr>
+                                }
+                            }
                         </tbody>
                     </table>
                 </div>
             </div>
         </div>
     </div>
-
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    @*  Update Password *@
+    <div class="modal fade" id="updatePassword" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -159,10 +162,70 @@
             </div>
         </div>
     </div>
+
+    @*  Update Profile *@
+    <div class="modal fade" id="updateProfile" tabindex="-1" aria-labelledby="Update Profile" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <p style="color: #060606; font-size: 1rem">Update Profile</p>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <form action="" id="updateProfileForm" method="post">
+                        <div class="mb-3">
+                            <label asp-for="@Model.Account.UserName" class="form-label" style="margin-top: .8rem; color: black;font-size: .9rem"></label>
+                            <input type="email" class="form-control" asp-for="@Model.Account.UserName" disabled>
+                            <span asp-validation-for="@Model.Account.Email" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="@Model.Account.Email" class="form-label" style="margin-top: .8rem; color: black;font-size: .9rem"></label>
+                            <input type="email" class="form-control" asp-for="@Model.Account.Email" disabled>
+                            <span asp-validation-for="@Model.Account.Email" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="@Model.Account.Phone" class="form-label" style="margin-top: .8rem; color: black;font-size: .9rem"></label>
+                            <input type="number" class="form-control" asp-for="@Model.Account.Phone">
+                            <span asp-validation-for="@Model.Account.Phone" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="@Model.Account.Gender" class="form-label" style="margin-top: .8rem; color: black;font-size: .9rem"></label>
+                            <select class="form-control" asp-for="@Model.Account.Gender">
+                                <option value="Nam">Nam</option>
+                                <option value="Nu">Nữ</option>
+                            </select>
+                            <span asp-validation-for="@Model.Account.Email" class="text-danger"></span>
+                        </div>
+
+                        @if (ModelState.IsValid == false)
+                        {
+                            <div class="alert alert-danger" role="alert">
+                                @foreach (var error in ModelState.Values.SelectMany(v => v.Errors))
+                                {
+                                    <p>@error.ErrorMessage</p>
+                                }
+                            </div>
+                        }
+
+                        @if (TempData["SuccessMessage"] != null)
+                        {
+                            <div class="alert alert-success" role="alert">
+                                @TempData["SuccessMessage"]
+                            </div>
+                        }
+
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary">Save changes</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
-<script>
+@* <script>
     document.getElementById('changePasswordForm').addEventListener('submit', function (event) {
-       
     });
-</script>
+</script> *@

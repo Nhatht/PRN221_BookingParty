@@ -1,63 +1,57 @@
 ﻿using BO;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using PartyService;
 using PRN221_GroupProjectBookParty.Models.ViewModels;
 
 namespace PRN221_GroupProjectBookParty.Pages;
 
 public class ViewProfile : PageModel
 {
+    private readonly IAccountService _accountService;
+    private readonly IBookingService _bookingService;
     private readonly BookingPartyContext _bookingPartyContext;
 
-    public ViewProfile(BookingPartyContext bookingPartyContext)
+    public ViewProfile(IAccountService accountService, IBookingService bookingService, BookingPartyContext bookingPartyContext)
     {
+        _accountService = accountService;
+        _bookingService = bookingService;
         _bookingPartyContext = bookingPartyContext;
     }
 
     [BindProperty] public ChangePasswordViewModel ChangePasswordRequest { get; set; }
 
-    public Account Account { get; set; }
+    [BindProperty] public Account Account { get; set; }
     public IEnumerable<Booking> Bookings { get; set; }
 
-    public IActionResult OnGet(int id)
+    public void OnGet(int id)
     {
-        Account = _bookingPartyContext.Accounts.Find(id);
-
-        if (Account == null) return NotFound();
-        
-        Bookings = _bookingPartyContext.Bookings.Where(b => b.GuestId == id).ToList();
-        
-        return Page();
+        Account = _accountService.GetAccountById(id);
+        Bookings = _bookingService.GetBookingByAccountId(id);
     }
+
+    //public IActionResult OnPost(int id)
+    //{
+    //    if (!ModelState.IsValid)
+    //    {
+    //        return RedirectToPage(new { id });
+    //    }
+
+    //    _accountService.UpdateAccount(Account);
+    //    TempData["SuccessMessage"] = "Profile updated successfully.";
+    //    return RedirectToPage(new { id });
+    //}
 
     public IActionResult OnPost(int id)
     {
-        Account = _bookingPartyContext.Accounts.Find(id);
+        
 
-        if (Account == null)
-            return NotFound();
-        
-        if (Account.Password != ChangePasswordRequest.OldPassword)
-        {
-          
-            ModelState.AddModelError("ChangePasswordRequest.OldPassword", "Old password is incorrect.");
-            return Page();
-        }
-        
-        if (ChangePasswordRequest.NewPassword != ChangePasswordRequest.ConfirmPassword)
-        {
-            ModelState.AddModelError("ChangePasswordRequest.ConfirmPassword",
-                "New password and Confirm password do not match.");
-            return Page();
-        }
-        
         Account.Password = ChangePasswordRequest.NewPassword;
-        _bookingPartyContext.SaveChanges();
         foreach (var key in ModelState.Keys.ToList())
         {
             ModelState.Remove(key);
         }
         TempData["SuccessMessage"] = "Password changed successfully.";
-        return RedirectToPage("/ViewProfile", new { id });
+        return RedirectToPage(new { id });
     }
 }

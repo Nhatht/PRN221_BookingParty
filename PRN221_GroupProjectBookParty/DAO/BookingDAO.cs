@@ -40,7 +40,7 @@ namespace DAO
         }
         public List<Booking> GetBookingByAccountId(int id)
         {
-            return dbContext.Bookings.Where(x => x.Id == id).ToList();
+            return dbContext.Bookings.Where(x => x.GuestId == id).ToList();
         }
         public void AddBooking(Booking booking)
         {
