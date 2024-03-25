@@ -3,6 +3,62 @@
   "WorkspaceRootPath": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|e:\\university\\github\\prn221_bookingparty\\prn221_groupprojectbookparty\\prn221_groupprojectbookparty\\pages\\guest\\booking.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\pages\\guest\\booking.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|e:\\university\\github\\prn221_bookingparty\\prn221_groupprojectbookparty\\prn221_groupprojectbookparty\\pages\\host\\hostparty\\partymanagement.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\pages\\host\\hostparty\\partymanagement.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|e:\\university\\github\\prn221_bookingparty\\prn221_groupprojectbookparty\\prn221_groupprojectbookparty\\pages\\authentication\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\pages\\authentication\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|e:\\university\\github\\prn221_bookingparty\\prn221_groupprojectbookparty\\prn221_groupprojectbookparty\\pages\\authentication\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\pages\\authentication\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|e:\\university\\github\\prn221_bookingparty\\prn221_groupprojectbookparty\\prn221_groupprojectbookparty\\pages\\authentication\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\pages\\authentication\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|e:\\university\\github\\prn221_bookingparty\\prn221_groupprojectbookparty\\prn221_groupprojectbookparty\\pages\\admin\\adminbooking\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\pages\\admin\\adminbooking\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|e:\\university\\github\\prn221_bookingparty\\prn221_groupprojectbookparty\\prn221_groupprojectbookparty\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|e:\\university\\github\\prn221_bookingparty\\prn221_groupprojectbookparty\\prn221_groupprojectbookparty\\pages\\host\\hostparty\\updateparty.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\pages\\host\\hostparty\\updateparty.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C390766-6EEC-4EF9-BF9E-F8557ACF2D0C}|PartyService\\PartyService.csproj|e:\\university\\github\\prn221_bookingparty\\prn221_groupprojectbookparty\\partyservice\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C390766-6EEC-4EF9-BF9E-F8557ACF2D0C}|PartyService\\PartyService.csproj|solutionrelative:partyservice\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EB12299-F44B-4DDB-BCF6-709D47122F44}|PartyRepository\\PartyRepository.csproj|e:\\university\\github\\prn221_bookingparty\\prn221_groupprojectbookparty\\partyrepository\\iblogpostrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EB12299-F44B-4DDB-BCF6-709D47122F44}|PartyRepository\\PartyRepository.csproj|solutionrelative:partyrepository\\iblogpostrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D555FB69-42E5-4BAC-8301-C2FCEFA20171}|DAO\\DAO.csproj|e:\\university\\github\\prn221_bookingparty\\prn221_groupprojectbookparty\\dao\\blogpostdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D555FB69-42E5-4BAC-8301-C2FCEFA20171}|DAO\\DAO.csproj|solutionrelative:dao\\blogpostdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D555FB69-42E5-4BAC-8301-C2FCEFA20171}|DAO\\DAO.csproj|e:\\university\\github\\prn221_bookingparty\\prn221_groupprojectbookparty\\dao\\bookingdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D555FB69-42E5-4BAC-8301-C2FCEFA20171}|DAO\\DAO.csproj|solutionrelative:dao\\bookingdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|e:\\university\\github\\prn221_bookingparty\\prn221_groupprojectbookparty\\prn221_groupprojectbookparty\\pages\\host\\hostparty\\createparty.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\pages\\host\\hostparty\\createparty.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|e:\\university\\github\\prn221_bookingparty\\prn221_groupprojectbookparty\\prn221_groupprojectbookparty\\pages\\host\\hostparty\\updateparty.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\pages\\host\\hostparty\\updateparty.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|e:\\university\\github\\prn221_bookingparty\\prn221_groupprojectbookparty\\prn221_groupprojectbookparty\\pages\\admin\\adminaccount\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\pages\\admin\\adminaccount\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,20 +67,8 @@
       "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\pages\\host\\blogposts\\list.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|e:\\university\\github\\prn221_bookingparty\\prn221_groupprojectbookparty\\prn221_groupprojectbookparty\\pages\\authentication\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\pages\\authentication\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|e:\\university\\github\\prn221_bookingparty\\prn221_groupprojectbookparty\\prn221_groupprojectbookparty\\pages\\authentication\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\pages\\authentication\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|e:\\university\\github\\prn221_bookingparty\\prn221_groupprojectbookparty\\prn221_groupprojectbookparty\\pages\\layout\\_layouthost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\pages\\layout\\_layouthost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|e:\\university\\github\\prn221_bookingparty\\prn221_groupprojectbookparty\\prn221_groupprojectbookparty\\pages\\host\\hostparty\\partymanagement.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\pages\\host\\hostparty\\partymanagement.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|e:\\university\\github\\prn221_bookingparty\\prn221_groupprojectbookparty\\prn221_groupprojectbookparty\\pages\\host\\hostparty\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,10 +107,6 @@
       "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\pages\\host\\hostparty\\partymanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|e:\\university\\github\\prn221_bookingparty\\prn221_groupprojectbookparty\\prn221_groupprojectbookparty\\pages\\host\\hostparty\\updateparty.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\pages\\host\\hostparty\\updateparty.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|e:\\university\\github\\prn221_bookingparty\\prn221_groupprojectbookparty\\prn221_groupprojectbookparty\\pages\\host\\hostparty\\createparty.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\pages\\host\\hostparty\\createparty.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -87,16 +127,8 @@
       "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\pages\\admin\\adminbooking\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|e:\\university\\github\\prn221_bookingparty\\prn221_groupprojectbookparty\\prn221_groupprojectbookparty\\pages\\admin\\adminbooking\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\pages\\admin\\adminbooking\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|e:\\university\\github\\prn221_bookingparty\\prn221_groupprojectbookparty\\prn221_groupprojectbookparty\\pages\\admin\\adminparty\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\pages\\admin\\adminparty\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D555FB69-42E5-4BAC-8301-C2FCEFA20171}|DAO\\DAO.csproj|e:\\university\\github\\prn221_bookingparty\\prn221_groupprojectbookparty\\dao\\bookingdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D555FB69-42E5-4BAC-8301-C2FCEFA20171}|DAO\\DAO.csproj|solutionrelative:dao\\bookingdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A53DF3AD-3A0C-4595-B5F0-A317E6DFF852}|BO\\BO.csproj|e:\\university\\github\\prn221_bookingparty\\prn221_groupprojectbookparty\\bo\\bookingpartycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -121,10 +153,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|e:\\university\\github\\prn221_bookingparty\\prn221_groupprojectbookparty\\prn221_groupprojectbookparty\\pages\\host\\blogposts\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\pages\\host\\blogposts\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|e:\\university\\github\\prn221_bookingparty\\prn221_groupprojectbookparty\\prn221_groupprojectbookparty\\pages\\authentication\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\pages\\authentication\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|e:\\university\\github\\prn221_bookingparty\\prn221_groupprojectbookparty\\prn221_groupprojectbookparty\\pages\\guest\\partyview.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -183,10 +211,6 @@
       "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\pages\\host\\blogposts\\add.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|e:\\university\\github\\prn221_bookingparty\\prn221_groupprojectbookparty\\prn221_groupprojectbookparty\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|e:\\university\\github\\prn221_bookingparty\\prn221_groupprojectbookparty\\prn221_groupprojectbookparty\\prn221_groupprojectbookparty.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{7127B99C-E8BC-4ADA-A13A-D40701829908}|PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj|solutionrelative:prn221_groupprojectbookparty\\prn221_groupprojectbookparty.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
@@ -216,8 +240,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 565,
-          "SelectedChildIndex": 87,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Booking.cshtml.cs",
+              "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Guest\\Booking.cshtml.cs",
+              "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Guest\\Booking.cshtml.cs",
+              "ToolTip": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Guest\\Booking.cshtml.cs",
+              "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Guest\\Booking.cshtml.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T06:49:04.797Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -540,72 +577,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PartyRepo.cs",
-              "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyRepository\\PartyRepo.cs",
-              "RelativeDocumentMoniker": "PartyRepository\\PartyRepo.cs",
-              "ToolTip": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyRepository\\PartyRepo.cs",
-              "RelativeToolTip": "PartyRepository\\PartyRepo.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABoAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T15:06:00.759Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IPartyRepo.cs",
-              "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyRepository\\IPartyRepo.cs",
-              "RelativeDocumentMoniker": "PartyRepository\\IPartyRepo.cs",
-              "ToolTip": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyRepository\\IPartyRepo.cs",
-              "RelativeToolTip": "PartyRepository\\IPartyRepo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T15:05:51.484Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "PartyManagement.cshtml.cs",
               "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\PartyManagement.cshtml.cs",
               "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\PartyManagement.cshtml.cs",
               "ToolTip": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\PartyManagement.cshtml.cs",
               "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\PartyManagement.cshtml.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAswCUAAAAmAAAA",
+              "ViewState": "AQIAABwAAAAAAAAAAAAwwC8AAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-24T14:58:41.314Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_LayoutHost.cshtml",
-              "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Layout\\_LayoutHost.cshtml",
-              "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Layout\\_LayoutHost.cshtml",
-              "ToolTip": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Layout\\_LayoutHost.cshtml",
-              "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Layout\\_LayoutHost.cshtml",
-              "ViewState": "AQIAAJAAAAAAAAAAAAAAAMMAAAA2AAAA",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Admin\\AdminBooking\\Index.cshtml",
+              "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Admin\\AdminBooking\\Index.cshtml",
+              "ToolTip": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Admin\\AdminBooking\\Index.cshtml",
+              "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Admin\\AdminBooking\\Index.cshtml",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAAAFkAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-24T11:44:13.684Z",
+              "WhenOpened": "2024-03-24T11:57:30.824Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Login.cshtml.cs",
-              "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Authentication\\Login.cshtml.cs",
-              "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Authentication\\Login.cshtml.cs",
-              "ToolTip": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Authentication\\Login.cshtml.cs",
-              "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Authentication\\Login.cshtml.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAAADAAAAA4AAAA",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Program.cs",
+              "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Program.cs",
+              "ToolTip": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Program.cs",
+              "RelativeToolTip": "PRN221_GroupProjectBookParty\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T11:47:35.262Z",
+              "WhenOpened": "2024-03-22T15:23:01.355Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Logout.cshtml.cs",
               "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Authentication\\Logout.cshtml.cs",
               "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Authentication\\Logout.cshtml.cs",
@@ -618,7 +629,98 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Authentication\\Login.cshtml",
+              "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Authentication\\Login.cshtml",
+              "ToolTip": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Authentication\\Login.cshtml",
+              "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Authentication\\Login.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAFMAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-24T11:47:11.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Authentication\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Authentication\\Login.cshtml.cs",
+              "ToolTip": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Authentication\\Login.cshtml.cs",
+              "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Authentication\\Login.cshtml.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAwDAAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T11:47:35.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UpdateParty.cshtml.cs",
+              "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\UpdateParty.cshtml.cs",
+              "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\UpdateParty.cshtml.cs",
+              "ToolTip": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\UpdateParty.cshtml.cs",
+              "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\UpdateParty.cshtml.cs",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAowEEAAACBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T05:53:57.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BookingService.cs",
+              "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\BookingService.cs",
+              "RelativeDocumentMoniker": "PartyService\\BookingService.cs",
+              "ToolTip": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\BookingService.cs",
+              "RelativeToolTip": "PartyService\\BookingService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T06:47:50.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IBlogPostRepo.cs",
+              "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyRepository\\IBlogPostRepo.cs",
+              "RelativeDocumentMoniker": "PartyRepository\\IBlogPostRepo.cs",
+              "ToolTip": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyRepository\\IBlogPostRepo.cs",
+              "RelativeToolTip": "PartyRepository\\IBlogPostRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T06:47:35.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BlogPostDAO.cs",
+              "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\DAO\\BlogPostDAO.cs",
+              "RelativeDocumentMoniker": "DAO\\BlogPostDAO.cs",
+              "ToolTip": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\DAO\\BlogPostDAO.cs",
+              "RelativeToolTip": "DAO\\BlogPostDAO.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T06:47:22.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateParty.cshtml.cs",
+              "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\CreateParty.cshtml.cs",
+              "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\CreateParty.cshtml.cs",
+              "ToolTip": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\CreateParty.cshtml.cs",
+              "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\CreateParty.cshtml.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAswEkAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T05:54:22.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "List.cshtml.cs",
               "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Host\\BlogPosts\\List.cshtml.cs",
               "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Host\\BlogPosts\\List.cshtml.cs",
@@ -626,90 +728,49 @@
               "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Host\\BlogPosts\\List.cshtml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T14:01:16.474Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-24T14:01:16.474Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 14,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Admin\\AdminAccount\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Admin\\AdminAccount\\Index.cshtml.cs",
               "ToolTip": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Admin\\AdminAccount\\Index.cshtml.cs",
               "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Admin\\AdminAccount\\Index.cshtml.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACMAAAAQAAAA",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAkwC0AAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-24T11:57:01.24Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PartysService.cs",
-              "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\PartysService.cs",
-              "RelativeDocumentMoniker": "PartyService\\PartysService.cs",
-              "ToolTip": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\PartysService.cs",
-              "RelativeToolTip": "PartyService\\PartysService.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T15:06:23.037Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IPartysService.cs",
-              "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\IPartysService.cs",
-              "RelativeDocumentMoniker": "PartyService\\IPartysService.cs",
-              "ToolTip": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\IPartysService.cs",
-              "RelativeToolTip": "PartyService\\IPartysService.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T15:00:11.238Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Delete.cshtml.cs",
-              "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\Delete.cshtml.cs",
-              "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\Delete.cshtml.cs",
-              "ToolTip": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\Delete.cshtml.cs",
-              "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\Delete.cshtml.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCkAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T15:09:35.347Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "PartyDAO.cs",
-              "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\DAO\\PartyDAO.cs",
-              "RelativeDocumentMoniker": "DAO\\PartyDAO.cs",
-              "ToolTip": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\DAO\\PartyDAO.cs",
-              "RelativeToolTip": "DAO\\PartyDAO.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAgwCgAAAAzAAAA",
+              "Title": "BookingDAO.cs",
+              "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\DAO\\BookingDAO.cs",
+              "RelativeDocumentMoniker": "DAO\\BookingDAO.cs",
+              "ToolTip": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\DAO\\BookingDAO.cs",
+              "RelativeToolTip": "DAO\\BookingDAO.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAIwFUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T15:00:23.839Z",
+              "WhenOpened": "2024-03-24T14:45:07.747Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "PartyManagement.cshtml",
-              "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\PartyManagement.cshtml",
-              "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\PartyManagement.cshtml",
-              "ToolTip": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\PartyManagement.cshtml",
-              "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\PartyManagement.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-24T14:58:40.013Z",
-              "EditorCaption": ""
+              "DocumentIndex": 21,
+              "Title": "IPartyRepo.cs",
+              "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyRepository\\IPartyRepo.cs",
+              "RelativeDocumentMoniker": "PartyRepository\\IPartyRepo.cs",
+              "ToolTip": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyRepository\\IPartyRepo.cs",
+              "RelativeToolTip": "PartyRepository\\IPartyRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T15:05:51.484Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 13,
               "Title": "UpdateParty.cshtml",
               "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\UpdateParty.cshtml",
               "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\UpdateParty.cshtml",
@@ -723,6 +784,90 @@
             {
               "$type": "Document",
               "DocumentIndex": 16,
+              "Title": "_LayoutHost.cshtml",
+              "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Layout\\_LayoutHost.cshtml",
+              "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Layout\\_LayoutHost.cshtml",
+              "ToolTip": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Layout\\_LayoutHost.cshtml",
+              "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Layout\\_LayoutHost.cshtml",
+              "ViewState": "AQIAAJAAAAAAAAAAAAAAAMMAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-24T11:44:13.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PartyRepo.cs",
+              "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyRepository\\PartyRepo.cs",
+              "RelativeDocumentMoniker": "PartyRepository\\PartyRepo.cs",
+              "ToolTip": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyRepository\\PartyRepo.cs",
+              "RelativeToolTip": "PartyRepository\\PartyRepo.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T15:06:00.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PartysService.cs",
+              "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\PartysService.cs",
+              "RelativeDocumentMoniker": "PartyService\\PartysService.cs",
+              "ToolTip": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\PartysService.cs",
+              "RelativeToolTip": "PartyService\\PartysService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T15:06:23.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IPartysService.cs",
+              "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\IPartysService.cs",
+              "RelativeDocumentMoniker": "PartyService\\IPartysService.cs",
+              "ToolTip": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\IPartysService.cs",
+              "RelativeToolTip": "PartyService\\IPartysService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T15:00:11.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\Delete.cshtml.cs",
+              "ToolTip": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\Delete.cshtml.cs",
+              "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\Delete.cshtml.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCkAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T15:09:35.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PartyDAO.cs",
+              "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\DAO\\PartyDAO.cs",
+              "RelativeDocumentMoniker": "DAO\\PartyDAO.cs",
+              "ToolTip": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\DAO\\PartyDAO.cs",
+              "RelativeToolTip": "DAO\\PartyDAO.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwCgAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T15:00:23.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "PartyManagement.cshtml",
+              "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\PartyManagement.cshtml",
+              "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\PartyManagement.cshtml",
+              "ToolTip": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\PartyManagement.cshtml",
+              "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\PartyManagement.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-24T14:58:40.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "CreateParty.cshtml",
               "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\CreateParty.cshtml",
               "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\CreateParty.cshtml",
@@ -730,12 +875,11 @@
               "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Host\\HostParty\\CreateParty.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-24T14:58:38.015Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-24T14:58:38.015Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 24,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Host\\HostBooking\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Host\\HostBooking\\Index.cshtml.cs",
@@ -743,12 +887,11 @@
               "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Host\\HostBooking\\Index.cshtml.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAgwBQAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T14:00:25.994Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-24T14:00:25.994Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 23,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Admin\\AdminParty\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Admin\\AdminParty\\Index.cshtml.cs",
@@ -756,12 +899,11 @@
               "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Admin\\AdminParty\\Index.cshtml.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAB0AAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T14:57:25.129Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-24T14:57:25.129Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 27,
               "Title": "Edit.cshtml.cs",
               "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Admin\\AdminAccount\\Edit.cshtml.cs",
               "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Admin\\AdminAccount\\Edit.cshtml.cs",
@@ -769,12 +911,11 @@
               "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Admin\\AdminAccount\\Edit.cshtml.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAQwCAAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T14:58:26.54Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-24T14:58:26.54Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 28,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Admin\\AdminAccount\\Edit.cshtml",
               "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Admin\\AdminAccount\\Edit.cshtml",
@@ -782,12 +923,11 @@
               "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Admin\\AdminAccount\\Edit.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-24T14:58:20.777Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-24T14:58:20.777Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 31,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Admin\\AdminParty\\Index.cshtml",
               "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Admin\\AdminParty\\Index.cshtml",
@@ -795,25 +935,11 @@
               "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Admin\\AdminParty\\Index.cshtml",
               "ViewState": "AQIAAEsAAAAAAAAAAAAAAFkAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-24T14:56:29.339Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-24T14:56:29.339Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "BookingDAO.cs",
-              "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\DAO\\BookingDAO.cs",
-              "RelativeDocumentMoniker": "DAO\\BookingDAO.cs",
-              "ToolTip": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\DAO\\BookingDAO.cs",
-              "RelativeToolTip": "DAO\\BookingDAO.cs",
-              "ViewState": "AQIAAEYAAAAAAAAAAAAAwFUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T14:45:07.747Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 30,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Admin\\AdminBooking\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Admin\\AdminBooking\\Index.cshtml.cs",
@@ -821,25 +947,11 @@
               "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Admin\\AdminBooking\\Index.cshtml.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAAwCgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T11:57:34.339Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-24T11:57:34.339Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Admin\\AdminBooking\\Index.cshtml",
-              "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Admin\\AdminBooking\\Index.cshtml",
-              "ToolTip": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Admin\\AdminBooking\\Index.cshtml",
-              "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Admin\\AdminBooking\\Index.cshtml",
-              "ViewState": "AQIAAFAAAAAAAAAAAAAAAFkAAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-24T11:57:30.824Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 29,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Admin\\AdminAccount\\Index.cshtml",
               "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Admin\\AdminAccount\\Index.cshtml",
@@ -847,12 +959,11 @@
               "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Admin\\AdminAccount\\Index.cshtml",
               "ViewState": "AQIAAEYAAAAAAAAAAAAAAGQAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-24T11:56:58.111Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-24T11:56:58.111Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 33,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Host\\HostBooking\\Index.cshtml",
               "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Host\\HostBooking\\Index.cshtml",
@@ -860,12 +971,11 @@
               "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Host\\HostBooking\\Index.cshtml",
               "ViewState": "AQIAADYAAAAAAAAAAAAAAEoAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-24T14:03:24.381Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-24T14:03:24.381Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 32,
               "Title": "BookingPartyContext.cs",
               "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\BO\\BookingPartyContext.cs",
               "RelativeDocumentMoniker": "BO\\BookingPartyContext.cs",
@@ -873,12 +983,11 @@
               "RelativeToolTip": "BO\\BookingPartyContext.cs",
               "ViewState": "AQIAAIMAAAAAAAAAAAAAAJUAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T16:08:00.615Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-22T16:08:00.615Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 35,
               "Title": "List.cshtml.cs",
               "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Host\\HostBooking\\List.cshtml.cs",
               "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Host\\HostBooking\\List.cshtml.cs",
@@ -886,12 +995,11 @@
               "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Host\\HostBooking\\List.cshtml.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAA3wB8AAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T14:03:23.22Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-24T14:03:23.22Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 34,
               "Title": "List.cshtml",
               "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Host\\HostBooking\\List.cshtml",
               "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Host\\HostBooking\\List.cshtml",
@@ -899,12 +1007,11 @@
               "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Host\\HostBooking\\List.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-24T14:36:04.025Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-24T14:36:04.025Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 37,
               "Title": "List.cshtml",
               "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Host\\BlogPosts\\List.cshtml",
               "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Host\\BlogPosts\\List.cshtml",
@@ -912,12 +1019,11 @@
               "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Host\\BlogPosts\\List.cshtml",
               "ViewState": "AQIAAGkAAAAAAAAAAAAAAH4AAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-24T14:00:30.674Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-24T14:00:30.674Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 36,
               "Title": "Edit.cshtml.cs",
               "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Host\\BlogPosts\\Edit.cshtml.cs",
               "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Host\\BlogPosts\\Edit.cshtml.cs",
@@ -925,25 +1031,11 @@
               "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Host\\BlogPosts\\Edit.cshtml.cs",
               "ViewState": "AQIAABYAAAAAAAAAAAAcwCwAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T14:01:43.271Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-24T14:01:43.271Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Authentication\\Login.cshtml",
-              "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Authentication\\Login.cshtml",
-              "ToolTip": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Authentication\\Login.cshtml",
-              "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Authentication\\Login.cshtml",
-              "ViewState": "AQIAADkAAAAAAAAAAAAAAFMAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-24T11:47:11.342Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 39,
               "Title": "PartyView.cshtml",
               "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Guest\\PartyView.cshtml",
               "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Guest\\PartyView.cshtml",
@@ -951,12 +1043,11 @@
               "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Guest\\PartyView.cshtml",
               "ViewState": "AQIAAB4AAAAAAAAAAAAAACoAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-24T11:01:06.935Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-24T11:01:06.935Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 40,
               "Title": "AccountViewmodel.cs",
               "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Models\\AccountViewmodel.cs",
               "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Models\\AccountViewmodel.cs",
@@ -964,12 +1055,11 @@
               "RelativeToolTip": "PRN221_GroupProjectBookParty\\Models\\AccountViewmodel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T12:09:00.749Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-24T12:09:00.749Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 41,
               "Title": "PartyUser.css",
               "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\wwwroot\\css\\PartyUser.css",
               "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\wwwroot\\css\\PartyUser.css",
@@ -977,12 +1067,11 @@
               "RelativeToolTip": "PRN221_GroupProjectBookParty\\wwwroot\\css\\PartyUser.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-03-24T11:08:50.778Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-24T11:08:50.778Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 38,
               "Title": "PartyView.cshtml.cs",
               "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Guest\\PartyView.cshtml.cs",
               "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Guest\\PartyView.cshtml.cs",
@@ -990,12 +1079,11 @@
               "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Guest\\PartyView.cshtml.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAQwCcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T14:53:12.988Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-22T14:53:12.988Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 43,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Index.cshtml",
@@ -1003,12 +1091,11 @@
               "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-24T10:54:36.786Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-24T10:54:36.786Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 42,
               "Title": "_LayoutUser.cshtml",
               "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Layout\\_LayoutUser.cshtml",
               "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Layout\\_LayoutUser.cshtml",
@@ -1016,12 +1103,11 @@
               "RelativeToolTip": "PRN221_GroupProjectBookParty\\Pages\\Layout\\_LayoutUser.cshtml",
               "ViewState": "AQIAAB4AAAAAAAAAAAAAACsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-24T10:50:57.044Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-24T10:50:57.044Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 56,
               "Title": "IBlogPostService.cs",
               "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\IBlogPostService.cs",
               "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\IBlogPostService.cs",
@@ -1031,7 +1117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 50,
               "Title": "BlogPostService.cs",
               "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\BlogPosts\\BlogPostService.cs",
               "RelativeDocumentMoniker": "PartyService\\BlogPosts\\BlogPostService.cs",
@@ -1043,7 +1129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 57,
               "Title": "BlogPostService.cs",
               "DocumentMoniker": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\BlogPostService.cs",
               "ToolTip": "D:\\PRN221\\AsmProject\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\BlogPostService.cs",
@@ -1053,7 +1139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 47,
               "Title": "PartyDetail.cshtml.cs",
               "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Guest\\PartyDetail.cshtml.cs",
               "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Guest\\PartyDetail.cshtml.cs",
@@ -1065,7 +1151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 45,
               "Title": "Contact.cshtml",
               "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Guest\\Contact.cshtml",
               "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Guest\\Contact.cshtml",
@@ -1077,7 +1163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 44,
               "Title": "PartyDetail.cshtml",
               "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Guest\\PartyDetail.cshtml",
               "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Guest\\PartyDetail.cshtml",
@@ -1089,7 +1175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 46,
               "Title": "AccountDAO.cs",
               "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\DAO\\AccountDAO.cs",
               "RelativeDocumentMoniker": "DAO\\AccountDAO.cs",
@@ -1101,7 +1187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 48,
               "Title": "About.cshtml",
               "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Guest\\About.cshtml",
               "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Guest\\About.cshtml",
@@ -1113,7 +1199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 49,
               "Title": "IBlogPostService.cs",
               "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PartyService\\BlogPosts\\IBlogPostService.cs",
               "RelativeDocumentMoniker": "PartyService\\BlogPosts\\IBlogPostService.cs",
@@ -1125,7 +1211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 53,
               "Title": "PRN221_GroupProjectBookParty.csproj",
               "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj",
               "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj",
@@ -1137,7 +1223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 52,
               "Title": "PRN221_GroupProjectBookParty",
               "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj",
               "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty.csproj",
@@ -1148,7 +1234,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 51,
               "Title": "Add.cshtml.cs",
               "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Host\\BlogPosts\\Add.cshtml.cs",
               "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Host\\BlogPosts\\Add.cshtml.cs",
@@ -1160,19 +1246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Program.cs",
-              "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Program.cs",
-              "ToolTip": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Program.cs",
-              "RelativeToolTip": "PRN221_GroupProjectBookParty\\Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T15:23:01.355Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 55,
               "Title": "About.cshtml.cs",
               "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Guest\\About.cshtml.cs",
               "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Guest\\About.cshtml.cs",
@@ -1184,7 +1258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 54,
               "Title": "Contact.cshtml.cs",
               "DocumentMoniker": "E:\\University\\GitHub\\PRN221_BookingParty\\PRN221_GroupProjectBookParty\\PRN221_GroupProjectBookParty\\Pages\\Guest\\Contact.cshtml.cs",
               "RelativeDocumentMoniker": "PRN221_GroupProjectBookParty\\Pages\\Guest\\Contact.cshtml.cs",

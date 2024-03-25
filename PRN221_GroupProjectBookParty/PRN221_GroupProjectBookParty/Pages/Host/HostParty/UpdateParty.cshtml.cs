@@ -63,7 +63,7 @@ namespace PRN221_GroupProjectBookParty.Pages.Host.HostParty
             var party = await _partysService.GetPartyByIdNoTracking(id);
             if (Party.Price <= 0 || Party.Price.ToString().Length > 6)
             {
-                ModelState.AddModelError("Party.Price", "Price should be greater than 0 and have a length equal to or less than 7.");
+                ModelState.AddModelError("Party.Price", "Price should be greater than 0 and have a length equal to or less than 6.");
                 return Page();
             }
             else if (Party.MaxPeople > 5000)
