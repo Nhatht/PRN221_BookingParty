@@ -1,4 +1,5 @@
 ﻿using BO;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -88,6 +89,10 @@ namespace DAO
         public Account GetAccountById(int id)
         {
             return dbContext.Accounts.FirstOrDefault(x =>x.Id == id);
+        }
+        public List<Account> GetAccountByRole(string role)
+        {
+            return dbContext.Accounts.Where(p => p.Role.Equals(role)).ToList();
         }
     }
 }

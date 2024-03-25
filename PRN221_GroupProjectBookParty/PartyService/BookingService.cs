@@ -27,5 +27,7 @@ namespace PartyService
         public async Task UpdateBooking(Booking booking) => await _bookingRepo.UpdateBooking(booking);
         public List<Booking> GetBookingByHostId(int id) => _bookingRepo.GetBookingByHostId(id);
         public List<Booking> GetBookingByUserId(int id) => _bookingRepo.GetBookingByUserId(id);
+        public List<Booking> GetPayment() => _bookingRepo.GetPayment();
+        public List<BookingRevenue> GetRevenueHost(int year) => _bookingRepo.GetRevenueHost(year);
     }
 }

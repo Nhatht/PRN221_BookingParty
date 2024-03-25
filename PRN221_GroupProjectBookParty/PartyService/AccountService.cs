@@ -52,5 +52,9 @@ namespace PartyService
         {
             return _accountRepo.GetAccount(email, password);
         }
+        public List<Account> GetAccountByRole(string role)
+        {
+            return _accountRepo.GetAccountByRole(role);
+        }
     }
 }

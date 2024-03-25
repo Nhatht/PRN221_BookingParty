@@ -85,5 +85,30 @@ namespace DAO
         {
             return dbContext.Bookings.Where(x => x.GuestId == id).Include(x => x.Party).ToList();
         }
+        public List<Booking> GetPayment()
+        {
+            return dbContext.Bookings.Where(p => p.TotalPrice > 0).ToList();
+        }
+        public List<BookingRevenue> GetRevenueHost(int year)
+        {
+            var bookings = dbContext.Bookings
+                .Include(p => p.Party)
+                .Where(p => p.StartDate.Year == year)
+                .ToList();
+
+            var revenueByHost = bookings
+                .GroupBy(b => b.Party.HostId)
+                .Select(g => new BookingRevenue
+                {
+                    HostId = g.Key,
+                    HostName = dbContext.Accounts.FirstOrDefault(a => a.Id == g.Key)?.UserName,
+                    PartyName = dbContext.Parties.FirstOrDefault(p => p.HostId == g.Key)?.Name,
+                    TotalRevenue = g.Sum(b => b.TotalPrice)
+                })
+                .OrderByDescending(r => r.TotalRevenue)
+                .ToList();
+
+            return revenueByHost;
+        }
     }
 }

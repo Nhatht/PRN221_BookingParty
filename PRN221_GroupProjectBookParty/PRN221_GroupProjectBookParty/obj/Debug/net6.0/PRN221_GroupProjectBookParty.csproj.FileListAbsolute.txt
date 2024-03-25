@@ -3540,3 +3540,4 @@ D:\PRN221_BookingParty\PRN221_GroupProjectBookParty\PRN221_GroupProjectBookParty
 E:\University\GitHub\PRN221_BookingParty\PRN221_GroupProjectBookParty\PRN221_GroupProjectBookParty\obj\Debug\net6.0\PRN221_G.2E1D323D.Up2Date
 E:\University\GitHub\PRN221_BookingParty\PRN221_GroupProjectBookParty\PRN221_GroupProjectBookParty\bin\Debug\net6.0\Stripe.net.dll
 D:\PRN221_BookingParty\PRN221_GroupProjectBookParty\PRN221_GroupProjectBookParty\bin\Debug\net6.0\Stripe.net.dll
+D:\FPT\Spring2024\PRN221\FinalProject\PRN221_BookingParty\PRN221_GroupProjectBookParty\PRN221_GroupProjectBookParty\bin\Debug\net6.0\Stripe.net.dll

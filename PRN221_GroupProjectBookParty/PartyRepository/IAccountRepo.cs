@@ -17,5 +17,6 @@ namespace PartyRepository
         public List<Account> GetListAccount();
         public Account GetAccountById(int id);
         Account GetAccount(string email, string password);
+        public List<Account> GetAccountByRole(string role);
     }
 }
