@@ -16,5 +16,7 @@ namespace PartyRepository
         Task UpdateBooking(Booking booking);
          Task<List<Booking>> GetBookingByHostId(int id);
         List<Booking> GetBookingByUserId(int id);
+        public List<Booking> GetPayment();
+        public List<BookingRevenue> GetRevenueHost(int year);
     }
 }

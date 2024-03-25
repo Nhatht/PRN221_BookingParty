@@ -89,5 +89,9 @@ namespace DAO
         {
             return dbContext.Accounts.FirstOrDefault(x =>x.Id == id);
         }
+        public List<Account> GetAccountByRole(string role)
+        {
+            return dbContext.Accounts.Where(p => p.Role.Equals(role)).ToList();
+        }
     }
 }

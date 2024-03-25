@@ -87,7 +87,7 @@ namespace PRN221_GroupProjectBookParty.Pages.Host.HostParty
                     partyVM.Package = Party.Package;
                     partyVM.MaxPeople = Party.MaxPeople;
                     partyVM.ImageUrl = photoResult.Url.ToString();
-                    partyVM.Status = Party.Status;
+                    partyVM.Status = false;
                 }
                 else
                 {
@@ -100,7 +100,7 @@ namespace PRN221_GroupProjectBookParty.Pages.Host.HostParty
                     partyVM.Package = Party.Package;
                     partyVM.MaxPeople = Party.MaxPeople;
                     partyVM.ImageUrl = party.ImageUrl;
-                    partyVM.Status = Party.Status;
+                    partyVM.Status = false;
                 }
                 await _partysService.UpdateParty(partyVM);
                 return RedirectToPage("./PartyManagement");

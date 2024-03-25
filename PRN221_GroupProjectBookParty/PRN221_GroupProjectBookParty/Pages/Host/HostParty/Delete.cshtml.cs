@@ -56,7 +56,7 @@ namespace PRN221_GroupProjectBookParty.Pages.Host.HostParty
                 await _partysService.DeleteParty(id);
             }
 
-            return RedirectToPage("./Index");
+            return RedirectToPage("./PartyManagement");
         }
     }
 }
